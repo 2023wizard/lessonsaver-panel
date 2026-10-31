@@ -76,7 +76,7 @@ button.danger{color:var(--red);border-color:#e3b1aa}
 .summ:hover .tip,.summ:focus-visible .tip{opacity:1;visibility:visible;transform:none;transition-delay:.25s,.25s,0s}
 .row.open .summ .tip{display:none}
 .pill{font-size:11px;font-weight:700;padding:1px 8px;border-radius:999px;border:1px solid currentColor;justify-self:start;white-space:nowrap}
-.s-open{color:var(--violet)}.s-in-flight{color:var(--accent)}.s-bumped{color:var(--orange)}.s-delayed{color:var(--amber)}.s-done{color:var(--green)}
+.s-open{color:var(--violet)}.s-in-flight{color:var(--accent)}.s-bumped{color:var(--orange)}.s-delayed{color:var(--amber)}.s-parked{color:var(--muted)}.s-done{color:var(--green)}
 .who{display:inline-flex;align-items:center;gap:6px;font-size:13px;white-space:nowrap}
 .av{width:20px;height:20px;border-radius:4px;color:#fff;font-size:10px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex:none}
 .o-Wayne{background:#1d4ed8}.o-BugHunter{background:#b91c1c}.o-Casey{background:#7e22ce}.o-Jimmy{background:#0f766e}.o-Will{background:#a16207}
@@ -210,28 +210,9 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 <script type="application/json" id="seed-data">
 {
   "version": 1,
-  "updated": "2026-10-31T11:27:00-05:00",
-  "headline": "GT named-tab Preview PASS \u00b7 Gmail=lessonsaverai \u00b7 HOLD Public",
-  "alerts": [
-    {
-      "itemId": "claim-ai-no-train",
-      "level": "stale",
-      "reason": "Open since 7:05 AM CT, no owner move",
-      "flagged": "2026-10-31T09:54:00-05:00"
-    },
-    {
-      "itemId": "claim-us-only",
-      "level": "stale",
-      "reason": "Open since 7:05 AM CT, no owner move",
-      "flagged": "2026-10-31T09:54:00-05:00"
-    },
-    {
-      "itemId": "claim-30-day-notice",
-      "level": "stale",
-      "reason": "Open since 7:05 AM CT, no owner move",
-      "flagged": "2026-10-31T09:54:00-05:00"
-    }
-  ],
+  "updated": "2026-10-31T11:38:00-05:00",
+  "headline": "GT named-tab Preview PASS · Gmail=lessonsaverai · HOLD Public",
+  "alerts": [],
   "items": [
     {
       "id": "pass-e-closed-live",
@@ -284,41 +265,43 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
     {
       "id": "claim-ai-no-train",
       "summary": "AI no-train claim",
-      "blurb": "A site claim that AI won't train on data is contradicted: the Elite plan isn't Enterprise (Terms \u00a74.2). Needs a reword or an Enterprise plan.",
-      "text": "Claim contradicted: AI no-train \u2014 Elite \u2260 Enterprise; Terms \u00a74.2",
+      "blurb": "A site claim that AI won't train on data is contradicted: the Elite plan isn't Enterprise (Terms §4.2). Needs a reword or an Enterprise plan.",
+      "text": "Claim contradicted: AI no-train — Elite ≠ Enterprise; Terms §4.2",
       "owner": "Casey",
-      "status": "open",
+      "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
-      "updated": "2026-10-31T07:05:00-05:00",
-      "note": "Reword or Enterprise",
+      "updated": "2026-10-31T11:38:00-05:00",
+      "note": "Parked/shelved Oct 31 — not stale; was: Reword or Enterprise",
       "order": 4
     },
     {
       "id": "claim-us-only",
       "summary": "US-only claim",
       "blurb": "A site claim of US-only data processing is contradicted: subprocessors are located in DE, UK, SG, NL and IL. Claim needs a rewrite.",
-      "text": "Claim contradicted: US-only processing \u2014 DE/UK/SG/NL/IL subprocessors",
+      "text": "Claim contradicted: US-only processing — DE/UK/SG/NL/IL subprocessors",
       "owner": "Casey",
-      "status": "open",
+      "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
-      "updated": "2026-10-31T07:05:00-05:00",
-      "order": 5
+      "updated": "2026-10-31T11:38:00-05:00",
+      "order": 5,
+      "note": "Parked/shelved Oct 31 — not stale"
     },
     {
       "id": "claim-30-day-notice",
       "summary": "30-day notice claim",
       "blurb": "A site claim of 30-day notice is unsupported: the Base44 DPA only gives 7 days. Claim needs a rewrite.",
-      "text": "Claim unsupported: 30-day notice \u2014 Base44 DPA 7 days",
+      "text": "Claim unsupported: 30-day notice — Base44 DPA 7 days",
       "owner": "Casey",
-      "status": "open",
+      "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
-      "updated": "2026-10-31T07:05:00-05:00",
-      "order": 6
+      "updated": "2026-10-31T11:38:00-05:00",
+      "order": 6,
+      "note": "Parked/shelved Oct 31 — not stale"
     },
     {
       "id": "lessonbuddy-dormant",
       "summary": "LessonBuddy dormant",
-      "blurb": "The LessonBuddy / abacusai iframe has been marked dormant \u2014 it is not live.",
+      "blurb": "The LessonBuddy / abacusai iframe has been marked dormant — it is not live.",
       "text": "LessonBuddy / abacusai iframe marked DORMANT (not live)",
       "owner": "Casey",
       "status": "done",
@@ -353,7 +336,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
     {
       "id": "gt-library-wilfred-rehit",
       "summary": "GT Library re-hit",
-      "blurb": "BH wilfred re-hit OVERALL PASS \u2014 Share/embed + Link existing on main-C_tmCK4m.js.",
+      "blurb": "BH wilfred re-hit OVERALL PASS — Share/embed + Link existing on main-C_tmCK4m.js.",
       "text": "GT Library wilfred re-hit (Share/embed + Link existing)",
       "owner": "Bug Hunter",
       "status": "done",
@@ -366,7 +349,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
       "id": "gmail-oauth-uvu-reconnect",
       "summary": "Gmail OAuth",
       "blurb": "Verified live: app Integrations + workspace Connectors Gmail = lessonsaverai@gmail.com. UVU line is Base44 user owner, not mailbox.",
-      "text": "Gmail OAuth \u2192 lessonsaverai VERIFIED",
+      "text": "Gmail OAuth → lessonsaverai VERIFIED",
       "owner": "Jimmy",
       "status": "done",
       "created": "2026-10-30T14:00:00-05:00",
@@ -381,7 +364,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 (function(){
 "use strict";
 var OWNERS=["Wayne","Bug Hunter","Casey","Jimmy","Will"];
-var STATUSES=["open","in-flight","bumped","delayed","done"];
+var STATUSES=["open","in-flight","bumped","delayed","parked","done"];
 var PRIS=["high","normal","low"];
 var CACHE_KEY="ls-work-panel-cache-v1";
 var state={data:null,sort:{col:"status",dir:1},manual:false,filter:"all",editing:false,dirty:false,open:{}};
@@ -444,7 +427,7 @@ function normItem(it,i){
 // isn't done, and hasn't been updated since it was flagged -> auto-clears as items move.
 function activeAlert(it){
   var a=state.data.alerts.filter(function(x){return x.itemId===it.id;})[0];
-  if(!a||it.status==="done")return null;
+  if(!a||it.status==="done"||it.status==="parked")return null;
   if(ts(it.updated)>ts(a.flagged))return null;
   return a;
 }
@@ -452,7 +435,7 @@ function priorityOf(it){
   if(it.priority)return it.priority;
   if(it.status==="done")return "";
   if(activeAlert(it)||it.status==="in-flight"||it.status==="bumped")return "high";
-  if(it.status==="delayed")return "low";
+  if(it.status==="delayed"||it.status==="parked")return "low";
   return "normal";
 }
 
@@ -474,7 +457,7 @@ function load(){
 function setData(d,src){state.data=normalize(d);state.dirty=false;$("dataSource").textContent=src;render();}
 function touch(){state.dirty=true;state.data.updated=nowISO();render();}
 
-var SRANK={"in-flight":0,"bumped":1,"open":2,"delayed":3,"done":4};
+var SRANK={"in-flight":0,"bumped":1,"open":2,"delayed":3,"parked":4,"done":5};
 var PRANK={"high":0,"normal":1,"low":2,"":3};
 function sorted(items){
   var a=items.slice();
@@ -492,7 +475,7 @@ function sorted(items){
   return a;
 }
 
-var CHANNELS=[["all","all-work",null],["in-flight","in-flight",["in-flight"]],["open","open",["open"]],["delayed","bumped-delayed",["bumped","delayed"]],["done","done",["done"]],["flagged","needs-attention","flag"]];
+var CHANNELS=[["all","all-work",null],["in-flight","in-flight",["in-flight"]],["open","open",["open"]],["parked","parked",["parked"]],["delayed","bumped-delayed",["bumped","delayed"]],["done","done",["done"]],["flagged","needs-attention","flag"]];
 function inChannel(it,ch){
   var c=CHANNELS.filter(function(x){return x[0]===ch;})[0];if(!c||!c[2])return true;
   if(c[2]==="flag")return !!activeAlert(it);
