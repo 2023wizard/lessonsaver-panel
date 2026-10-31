@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-10-31T14:07:00-05:00",
-  "headline": "LIVE feeder \u00b7 GT named-tab CLOSED LIVE main-Bp_wD-Sk (BH OVERALL PASS) \u00b7 Jungle mint BLOCKED (create-path dig)",
+  "updated": "2026-10-31T14:10:00-05:00",
+  "headline": "LIVE feeder \u00b7 GT named-tab CLOSED LIVE \u00b7 Jungle mint IN FLIGHT (Add Item \u00d72; ETA ~10\u201315m)",
   "alerts": [],
   "items": [
     {
@@ -173,14 +173,14 @@
     },
     {
       "id": "jungle-stone1-d2-d4",
-      "summary": "Jungle mint blocked",
-      "blurb": "Wayne hit a blocker minting virgin BonusAttempts: Data UI has no Duplicate/Clone and ids are hidden. Digging backend/create or Add Item. No source rows edited.",
-      "text": "Jungle Stone1 mint BLOCKED \u2014 Data UI no Duplicate/Clone; digging create path",
+      "summary": "Jungle mint Add Item",
+      "blurb": "Wayne found Option B via Add Item (no Clone). Questions pulled from source 6ae52643; filling teacher_id/lesson_id then creating two virgin rows.",
+      "text": "Jungle Stone1 mint IN FLIGHT \u2014 Add Item \u00d72 (payloads staged; ETA ~10\u201315m)",
       "owner": "Bug Hunter",
-      "status": "delayed",
-      "note": "Wayne ~2:06 CT; source noted 6ae52643; escalate if API also blocked",
+      "status": "in_flight",
+      "note": "Wayne ~2:10 CT; source untouched; escalate only if nested questions rejected",
       "created": "2026-10-31T11:50:00-05:00",
-      "updated": "2026-10-31T14:06:00-05:00",
+      "updated": "2026-10-31T14:10:00-05:00",
       "order": 14
     },
     {
