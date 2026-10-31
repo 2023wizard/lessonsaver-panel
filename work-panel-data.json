@@ -1,20 +1,32 @@
 {
   "version": 1,
-  "updated": "2026-10-31T15:03:00-05:00",
-  "headline": "LIVE feeder \u00b7 GT + Jungle CLOSED \u00b7 Phaser P1 FEEL IN FLIGHT (Wayne Preview paste)",
+  "updated": "2026-10-31T15:09:00-05:00",
+  "headline": "LIVE feeder \u00b7 Phaser P1 FEEL Preview Ready main-i5s8QnEw \u00b7 BH feel \u00a7F IN FLIGHT",
   "alerts": [],
   "items": [
     {
       "id": "phaser-p1-feel",
-      "summary": "Phaser P1 FEEL",
-      "blurb": "Kai picked up Phaser Traveler P1 FEEL (light path, no Publish). Pack Ready. Wayne needs Preview Save UTF-8 Code-tab paste from WAYNE_PASTE_NOTES_P1_FEEL.md (LCJ_FEEL kill switch, held-jump, jumpCut/apex/fallG/maxFall, accel/decel/turn, swept land + corner nudge) on Pass E base main-BR5fW4uB.js. After Preview Save \u2192 BH feel \u00a7F \u2192 Kai/Will feel-check. P2 draft until P1 PASS.",
-      "text": "Phaser P1 FEEL IN FLIGHT \u2014 blocked on Wayne Preview paste",
+      "summary": "P1 FEEL BH smoke",
+      "blurb": "Wayne Preview Save DONE on preview--lessonsaver.base44.app as main-i5s8QnEw.js (BonusQuizTake.jsx PHASER-TRAVELER P1 FEEL; HOLD Public). Jimmy CALLed Bug Hunter feel \u00a7F. Next: BH report \u2192 Kai/Will feel-check. P2 draft until P1 PASS.",
+      "text": "Phaser P1 FEEL Preview Ready main-i5s8QnEw.js \u2014 BH feel \u00a7F IN FLIGHT",
       "owner": "Kai",
       "status": "in_flight",
       "created": "2026-10-31T15:03:00-05:00",
-      "updated": "2026-10-31T15:03:00-05:00",
-      "note": "Jimmy CALLed Wayne Preview Save \u00b7 HOLD Public \u00b7 no Publish",
+      "updated": "2026-10-31T15:09:00-05:00",
+      "note": "Preview main-i5s8QnEw \u00b7 HOLD Public \u00b7 pack /workspace/dev/lc-2d-juice-week/phaser-traveler/p1-feel/",
       "order": 0
+    },
+    {
+      "id": "phaser-p1-bh",
+      "summary": "P1 feel \u00a7F",
+      "blurb": "Bug Hunter Phaser P1 FEEL Preview \u00a7F on main-i5s8QnEw.js \u2014 Jimmy CALL; HOLD Public.",
+      "text": "BH Phaser P1 FEEL Preview \u00a7F IN FLIGHT (main-i5s8QnEw.js)",
+      "owner": "Bug Hunter",
+      "status": "in_flight",
+      "created": "2026-10-31T15:09:00-05:00",
+      "updated": "2026-10-31T15:09:00-05:00",
+      "note": "Jimmy CALL \u00b7 report to Jimmy + Kai",
+      "order": 1
     },
     {
       "id": "pass-e-closed-live",
@@ -26,7 +38,7 @@
       "created": "2026-10-31T07:30:00-05:00",
       "updated": "2026-10-31T07:56:00-05:00",
       "note": "BH prod OVERALL PASS; Will accept Oct 31",
-      "order": 1
+      "order": 2
     },
     {
       "id": "pass-e-d3-inconclusive",
@@ -38,7 +50,7 @@
       "created": "2026-10-31T07:45:00-05:00",
       "updated": "2026-10-31T07:56:00-05:00",
       "note": "Accepted as INCONCLUSIVE on CLOSE; optional follow-up if stumps needed later",
-      "order": 2
+      "order": 3
     },
     {
       "id": "wayne-standby-pass-e-card",
@@ -50,7 +62,7 @@
       "created": "2026-10-31T07:48:00-05:00",
       "updated": "2026-10-31T07:55:00-05:00",
       "note": "Will Accept CLOSE stack Oct 31 ~7:55 AM CT",
-      "order": 3
+      "order": 4
     },
     {
       "id": "casey-drafts-wayne-dig",
@@ -62,7 +74,7 @@
       "created": "2026-10-31T06:40:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
       "note": "Dig folded; counsel HOLD until Will GO",
-      "order": 4
+      "order": 5
     },
     {
       "id": "claim-ai-no-train",
@@ -74,7 +86,7 @@
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
       "note": "Parked/shelved Oct 31 \u2014 not stale; was: Reword or Enterprise",
-      "order": 5
+      "order": 6
     },
     {
       "id": "claim-us-only",
@@ -85,7 +97,7 @@
       "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
-      "order": 6,
+      "order": 7,
       "note": "Parked/shelved Oct 31 \u2014 not stale"
     },
     {
@@ -97,7 +109,7 @@
       "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
-      "order": 7,
+      "order": 8,
       "note": "Parked/shelved Oct 31 \u2014 not stale"
     },
     {
@@ -109,7 +121,7 @@
       "status": "done",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
-      "order": 8
+      "order": 9
     },
     {
       "id": "compliance-counsel-hold",
@@ -121,7 +133,7 @@
       "created": "2026-10-30T18:00:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
       "note": "Reason: await Will GO before counsel/outbound",
-      "order": 9
+      "order": 10
     },
     {
       "id": "waitlist-publish-hold",
@@ -133,7 +145,7 @@
       "created": "2026-10-30T15:00:00-05:00",
       "updated": "2026-10-31T07:00:00-05:00",
       "note": "HOLD Public until Will Publish GO",
-      "order": 10
+      "order": 11
     },
     {
       "id": "gt-library-wilfred-rehit",
@@ -144,7 +156,7 @@
       "status": "done",
       "created": "2026-10-30T16:00:00-05:00",
       "updated": "2026-10-31T11:11:00-05:00",
-      "order": 11,
+      "order": 12,
       "note": "CLOSED 2026-10-31 ~11:11 CT"
     },
     {
@@ -157,7 +169,7 @@
       "created": "2026-10-30T14:00:00-05:00",
       "updated": "2026-10-31T11:27:00-05:00",
       "note": "Closed 2026-10-31 ~11:27 CT after live Integrations re-check",
-      "order": 12
+      "order": 13
     },
     {
       "id": "atlas-full-sitemap",
@@ -169,7 +181,7 @@
       "created": "2026-10-31T11:44:00-05:00",
       "updated": "2026-10-31T12:17:00-05:00",
       "note": "LIVE ~12:17 CT: https://cursor.com/canvas/store-635ffb8e-3337-4e2e-af23-a0282e8eb7b9/9cc39030-2b75-48f1-a04c-4b6da3c64d8a",
-      "order": 13
+      "order": 14
     },
     {
       "id": "gt-named-tab-publish",
@@ -181,7 +193,7 @@
       "note": "CLOSED LIVE main-Bp_wD-Sk.js; BH prod \u00a7F OVERALL PASS; Jimmy CLOSE ~2:07 CT",
       "created": "2026-10-31T11:50:00-05:00",
       "updated": "2026-10-31T14:07:00-05:00",
-      "order": 14
+      "order": 15
     },
     {
       "id": "jungle-stone1-d2-d4",
@@ -193,11 +205,11 @@
       "note": "D.2 6ae63e61\u2026f75c \u00b7 D.4 6ae63e61\u2026f75d \u00b7 source 6ae52643 untouched \u00b7 Jimmy CALL BH ~2:16 CT \u00b7 BH OVERALL PASS CLOSED",
       "created": "2026-10-31T11:50:00-05:00",
       "updated": "2026-10-31T14:25:00-05:00",
-      "order": 15
+      "order": 16
     },
     {
       "id": "gt-named-tab-bh-prodf",
-      "order": 16,
+      "order": 17,
       "created": "2026-10-31T14:03:00-05:00",
       "owner": "Bug Hunter",
       "status": "done",
@@ -209,7 +221,7 @@
     },
     {
       "id": "jungle-d2-d4-bh",
-      "order": 17,
+      "order": 18,
       "created": "2026-10-31T14:16:00-05:00",
       "owner": "Bug Hunter",
       "status": "done",
