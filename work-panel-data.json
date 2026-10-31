@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-10-31T14:01:00-05:00",
-  "headline": "LIVE feeder \u00b7 Atlas full site map LIVE \u00b7 GT named-tab Publish + Jungle mint HOLD (Wayne needs Will pick/type GO in Wayne chat)",
+  "updated": "2026-10-31T14:02:00-05:00",
+  "headline": "LIVE feeder \u00b7 Atlas full site map LIVE \u00b7 GT named-tab Publish + Jungle mint IN FLIGHT (Wayne after Will autonomy confirm)",
   "alerts": [],
   "items": [
     {
@@ -162,25 +162,25 @@
     {
       "id": "gt-named-tab-publish",
       "summary": "GT named-tab Publish",
-      "blurb": "Will said Publish plus mint on a call and Jimmy relayed it; Wayne still requires Will to pick or type GO in Wayne\u2019s own chat. Public remains main-C_tmCK4m.js.",
-      "text": "GT named-tab Publish HOLD \u2014 Wayne awaits Will GO in Wayne chat",
+      "blurb": "Wayne is publishing the GT named-tab build main-Bp_wD-Sk.js to Public after Will confirmed Jimmy Publish/data autonomy on Wayne\u2019s channel. Bug Hunter prod \u00a7F when live.",
+      "text": "GT named-tab Publish IN FLIGHT \u2014 Wayne publishing main-Bp_wD-Sk to Public",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Wayne REJECTED Jimmy relay of Will voice Publish+mint (~2:01 CT); widget still open \u2014 ready when Will picks/types GO in Wayne chat. Public still main-C_tmCK4m",
+      "status": "in_flight",
+      "note": "Wayne IN FLIGHT ~2:02 CT after Will OWN-WORDS on Wayne channel (Jimmy Publish/data autonomy). Publishing main-Bp_wD-Sk \u2192 Public; was main-C_tmCK4m",
       "created": "2026-10-31T11:50:00-05:00",
-      "updated": "2026-10-31T14:01:00-05:00",
+      "updated": "2026-10-31T14:02:00-05:00",
       "order": 13
     },
     {
       "id": "jungle-stone1-d2-d4",
       "summary": "Jungle Stone1 mint",
-      "blurb": "Same gate as GT Publish: Wayne will mint virgin BonusAttempt \u00d72 only after Will picks or types GO in Wayne\u2019s chat.",
-      "text": "Jungle Stone1 mint HOLD \u2014 Wayne awaits Will GO in Wayne chat",
+      "blurb": "Wayne will mint two virgin Jungle Stone1 BonusAttempts for D.2/D.4 after the GT named-tab Publish.",
+      "text": "Jungle Stone1 mint \u00d72 IN FLIGHT \u2014 after GT Publish",
       "owner": "Bug Hunter",
-      "status": "delayed",
-      "note": "Mint not started; Wayne REJECTED Jimmy relay \u2014 awaits Will pick/type GO in Wayne chat (~2:01 CT)",
+      "status": "in_flight",
+      "note": "Wayne IN FLIGHT after GT Publish; virgin BonusAttempt \u00d72 on lc 6ae5256e for D.2/D.4 (~2:02 CT)",
       "created": "2026-10-31T11:50:00-05:00",
-      "updated": "2026-10-31T14:01:00-05:00",
+      "updated": "2026-10-31T14:02:00-05:00",
       "order": 14
     }
   ]
