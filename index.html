@@ -21,7 +21,7 @@ aside .n{font-size:12px;opacity:.85}
 .mainc{min-width:0;display:flex;flex-direction:column}
 .topbar{border-bottom:1px solid var(--line);padding:10px 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
 .topbar h1{font-size:18px;margin:0;font-weight:900}
-.meta{color:var(--muted);font-size:12px}
+.meta{color:var(--muted);font-size:12px}.livepill{display:inline-flex;align-items:center;gap:5px;margin-left:8px;font-size:11px;font-weight:700;color:var(--green)}.livepill i{width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 1.6s ease infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .where{background:#f4ede4;border-bottom:1px solid #eadfce;padding:10px 18px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 .where b{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .headline{font-size:17px;font-weight:700}
@@ -146,7 +146,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 <div class="mainc">
   <div class="topbar">
     <h1 id="chTitle"># all-work</h1>
-    <div class="meta">Data updated: <span id="dataUpdated">—</span> · Source: <span id="dataSource">loading…</span></div>
+    <div class="meta">Data updated: <span id="dataUpdated">—</span> · Source: <span id="dataSource">loading…</span><span class="livepill" id="livePill" title="Auto-refreshes from GitHub feeder"><i></i>LIVE</span></div>
   </div>
   <div class="where"><b>Where we are</b><span class="headline" id="headline">—</span></div>
   <div class="banner" id="banner">
@@ -201,7 +201,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
     </details>
   </div>
   <footer>
-    <p><strong>Source of truth is the committed file in GitHub. Jimmy is the sole updater. Refresh reloads from the file. localStorage is optional cache only.</strong></p>
+    <p><strong>Source of truth is the GitHub feeder <code>work-panel-data.json</code> on this repo (Pages). The panel auto-polls it about every 30s. Jimmy (and the panel-sync routine) write that file; agents append to the inbox JSONL. localStorage is cache only.</strong></p>
     <p>Hover an item's name for a short summary; click it for full details. The "Needs attention" box is managed by Jimmy (flags in <code>alerts</code>); a flag clears itself once the item moves (status/update after the flag) or is done. Edits here are in-memory only — Jimmy: Export JSON → overwrite <code>work-panel-data.json</code> (and the embedded seed) → commit/push. Agents: append to <code>/workspace/team/work-panel-inbox.jsonl</code>; never edit this page.</p>
   </footer>
 </div>
@@ -210,8 +210,8 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 <script type="application/json" id="seed-data">
 {
   "version": 1,
-  "updated": "2026-10-31T11:38:00-05:00",
-  "headline": "GT named-tab Preview PASS · Gmail=lessonsaverai · HOLD Public",
+  "updated": "2026-10-31T11:50:00-05:00",
+  "headline": "LIVE feeder · Atlas site map HOLD Will yes · GT named-tab HOLD Public · Jungle HOLD",
   "alerts": [],
   "items": [
     {
@@ -356,6 +356,42 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
       "updated": "2026-10-31T11:27:00-05:00",
       "note": "Closed 2026-10-31 ~11:27 CT after live Integrations re-check",
       "order": 11
+    },
+    {
+      "id": "atlas-full-sitemap",
+      "summary": "Full site map",
+      "blurb": "Complete LessonSaver site map Page (every surface/page/flow), separate from status map. Atlas outline ready; WriteCanvas HOLD until Will yes in Jimmy chat. v2 shelved.",
+      "text": "Atlas: complete LessonSaver ecosystem site map Page",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "created": "2026-10-31T11:44:00-05:00",
+      "updated": "2026-10-31T11:50:00-05:00",
+      "note": "HOLD — needs Will yes (Atlas widget/Jimmy chat); outline ready",
+      "order": 12
+    },
+    {
+      "id": "gt-named-tab-publish",
+      "summary": "GT named-tab Publish",
+      "blurb": "GT Manage named-tab remint Preview PASS on main-Bp_wD-Sk.js. HOLD Public until Will Publish GO, then Wayne promote + BH prod smoke.",
+      "text": "GT named-tab Preview PASS main-Bp_wD-Sk.js — HOLD Public await Publish GO",
+      "owner": "Wayne",
+      "status": "delayed",
+      "note": "HOLD Public — Will Publish GO",
+      "created": "2026-10-31T11:50:00-05:00",
+      "updated": "2026-10-31T11:50:00-05:00",
+      "order": 13
+    },
+    {
+      "id": "jungle-stone1-d2-d4",
+      "summary": "Jungle Stone1",
+      "blurb": "Jungle D.2/D.4 smoke blocked — Pass E Stone1 mid-path. Needs Will GO for virgin duplicate (Option B), in-place reset, or skip.",
+      "text": "Jungle D.2/D.4 BLOCKED — Will GO virgin mint / reset / skip",
+      "owner": "Bug Hunter",
+      "status": "delayed",
+      "note": "HOLD Will data-write GO",
+      "created": "2026-10-31T11:50:00-05:00",
+      "updated": "2026-10-31T11:50:00-05:00",
+      "order": 14
     }
   ]
 }
@@ -439,20 +475,35 @@ function priorityOf(it){
   return "normal";
 }
 
-function load(){
-  var seed=null;
-  try{seed=JSON.parse($("seed-data").textContent);}catch(e){console.warn("seed parse failed",e);}
-  fetch("./work-panel-data.json",{cache:"no-store"}).then(function(r){
+var POLL_MS=30000,FEED_URL="./work-panel-data.json",_pollTimer=null,_lastUpdated="",_seed=null;
+function applyFeed(j,src){
+  var n=normalize(j);
+  if(state.dirty)return; // don't clobber in-progress Jimmy edits
+  if(n.updated&&n.updated===_lastUpdated&&state.data)return; // no change
+  _lastUpdated=n.updated||"";
+  setData(n,src);
+  try{localStorage.setItem(CACHE_KEY,JSON.stringify({cachedAt:nowISO(),data:n}));}catch(e){}
+}
+function fetchFeed(isPoll){
+  fetch(FEED_URL,{cache:"no-store"}).then(function(r){
     if(!r.ok)throw new Error("HTTP "+r.status);return r.json();
   }).then(function(j){
-    setData(j,"work-panel-data.json");
-    try{localStorage.setItem(CACHE_KEY,JSON.stringify({cachedAt:nowISO(),data:j}));}catch(e){}
+    applyFeed(j,isPoll?"feeder (live)":"work-panel-data.json");
+    var pill=$("livePill");if(pill)pill.style.opacity="1";
   }).catch(function(err){
-    console.warn("fetch failed, using embedded seed:",err);
-    if(seed){setData(seed,"embedded seed (file fetch unavailable)");return;}
+    console.warn("feeder fetch failed:",err);
+    if(isPoll){var pill=$("livePill");if(pill)pill.style.opacity=".4";return;}
+    if(_seed){setData(_seed,"embedded seed (feeder unavailable)");return;}
     try{var c=JSON.parse(localStorage.getItem(CACHE_KEY)||"null");if(c&&c.data){setData(c.data,"stale local cache ("+fmt(c.cachedAt)+")");return;}}catch(e){}
     setData({items:[]},"empty");
   });
+}
+function load(){
+  try{_seed=JSON.parse($("seed-data").textContent);}catch(e){console.warn("seed parse failed",e);}
+  fetchFeed(false);
+  if(_pollTimer)clearInterval(_pollTimer);
+  _pollTimer=setInterval(function(){fetchFeed(true);},POLL_MS);
+  document.addEventListener("visibilitychange",function(){if(!document.hidden)fetchFeed(true);});
 }
 function setData(d,src){state.data=normalize(d);state.dirty=false;$("dataSource").textContent=src;render();}
 function touch(){state.dirty=true;state.data.updated=nowISO();render();}
