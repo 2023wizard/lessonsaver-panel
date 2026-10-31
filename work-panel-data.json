@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-10-31T14:03:00-05:00",
-  "headline": "LIVE feeder \u00b7 Public main-Bp_wD-Sk \u00b7 GT named-tab Publish DONE \u00b7 BH prod \u00a7F IN FLIGHT \u00b7 Jungle mint IN FLIGHT",
+  "updated": "2026-10-31T14:06:00-05:00",
+  "headline": "LIVE feeder \u00b7 Public main-Bp_wD-Sk \u00b7 BH prod \u00a7F IN FLIGHT \u00b7 Jungle mint BLOCKED (no Duplicate/Clone; digging create path)",
   "alerts": [],
   "items": [
     {
@@ -173,14 +173,14 @@
     },
     {
       "id": "jungle-stone1-d2-d4",
-      "summary": "Jungle Stone1 mint",
-      "blurb": "Wayne will mint two virgin Jungle Stone1 BonusAttempts for D.2/D.4 after the GT named-tab Publish.",
-      "text": "Jungle Stone1 mint \u00d72 IN FLIGHT \u2014 after GT Publish",
+      "summary": "Jungle mint blocked",
+      "blurb": "Wayne hit a blocker minting virgin BonusAttempts: Data UI has no Duplicate/Clone and ids are hidden. Digging backend/create or Add Item. No source rows edited.",
+      "text": "Jungle Stone1 mint BLOCKED \u2014 Data UI no Duplicate/Clone; digging create path",
       "owner": "Bug Hunter",
-      "status": "in_flight",
-      "note": "Wayne: mint \u00d72 IN FLIGHT next after Public LIVE; URLs when ready (~2:03 CT)",
+      "status": "delayed",
+      "note": "Wayne ~2:06 CT; source noted 6ae52643; escalate if API also blocked",
       "created": "2026-10-31T11:50:00-05:00",
-      "updated": "2026-10-31T14:03:00-05:00",
+      "updated": "2026-10-31T14:06:00-05:00",
       "order": 14
     },
     {
