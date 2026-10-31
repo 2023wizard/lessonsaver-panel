@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-10-31T14:10:00-05:00",
-  "headline": "LIVE feeder \u00b7 GT named-tab CLOSED LIVE \u00b7 Jungle mint IN FLIGHT (Add Item \u00d72; ETA ~10\u201315m)",
+  "updated": "2026-10-31T14:16:00-05:00",
+  "headline": "LIVE feeder \u00b7 GT named-tab CLOSED \u00b7 Jungle mint \u00d72 DONE \u00b7 BH D.2/D.4 virgin Stone1 IN FLIGHT",
   "alerts": [],
   "items": [
     {
@@ -173,14 +173,14 @@
     },
     {
       "id": "jungle-stone1-d2-d4",
-      "summary": "Jungle mint Add Item",
-      "blurb": "Wayne found Option B via Add Item (no Clone). Questions pulled from source 6ae52643; filling teacher_id/lesson_id then creating two virgin rows.",
-      "text": "Jungle Stone1 mint IN FLIGHT \u2014 Add Item \u00d72 (payloads staged; ETA ~10\u201315m)",
+      "summary": "Jungle mint \u00d72 DONE",
+      "blurb": "Two virgin BonusAttempts minted via CSV Import (Add Item rejected nested questions). Direct URLs only. Bug Hunter D.2/D.4 smoke in flight.",
+      "text": "Jungle Stone1 mint \u00d72 DONE \u2014 CSV Import virgin rows for D.2/D.4",
       "owner": "Bug Hunter",
-      "status": "in_flight",
-      "note": "Wayne ~2:10 CT; source untouched; escalate only if nested questions rejected",
+      "status": "done",
+      "note": "D.2 6ae63e61\u2026f75c \u00b7 D.4 6ae63e61\u2026f75d \u00b7 source 6ae52643 untouched \u00b7 Jimmy CALL BH ~2:16 CT",
       "created": "2026-10-31T11:50:00-05:00",
-      "updated": "2026-10-31T14:10:00-05:00",
+      "updated": "2026-10-31T14:16:00-05:00",
       "order": 14
     },
     {
@@ -194,6 +194,18 @@
       "text": "GT named-tab prod \u00a7F OVERALL PASS \u2014 CLOSED LIVE main-Bp_wD-Sk.js",
       "blurb": "Bug Hunter prod \u00a7F overall pass on the GT named-tab Publish. Jimmy accepted close under Publish autonomy.",
       "note": "wilfred; FAIL#2 fixed; named-tab Edit\u00d72 PASS; Jimmy CLOSE ~2:07 CT"
+    },
+    {
+      "id": "jungle-d2-d4-bh",
+      "order": 16,
+      "created": "2026-10-31T14:16:00-05:00",
+      "owner": "Bug Hunter",
+      "status": "in_flight",
+      "updated": "2026-10-31T14:16:00-05:00",
+      "summary": "Jungle D.2/D.4 BH",
+      "text": "Jungle D.2/D.4 virgin Stone1 prod smoke IN FLIGHT",
+      "blurb": "Bug Hunter is checking virgin Stone1 on the two minted Jungle BonusAttempts.",
+      "note": "Jimmy CALL ~2:16 CT; direct URLs only"
     }
   ]
 }
