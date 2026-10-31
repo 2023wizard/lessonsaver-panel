@@ -185,7 +185,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
         <button type="button" data-col="summary">Item <span class="arr"></span></button>
         <button type="button" data-col="status">Status <span class="arr"></span></button>
         <button type="button" data-col="owner">Owner <span class="arr"></span></button>
-        <button type="button" data-col="created">Opened <span class="arr"></span></button>
+        <button type="button" data-col="updated">Updated <span class="arr"></span></button>
         <button type="button" data-col="priority">Priority <span class="arr"></span></button>
       </div>
       <ul class="list" id="list"></ul>
@@ -210,7 +210,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 <script type="application/json" id="seed-data">
 {
   "version": 1,
-  "updated": "2026-10-31T11:50:00-05:00",
+  "updated": "2026-10-31T11:51:00-05:00",
   "headline": "LIVE feeder · Atlas site map HOLD Will yes · GT named-tab HOLD Public · Jungle HOLD",
   "alerts": [],
   "items": [
@@ -518,7 +518,7 @@ function sorted(items){
     var r=0;
     if(c==="status")r=SRANK[x.status]-SRANK[y.status];
     else if(c==="owner")r=x.owner.localeCompare(y.owner);
-    else if(c==="created")r=ts(x.created)-ts(y.created);
+    else if(c==="created"||c==="updated")r=ts(x.updated||x.created)-ts(y.updated||y.created);
     else if(c==="priority")r=PRANK[priorityOf(x)]-PRANK[priorityOf(y)];
     else if(c==="summary")r=summaryOf(x).localeCompare(summaryOf(y));
     return r*d||(x.order-y.order);
@@ -582,7 +582,7 @@ function render(){
           '<span class="tip" role="tooltip">'+esc(blurbOf(it))+'<small>'+esc(it.owner)+' · '+esc(it.status)+(al?' · ⚠ '+esc(al.level):"")+' · click for full details</small></span></div>'+
         '<span class="pill s-'+it.status+'">'+it.status+'</span>'+
         '<span class="who"><span class="av o-'+ok+'">'+initials(it.owner)+'</span>'+esc(it.owner)+'</span>'+
-        '<span class="when" title="'+esc(it.created)+'">'+esc(fmt(it.created))+'</span>'+
+        '<span class="when" title="updated '+esc(it.updated||it.created)+' · opened '+esc(it.created)+'">'+esc(fmt(it.updated||it.created))+'</span>'+
         '<span class="pri p-'+(pr||"none")+'">'+(pr||"—")+(it.priority?"":(pr?' <span style="font-weight:400;color:#999" title="derived">·auto</span>':""))+'</span>'+
       '</div>'+
       '<div class="detail">'+
