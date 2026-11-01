@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-10-31T18:59:00-05:00",
-  "headline": "LIVE feeder \u00b7 P1 FEEL Public Publish IN FLIGHT (from main-i5s8QnEw) \u00b7 Will GO",
+  "updated": "2026-10-31T19:01:00-05:00",
+  "headline": "LIVE feeder \u00b7 P1 FEEL LIVE main-i5s8QnEw on lessonsaver.ai \u00b7 BH prod \u00a7F IN FLIGHT",
   "alerts": [],
   "items": [
     {
       "id": "phaser-p1-publish",
-      "summary": "P1 Publish IN FLIGHT",
-      "blurb": "Will Publish GO ~6:58 PM CT. Wayne Public Publish IN FLIGHT from Preview main-i5s8QnEw.js (P1 FEEL). BH standby for prod \u00a7F after LIVE hash.",
-      "text": "Phaser P1 FEEL Public Publish IN FLIGHT \u2014 Wayne \u2192 lessonsaver.ai",
-      "owner": "Wayne",
+      "summary": "P1 LIVE + BH \u00a7F",
+      "blurb": "Public LIVE lessonsaver.ai main-i5s8QnEw.js (Wayne Publish DONE; matches Preview). BH prod \u00a7F feel smoke IN FLIGHT.",
+      "text": "Phaser P1 FEEL LIVE main-i5s8QnEw \u2014 BH prod \u00a7F IN FLIGHT",
+      "owner": "Bug Hunter",
       "status": "in_progress",
       "created": "2026-10-31T15:24:00-05:00",
-      "updated": "2026-10-31T18:59:00-05:00",
-      "note": "Will GO \u00b7 Jimmy CALL \u00b7 BH standby prod \u00a7F",
+      "updated": "2026-10-31T19:01:00-05:00",
+      "note": "Will GO \u00b7 Wayne LIVE \u00b7 await BH OVERALL",
       "order": 0
     },
     {
