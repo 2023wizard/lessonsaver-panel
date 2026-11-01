@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-10-31T19:01:00-05:00",
-  "headline": "LIVE feeder \u00b7 P1 FEEL LIVE main-i5s8QnEw on lessonsaver.ai \u00b7 BH prod \u00a7F IN FLIGHT",
+  "updated": "2026-10-31T19:05:00-05:00",
+  "headline": "LIVE feeder \u00b7 P1 FEEL CLOSED LIVE main-i5s8QnEw \u00b7 BH prod OVERALL PARTIAL ACCEPT CLOSE",
   "alerts": [],
   "items": [
     {
       "id": "phaser-p1-publish",
-      "summary": "P1 LIVE + BH \u00a7F",
-      "blurb": "Public LIVE lessonsaver.ai main-i5s8QnEw.js (Wayne Publish DONE; matches Preview). BH prod \u00a7F feel smoke IN FLIGHT.",
-      "text": "Phaser P1 FEEL LIVE main-i5s8QnEw \u2014 BH prod \u00a7F IN FLIGHT",
-      "owner": "Bug Hunter",
-      "status": "in_progress",
+      "summary": "P1 CLOSED LIVE",
+      "blurb": "CLOSED LIVE lessonsaver.ai main-i5s8QnEw.js. BH prod \u00a7F OVERALL PARTIAL ACCEPT CLOSE (matches Preview). No remint. P2 draft.",
+      "text": "Phaser P1 FEEL CLOSED LIVE main-i5s8QnEw \u2014 BH prod OVERALL PARTIAL ACCEPT CLOSE",
+      "owner": "Jimmy",
+      "status": "done",
       "created": "2026-10-31T15:24:00-05:00",
-      "updated": "2026-10-31T19:01:00-05:00",
-      "note": "Will GO \u00b7 Wayne LIVE \u00b7 await BH OVERALL",
+      "updated": "2026-10-31T19:05:00-05:00",
+      "note": "Will GO \u00b7 Wayne LIVE \u00b7 BH PARTIAL \u00b7 Jimmy CLOSE",
       "order": 0
     },
     {
