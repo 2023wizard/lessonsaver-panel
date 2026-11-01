@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "updated": "2026-10-31T15:24:00-05:00",
-  "headline": "LIVE feeder \u00b7 P1 FEEL Preview ACCEPT PARTIAL (main-i5s8QnEw) \u00b7 HOLD Public await Publish GO",
+  "updated": "2026-10-31T18:59:00-05:00",
+  "headline": "LIVE feeder \u00b7 P1 FEEL Public Publish IN FLIGHT (from main-i5s8QnEw) \u00b7 Will GO",
   "alerts": [],
   "items": [
     {
       "id": "phaser-p1-publish",
-      "summary": "P1 Publish HOLD",
-      "blurb": "Phaser P1 FEEL Preview accepted PARTIAL on main-i5s8QnEw.js. Public Publish HOLD until Will/Jimmy GO; then BH prod \u00a7F.",
-      "text": "Phaser P1 FEEL Public Publish HOLD \u2014 await GO",
-      "owner": "Jimmy",
-      "status": "delayed",
+      "summary": "P1 Publish IN FLIGHT",
+      "blurb": "Will Publish GO ~6:58 PM CT. Wayne Public Publish IN FLIGHT from Preview main-i5s8QnEw.js (P1 FEEL). BH standby for prod \u00a7F after LIVE hash.",
+      "text": "Phaser P1 FEEL Public Publish IN FLIGHT \u2014 Wayne \u2192 lessonsaver.ai",
+      "owner": "Wayne",
+      "status": "in_progress",
       "created": "2026-10-31T15:24:00-05:00",
-      "updated": "2026-10-31T15:24:00-05:00",
-      "note": "HOLD Public \u00b7 optional Will 2-min hand feel first",
+      "updated": "2026-10-31T18:59:00-05:00",
+      "note": "Will GO \u00b7 Jimmy CALL \u00b7 BH standby prod \u00a7F",
       "order": 0
     },
     {
