@@ -1,9 +1,106 @@
 {
   "version": 1,
-  "updated": "2026-10-31T19:05:00-05:00",
-  "headline": "LIVE feeder \u00b7 P1 FEEL CLOSED LIVE main-i5s8QnEw \u00b7 BH prod OVERALL PARTIAL ACCEPT CLOSE",
-  "alerts": [],
+  "updated": "2026-11-05T07:41:50-06:00",
+  "headline": "Nov 5 AM \u00b7 Privacy LIVE \u00b7 CP Publish in flight \u00b7 PO/schools redesign + 7D zeros queued \u00b7 homepage overhaul AFTER restyle",
+  "alerts": [
+    {
+      "id": "seq-nov5",
+      "text": "Ship order: CommunityPolicy \u2192 Ferpa \u2192 HelpCenter \u2192 footer Coming soon \u2192 homepage overhaul. Parallel: Lucy PO/schools design. After restyle: Wayne DIG PO 7D zeros.",
+      "ts": "2026-11-05T07:41:50-06:00"
+    }
+  ],
   "items": [
+    {
+      "id": "oct-restyle-communitypolicy",
+      "summary": "CommunityPolicy Oct + isPublicPage",
+      "blurb": "Cand 5917f8b4 + App.jsx path === '/CommunityPolicy'. Preview Saved; Publish+LIVE logged-out prove in flight. Standing GO.",
+      "text": "CommunityPolicy Oct restyle + isPublicPage Public (in flight)",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "After Privacy CLOSE main-B2f9gTxt.js",
+      "order": 0,
+      "priority": 1
+    },
+    {
+      "id": "oct-restyle-ferpa",
+      "summary": "Ferpa Oct STYLE ONLY",
+      "blurb": "Cand 4a8482a9 \u2014 style only, Casey copy parity 65/65. After CommunityPolicy CLOSE.",
+      "text": "Ferpa Oct restyle STYLE ONLY (Casey copy locked)",
+      "owner": "Wayne",
+      "status": "open",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "No copy edits",
+      "order": 1,
+      "priority": 1
+    },
+    {
+      "id": "oct-restyle-helpcenter",
+      "summary": "PublicHelpCenter Oct restyle",
+      "blurb": "Last of Will LOCK existing-public queue. Prove search/nav interactive.",
+      "text": "PublicHelpCenter Oct cream/orange/navy restyle",
+      "owner": "Wayne",
+      "status": "open",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "After Ferpa",
+      "order": 2,
+      "priority": 1
+    },
+    {
+      "id": "footer-ecosystem-links",
+      "summary": "Footer Coming soon links",
+      "blurb": "Escape Whiz Online Escapes \u2192 classescape.co \u00b7 Class Mission \u2192 classmission.com \u00b7 keep lessonsaver.games. Coming soon label, links open. After CommunityPolicy or HelpCenter wave.",
+      "text": "Public footer: Escape Whiz + Class Mission Coming soon",
+      "owner": "Wayne",
+      "status": "open",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "Will LOCK 2026-11-05",
+      "order": 3,
+      "priority": 2
+    },
+    {
+      "id": "homepage-look-overhaul",
+      "summary": "Homepage major look overhaul",
+      "blurb": "Will: major overhaul today AFTER existing public pages LIVE. F01\u201305 floating art morning. HOLD until restyle queue CLOSES.",
+      "text": "Homepage major look overhaul (after public restyle LIVE)",
+      "owner": "Lucy",
+      "status": "open",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "HOLD until Terms/Privacy/CP/Ferpa/HelpCenter CLOSED",
+      "order": 4,
+      "priority": 2
+    },
+    {
+      "id": "po-public-schools-redesign",
+      "summary": "Principals Office / schools public redesign",
+      "blurb": "Will + Lucy design LOCK in flight (no Publish). Popout Explore University icons + Principal Only NOTICE; retire monitoring live-feed as schools example; keep School-Wide Glows + tooltips; tour screenshots. Pack /workspace/dev/principals-office-tab/. Await Will GO before Wayne brief. Marquee for public schools page.",
+      "text": "Principals Office / schools public-site redesign (Lucy design)",
+      "owner": "Lucy",
+      "status": "in-flight",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "Canvas pack principals-office-tab \u00b7 await Will GO",
+      "order": 5,
+      "priority": 2
+    },
+    {
+      "id": "po-7d-zeros",
+      "summary": "PO LIVE panel 7D zeros",
+      "blurb": "BH REPRO: 24H OK (Engagement 6\u2026); 7D all 0; no XHR on toggle \u2192 client-side date filter. Pack /workspace/dev/principals-office-7d/. Wayne DIG after public restyle; needed for principals marquee.",
+      "text": "Principals Office LIVE UVA 7D metrics = 0 (fix after restyle)",
+      "owner": "Wayne",
+      "status": "open",
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-05T07:41:50-06:00",
+      "note": "BH REPRO CONFIRMED \u00b7 HOLD Preview until DIG+CALL",
+      "order": 6,
+      "priority": 2
+    },
     {
       "id": "phaser-p1-publish",
       "summary": "P1 CLOSED LIVE",
@@ -14,7 +111,7 @@
       "created": "2026-10-31T15:24:00-05:00",
       "updated": "2026-10-31T19:05:00-05:00",
       "note": "Will GO \u00b7 Wayne LIVE \u00b7 BH PARTIAL \u00b7 Jimmy CLOSE",
-      "order": 0
+      "order": 100
     },
     {
       "id": "phaser-p1-feel",
@@ -26,7 +123,7 @@
       "created": "2026-10-31T15:03:00-05:00",
       "updated": "2026-10-31T15:24:00-05:00",
       "note": "Jimmy ACCEPT Preview PARTIAL \u00b7 P2 draft \u00b7 optional Will hand feel",
-      "order": 1
+      "order": 101
     },
     {
       "id": "phaser-p1-bh",
@@ -38,7 +135,7 @@
       "created": "2026-10-31T15:09:00-05:00",
       "updated": "2026-10-31T15:16:00-05:00",
       "note": "Stand down BH \u00b7 await Kai feel-check \u2192 ACCEPT vs remint \u00b7 superseded by Kai PARTIAL ACCEPT",
-      "order": 2
+      "order": 102
     },
     {
       "id": "pass-e-closed-live",
@@ -50,7 +147,7 @@
       "created": "2026-10-31T07:30:00-05:00",
       "updated": "2026-10-31T07:56:00-05:00",
       "note": "BH prod OVERALL PASS; Will accept Oct 31",
-      "order": 3
+      "order": 103
     },
     {
       "id": "pass-e-d3-inconclusive",
@@ -62,7 +159,7 @@
       "created": "2026-10-31T07:45:00-05:00",
       "updated": "2026-10-31T07:56:00-05:00",
       "note": "Accepted as INCONCLUSIVE on CLOSE; optional follow-up if stumps needed later",
-      "order": 4
+      "order": 104
     },
     {
       "id": "wayne-standby-pass-e-card",
@@ -74,7 +171,7 @@
       "created": "2026-10-31T07:48:00-05:00",
       "updated": "2026-10-31T07:55:00-05:00",
       "note": "Will Accept CLOSE stack Oct 31 ~7:55 AM CT",
-      "order": 5
+      "order": 105
     },
     {
       "id": "casey-drafts-wayne-dig",
@@ -86,7 +183,7 @@
       "created": "2026-10-31T06:40:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
       "note": "Dig folded; counsel HOLD until Will GO",
-      "order": 6
+      "order": 106
     },
     {
       "id": "claim-ai-no-train",
@@ -98,7 +195,7 @@
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
       "note": "Parked/shelved Oct 31 \u2014 not stale; was: Reword or Enterprise",
-      "order": 7
+      "order": 107
     },
     {
       "id": "claim-us-only",
@@ -109,7 +206,7 @@
       "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
-      "order": 8,
+      "order": 108,
       "note": "Parked/shelved Oct 31 \u2014 not stale"
     },
     {
@@ -121,7 +218,7 @@
       "status": "parked",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T11:38:00-05:00",
-      "order": 9,
+      "order": 109,
       "note": "Parked/shelved Oct 31 \u2014 not stale"
     },
     {
@@ -133,7 +230,7 @@
       "status": "done",
       "created": "2026-10-31T07:05:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
-      "order": 10
+      "order": 110
     },
     {
       "id": "compliance-counsel-hold",
@@ -145,7 +242,7 @@
       "created": "2026-10-30T18:00:00-05:00",
       "updated": "2026-10-31T07:05:00-05:00",
       "note": "Reason: await Will GO before counsel/outbound",
-      "order": 11
+      "order": 111
     },
     {
       "id": "waitlist-publish-hold",
@@ -157,7 +254,7 @@
       "created": "2026-10-30T15:00:00-05:00",
       "updated": "2026-10-31T07:00:00-05:00",
       "note": "HOLD Public until Will Publish GO",
-      "order": 12
+      "order": 112
     },
     {
       "id": "gt-library-wilfred-rehit",
@@ -168,7 +265,7 @@
       "status": "done",
       "created": "2026-10-30T16:00:00-05:00",
       "updated": "2026-10-31T11:11:00-05:00",
-      "order": 13,
+      "order": 113,
       "note": "CLOSED 2026-10-31 ~11:11 CT"
     },
     {
@@ -181,7 +278,7 @@
       "created": "2026-10-30T14:00:00-05:00",
       "updated": "2026-10-31T11:27:00-05:00",
       "note": "Closed 2026-10-31 ~11:27 CT after live Integrations re-check",
-      "order": 14
+      "order": 114
     },
     {
       "id": "atlas-full-sitemap",
@@ -193,7 +290,7 @@
       "created": "2026-10-31T11:44:00-05:00",
       "updated": "2026-10-31T12:17:00-05:00",
       "note": "LIVE ~12:17 CT: https://cursor.com/canvas/store-635ffb8e-3337-4e2e-af23-a0282e8eb7b9/9cc39030-2b75-48f1-a04c-4b6da3c64d8a",
-      "order": 15
+      "order": 115
     },
     {
       "id": "gt-named-tab-publish",
@@ -205,7 +302,7 @@
       "note": "CLOSED LIVE main-Bp_wD-Sk.js; BH prod \u00a7F OVERALL PASS; Jimmy CLOSE ~2:07 CT",
       "created": "2026-10-31T11:50:00-05:00",
       "updated": "2026-10-31T14:07:00-05:00",
-      "order": 16
+      "order": 116
     },
     {
       "id": "jungle-stone1-d2-d4",
@@ -217,11 +314,11 @@
       "note": "D.2 6ae63e61\u2026f75c \u00b7 D.4 6ae63e61\u2026f75d \u00b7 source 6ae52643 untouched \u00b7 Jimmy CALL BH ~2:16 CT \u00b7 BH OVERALL PASS CLOSED",
       "created": "2026-10-31T11:50:00-05:00",
       "updated": "2026-10-31T14:25:00-05:00",
-      "order": 17
+      "order": 117
     },
     {
       "id": "gt-named-tab-bh-prodf",
-      "order": 18,
+      "order": 118,
       "created": "2026-10-31T14:03:00-05:00",
       "owner": "Bug Hunter",
       "status": "done",
@@ -233,7 +330,7 @@
     },
     {
       "id": "jungle-d2-d4-bh",
-      "order": 19,
+      "order": 119,
       "created": "2026-10-31T14:16:00-05:00",
       "owner": "Bug Hunter",
       "status": "done",
