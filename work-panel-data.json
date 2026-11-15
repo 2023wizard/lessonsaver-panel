@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-15T17:08:00-06:00",
-  "headline": "Nov 15 5:08 PM · Jungle answer feedback closed (good enough for now) · Bonus path + Library delete live (main-D747wJ_1)",
+  "updated": "2026-11-15T17:13:00-06:00",
+  "headline": "Nov 15 5:13 PM · LC end-of-circle report v2 in flight (Will GO to publish) · Jungle feedback closed · Bonus path + Library delete live",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -16,7 +16,7 @@
       "owner": "Jimmy",
       "status": "in-flight",
       "note": "Lucy is leading the inventory; proposals go to Will before any page fills",
-      "order": 0,
+      "order": 1,
       "created": "2026-11-15T09:28:00-06:00",
       "updated": "2026-11-15T09:28:00-06:00",
       "summary": "Blank panels"
@@ -405,6 +405,17 @@
       "created": "2026-11-09T08:45:00-06:00",
       "updated": "2026-11-15T09:28:00-06:00",
       "summary": "Unit cascade"
+    },
+    {
+      "id": "lc-end-of-circle-report-v2",
+      "summary": "Circle report v2",
+      "text": "LC end-of-circle report v2 — Will GO to publish if it meets the spec",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Preview, then Bug Hunter test, then Publish. Jimmy verifies.",
+      "order": 0,
+      "created": "2026-11-15T17:13:00-06:00",
+      "updated": "2026-11-15T17:13:00-06:00"
     }
   ]
 }
