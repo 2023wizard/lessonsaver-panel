@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-15T09:28:00-06:00",
-  "headline": "Nov 15 AM · Canvas picker, 12:47 bundle and PO drawer v7 live · Jungle answer feedback waiting on Will’s test · Filter test schools parked",
+  "updated": "2026-11-15T17:08:00-06:00",
+  "headline": "Nov 15 5:08 PM · Jungle answer feedback closed (good enough for now) · Bonus path + Library delete live (main-D747wJ_1)",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -23,13 +23,13 @@
     },
     {
       "id": "lc-jungle-answer-feedback-v22",
-      "text": "LC jungle answer feedback v2.2 is live — waiting on Will’s test",
+      "text": "LC jungle answer feedback v2.2 CLOSED LIVE — Will: “semi-par but good enough for now”",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Published Nov 14 9:21 PM CT as main-DLEBa50D (md5 3685c982). Will said he will test it. Lucy signed off; two later polish ideas are parked.",
-      "order": 1,
+      "status": "done",
+      "note": "Will tested it in a learning circle Nov 15. Already public; no overhaul planned. Includes haptics from Kai’s spec.",
+      "order": 113,
       "created": "2026-11-14T21:21:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:08:00-06:00",
       "summary": "Jungle feedback"
     },
     {
@@ -111,13 +111,13 @@
     },
     {
       "id": "lc-bonus-path-open",
-      "text": "LC bonus path: “We couldn’t open this path” — hold until Will’s GO",
+      "text": "LC bonus path “We couldn’t open this path” fix (LC-BONUS-GUARD v1) CLOSED LIVE main-D747wJ_1",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Read-only dig Nov 14. Fix needs a function copy-down after Will’s GO.",
-      "order": 9,
+      "status": "done",
+      "note": "Published Nov 15 1:44 PM CT, md5 04fec197, under Will’s 12:40 PM grant after Bug Hunter’s conditional PASS. Live smoke passed. Known gap: Release-button browser click untested. Rollback: rb_bg plus one Publish.",
+      "order": 114,
       "created": "2026-11-14T14:32:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:08:00-06:00",
       "summary": "Bonus path error"
     },
     {
@@ -155,13 +155,13 @@
     },
     {
       "id": "library-delete-ui",
-      "text": "Library delete UI — Preview only; needs a Bug Hunter test and Will’s GO",
+      "text": "Library delete UI (My Lessons trash and gallery deletes) CLOSED LIVE main-D747wJ_1",
       "owner": "Bug Hunter",
-      "status": "open",
-      "note": "Re-pasted to Preview Nov 14 9:27 PM CT as main-BwH8cUWP. Not live. Test first, then Will’s GO before any Public publish.",
-      "order": 21,
+      "status": "done",
+      "note": "Same Nov 15 1:44 PM CT publish, md5 04fec197. Bug Hunter conditional PASS. Rollback: rb_bg plus one Publish.",
+      "order": 115,
       "created": "2026-11-13T16:29:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:08:00-06:00",
       "summary": "Library delete UI"
     },
     {
