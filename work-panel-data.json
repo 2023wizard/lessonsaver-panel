@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-15T17:28:00-06:00",
-  "headline": "Nov 15 5:28 PM · Report v2 + blank-panel snapshot in flight · Pit, miss-rate and jungle tally closed as already live",
+  "updated": "2026-11-15T17:35:00-06:00",
+  "headline": "Nov 15 5:35 PM · Will closed footer links, remaining bot logins, SOC 2 roadmap, and the base44 plan",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -100,13 +100,13 @@
     },
     {
       "id": "footer-ecosystem-links",
-      "text": "Public footer: Escape Whiz + Class Mission Coming soon",
+      "text": "Public footer: Escape Whiz + Class Mission Coming soon — closed by Will",
       "owner": "Wayne",
-      "status": "parked",
-      "note": "Jimmy recommends closing as superseded by the Nov 12 footer (main-8NOQTTjI). Changelog says ecosystem footer links were removed in that publish, so the original add is not proven live. Awaiting Will’s call.",
-      "order": 23,
+      "status": "done",
+      "note": "Closed by Will Nov 15 5:35 PM CT (relayed by Jimmy). Superseded by the Nov 12 C5 rev5 footer, and can be revived on request.",
+      "order": 80,
       "created": "2026-11-05T07:41:50-06:00",
-      "updated": "2026-11-15T17:28:00-06:00",
+      "updated": "2026-11-15T17:35:00-06:00",
       "summary": "Footer links"
     },
     {
@@ -144,13 +144,13 @@
     },
     {
       "id": "soc2-badge-roadmap",
-      "text": "SOC 2 badge roadmap with Casey — offered, no answer from Will",
+      "text": "SOC 2 badge roadmap with Casey — closed by Will",
       "owner": "Casey",
-      "status": "parked",
-      "note": "Offered; waiting on a word from Will.",
-      "order": 27,
+      "status": "done",
+      "note": "Closed by Will Nov 15 5:35 PM CT (relayed by Jimmy).",
+      "order": 82,
       "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T17:28:00-06:00",
+      "updated": "2026-11-15T17:35:00-06:00",
       "summary": "SOC 2 roadmap"
     },
     {
@@ -188,13 +188,13 @@
     },
     {
       "id": "remaining-bot-logins",
-      "text": "Remaining bot logins — on hold pending Will’s confirmation",
+      "text": "Remaining bot logins — closed by Will",
       "owner": "Will",
-      "status": "parked",
-      "note": "Will approved some separate bot logins Nov 13; the rest wait on his confirmation. No account names on this page.",
-      "order": 31,
+      "status": "done",
+      "note": "Closed by Will Nov 15 5:35 PM CT (relayed by Jimmy).",
+      "order": 81,
       "created": "2026-11-13T13:55:00-06:00",
-      "updated": "2026-11-15T17:28:00-06:00",
+      "updated": "2026-11-15T17:35:00-06:00",
       "summary": "Bot logins"
     },
     {
