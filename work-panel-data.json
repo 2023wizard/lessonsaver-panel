@@ -1,25 +1,245 @@
 {
   "version": 1,
-  "updated": "2026-11-15T17:13:00-06:00",
-  "headline": "Nov 15 5:13 PM · LC end-of-circle report v2 in flight (Will GO to publish) · Jungle feedback closed · Bonus path + Library delete live",
+  "updated": "2026-11-15T17:28:00-06:00",
+  "headline": "Nov 15 5:28 PM · Report v2 + blank-panel snapshot in flight · Pit, miss-rate and jungle tally closed as already live",
   "alerts": [
     {
       "id": "will-go-standing",
       "text": "Nothing goes live without Will’s approval. Stripe waits on the LLC bank account Monday, Nov 16.",
-      "ts": "2026-11-15T09:28:00-06:00"
+      "ts": "2026-11-15T17:28:00-06:00"
     }
   ],
   "items": [
     {
+      "id": "lc-end-of-circle-report-v2",
+      "text": "LC end-of-circle report v2 — Will GO to publish if it meets the spec",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Preview, then Bug Hunter test, then Publish. Jimmy verifies.",
+      "order": 0,
+      "created": "2026-11-15T17:13:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Circle report v2"
+    },
+    {
       "id": "blank-panel-inventory",
-      "text": "Blank-panel inventory on public pages (proposals go to Will)",
+      "text": "Blank-panel inventory + snapshot PDF (Home and /Features What’s Inside cards)",
       "owner": "Jimmy",
       "status": "in-flight",
-      "note": "Lucy is leading the inventory; proposals go to Will before any page fills",
+      "note": "Lucy leads. She is screenshotting every blank or missing panel for Will’s approval. Next: Will’s review. Not a new row — merged into this item.",
       "order": 1,
       "created": "2026-11-15T09:28:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Blank panels"
+    },
+    {
+      "id": "stripe-site-payments",
+      "text": "Stripe and site payments — waiting on the LLC bank account (Mon Nov 16)",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "After the bank account is open, configure Stripe and site payments so it’s ready when Will wants to charge.",
+      "order": 10,
+      "created": "2026-11-13T22:49:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Stripe + payments"
+    },
+    {
+      "id": "trek-stuck-minutes",
+      "text": "Trek stuck-minutes threshold — still Will’s pick (placeholder 4 min)",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Show groups / stuck flags already shipped in the Nov 14 12:47 PM CT publish; only the number is still open.",
+      "order": 11,
+      "created": "2026-11-13T16:00:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Stuck-minutes"
+    },
+    {
+      "id": "free-tier-picks",
+      "text": "Free-tier picks — details with Jimmy, waiting on Will",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "No detailed pack found; details sit with Jimmy.",
+      "order": 12,
+      "created": "2026-11-13T16:00:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Free-tier picks"
+    },
+    {
+      "id": "filter-test-schools",
+      "text": "Filter test schools out of the school lists",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Browse Schools and some settings modals still list every school. A hidden test school isn’t safe until this ships under Will’s GO.",
+      "order": 20,
+      "created": "2026-11-14T14:58:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Filter test schools"
+    },
+    {
+      "id": "lucy-answer-padding-6px",
+      "text": "6px padding on answers of 4 or more lines (Jungle polish)",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Lucy leads; Kai should review. Needs its own Preview and a GO. Nothing to do now.",
+      "order": 21,
+      "created": "2026-11-14T21:30:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Answer padding"
+    },
+    {
+      "id": "relic-unlocked-stone-plate",
+      "text": "Relic Unlocked banner as a stone plate (Jungle polish)",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Lucy leads; Kai should review. Needs its own Preview and a GO.",
+      "order": 22,
+      "created": "2026-11-14T21:30:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Relic banner"
+    },
+    {
+      "id": "footer-ecosystem-links",
+      "text": "Public footer: Escape Whiz + Class Mission Coming soon",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Jimmy recommends closing as superseded by the Nov 12 footer (main-8NOQTTjI). Changelog says ecosystem footer links were removed in that publish, so the original add is not proven live. Awaiting Will’s call.",
+      "order": 23,
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Footer links"
+    },
+    {
+      "id": "homepage-look-overhaul",
+      "text": "Public pages restyle leftovers + homepage major look overhaul",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Lucy leads design. Pieces shipped Nov 11–12. The larger overhaul is still open.",
+      "order": 24,
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Homepage overhaul"
+    },
+    {
+      "id": "po-public-schools-redesign",
+      "text": "Public schools marketing redesign (remaining PO/schools work)",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Lucy leads design. 7-day zeros/chart and the in-app PO drawer shipped Nov 14. What’s left is the public schools marketing redesign.",
+      "order": 25,
+      "created": "2026-11-05T07:41:50-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Schools marketing"
+    },
+    {
+      "id": "llc-branding",
+      "text": "LLC branding on footer, Terms, and Privacy",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Say LessonSaver LLC with the trademark mark. Parked until current dev work is done.",
+      "order": 26,
+      "created": "2026-11-13T22:49:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "LLC branding"
+    },
+    {
+      "id": "soc2-badge-roadmap",
+      "text": "SOC 2 badge roadmap with Casey — offered, no answer from Will",
+      "owner": "Casey",
+      "status": "parked",
+      "note": "Offered; waiting on a word from Will.",
+      "order": 27,
+      "created": "2026-11-13T16:00:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "SOC 2 roadmap"
+    },
+    {
+      "id": "onboarding-try-catch",
+      "text": "Onboarding try/catch error message (Preview-only follow-up)",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Follow-up after the Nov 14 Subject schema fix. Preview only until a GO.",
+      "order": 28,
+      "created": "2026-11-14T10:30:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Onboarding error"
+    },
+    {
+      "id": "prove-live-onboarding",
+      "text": "Prove live onboarding with a brand-new test teacher",
+      "owner": "Bug Hunter",
+      "status": "parked",
+      "note": "Assigned to Bug Hunter’s next fresh account. No account details on this page.",
+      "order": 29,
+      "created": "2026-11-14T10:40:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Prove onboarding"
+    },
+    {
+      "id": "waitlist-publish-hold",
+      "text": "Beta invite email + waitlist Publish",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Still held. Live mail was never proven (audit Nov 14). Public stays held until Will’s Publish GO.",
+      "order": 30,
+      "created": "2026-10-30T15:00:00-05:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Waitlist hold"
+    },
+    {
+      "id": "remaining-bot-logins",
+      "text": "Remaining bot logins — on hold pending Will’s confirmation",
+      "owner": "Will",
+      "status": "parked",
+      "note": "Will approved some separate bot logins Nov 13; the rest wait on his confirmation. No account names on this page.",
+      "order": 31,
+      "created": "2026-11-13T13:55:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Bot logins"
+    },
+    {
+      "id": "feature-shots-trek-bank",
+      "text": "Feature shots bank (trek board) — awaiting Will’s go to use publicly",
+      "owner": "Jimmy",
+      "status": "parked",
+      "note": "Kai leads the shot bank. The trek board is live, so the old dependency is met. Public use still needs Will’s go.",
+      "order": 32,
+      "created": "2026-11-13T10:48:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Feature shots"
+    },
+    {
+      "id": "jungle-tally-splash",
+      "text": "Jungle live-board tally + purple splash hotfix CLOSED LIVE — already public since Nov 9",
+      "owner": "Wayne",
+      "status": "done",
+      "note": "Proof: CHANGELOG Nov 9 ~4:26 PM CT main-DoRpjEFe (md5 da03e068) and ~4:51 PM CT main-C-9Kfej9 (md5 49e64f1a). Closed Nov 15 5:28 PM because it was already live.",
+      "order": 90,
+      "created": "2026-11-05T10:32:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Jungle tally"
+    },
+    {
+      "id": "lc-topics-miss-rate",
+      "text": "LC Topics miss-rate fix CLOSED LIVE — already public since Nov 10",
+      "owner": "Wayne",
+      "status": "done",
+      "note": "Proof: CHANGELOG Nov 10 ~9:36 AM CT main-MG9ccFNc (md5 313d2b43). Closed Nov 15 5:28 PM because it was already live.",
+      "order": 91,
+      "created": "2026-11-10T09:20:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Miss-rate fix"
+    },
+    {
+      "id": "lc-pit-rebuild",
+      "text": "LC pit rebuild (C.1–C.3) CLOSED LIVE — already public since Nov 10",
+      "owner": "Wayne",
+      "status": "done",
+      "note": "Proof: CHANGELOG Nov 10 C.1 main-D0njtysg (md5 259aa6b1), C.2 main-B4sCY4gp (md5 55baaccf), C.3 main-CvaTtsYK (md5 21724cf7). Closed Nov 15 5:28 PM because it was already live.",
+      "order": 92,
+      "created": "2026-11-10T17:04:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Pit rebuild"
     },
     {
       "id": "lc-jungle-answer-feedback-v22",
@@ -27,241 +247,32 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Will tested it in a learning circle Nov 15. Already public; no overhaul planned. Includes haptics from Kai’s spec.",
-      "order": 113,
+      "order": 100,
       "created": "2026-11-14T21:21:00-06:00",
-      "updated": "2026-11-15T17:08:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Jungle feedback"
-    },
-    {
-      "id": "stripe-site-payments",
-      "text": "Stripe and site payments — waiting on the LLC bank account (Mon Nov 16)",
-      "owner": "Jimmy",
-      "status": "delayed",
-      "note": "After the bank account is open, configure Stripe and the site payments piece so it’s ready when Will wants to charge",
-      "order": 2,
-      "created": "2026-11-13T22:49:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Stripe + payments"
-    },
-    {
-      "id": "lc-pit-rebuild",
-      "text": "LC pit rebuild (C.1–C.3) is live — waiting on Will’s test",
-      "owner": "Wayne",
-      "status": "delayed",
-      "note": "Published Nov 10. Do not move to Done until Will confirms his test. Kai and Lucy also involved.",
-      "order": 3,
-      "created": "2026-11-10T17:04:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Pit rebuild"
-    },
-    {
-      "id": "lc-topics-miss-rate",
-      "text": "LC Topics miss-rate fix is live — waiting on Will’s test",
-      "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live since Nov 10. Stays delayed until Will confirms his test.",
-      "order": 4,
-      "created": "2026-11-10T09:20:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Miss-rate fix"
-    },
-    {
-      "id": "jungle-tally-splash",
-      "text": "Jungle live-board tally + purple splash hotfix — waiting on Will to host and test",
-      "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live; related to (but separate from) the Nov 14 answer-feedback ship",
-      "order": 5,
-      "created": "2026-11-05T10:32:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Jungle tally"
-    },
-    {
-      "id": "trek-stuck-minutes",
-      "text": "Trek stuck-minutes threshold — still Will’s pick (placeholder 4 min)",
-      "owner": "Will",
-      "status": "delayed",
-      "note": "Show groups / stuck flags already shipped in the Nov 14 12:47 PM CT publish; only the number is still open",
-      "order": 6,
-      "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Stuck-minutes"
-    },
-    {
-      "id": "waitlist-publish-hold",
-      "text": "Beta invite email + waitlist Publish",
-      "owner": "Wayne",
-      "status": "delayed",
-      "note": "Still held. Live mail was never proven (audit Nov 14). Public stays held until Will’s Publish GO.",
-      "order": 7,
-      "created": "2026-10-30T15:00:00-05:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Waitlist hold"
-    },
-    {
-      "id": "remaining-bot-logins",
-      "text": "Remaining bot logins — on hold pending Will’s confirmation",
-      "owner": "Will",
-      "status": "delayed",
-      "note": "Will approved some separate bot logins Nov 13; the rest wait on his confirmation. No account names on this page.",
-      "order": 8,
-      "created": "2026-11-13T13:55:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Bot logins"
     },
     {
       "id": "lc-bonus-path-open",
       "text": "LC bonus path “We couldn’t open this path” fix (LC-BONUS-GUARD v1) CLOSED LIVE main-D747wJ_1",
       "owner": "Wayne",
       "status": "done",
-      "note": "Published Nov 15 1:44 PM CT, md5 04fec197, under Will’s 12:40 PM grant after Bug Hunter’s conditional PASS. Live smoke passed. Known gap: Release-button browser click untested. Rollback: rb_bg plus one Publish.",
-      "order": 114,
+      "note": "Published Nov 15 1:44 PM CT, md5 04fec197, under Will’s 12:40 PM grant after Bug Hunter’s conditional PASS. Known gap: Release-button browser click untested. Rollback: rb_bg plus one Publish.",
+      "order": 101,
       "created": "2026-11-14T14:32:00-06:00",
-      "updated": "2026-11-15T17:08:00-06:00",
-      "summary": "Bonus path error"
-    },
-    {
-      "id": "feature-shots-trek-bank",
-      "text": "Feature shots bank (trek board) — awaiting Will’s go to use publicly",
-      "owner": "Jimmy",
-      "status": "delayed",
-      "note": "The trek board is live, so the old dependency is met. Kai has the shot bank. Public use still needs Will’s go.",
-      "order": 10,
-      "created": "2026-11-13T10:48:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Feature shots"
-    },
-    {
-      "id": "free-tier-picks",
-      "text": "Free-tier picks — details with Jimmy, waiting on Will",
-      "owner": "Jimmy",
-      "status": "delayed",
-      "note": "No detailed pack found; details sit with Jimmy",
-      "order": 11,
-      "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Free-tier picks"
-    },
-    {
-      "id": "filter-test-schools",
-      "text": "Filter test schools out of the school lists",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Browse Schools and some settings modals still list every school. A hidden test school isn’t safe until this ships under Will’s GO.",
-      "order": 20,
-      "created": "2026-11-14T14:58:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Filter test schools"
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Bonus path"
     },
     {
       "id": "library-delete-ui",
       "text": "Library delete UI (My Lessons trash and gallery deletes) CLOSED LIVE main-D747wJ_1",
-      "owner": "Bug Hunter",
+      "owner": "Wayne",
       "status": "done",
       "note": "Same Nov 15 1:44 PM CT publish, md5 04fec197. Bug Hunter conditional PASS. Rollback: rb_bg plus one Publish.",
-      "order": 115,
+      "order": 102,
       "created": "2026-11-13T16:29:00-06:00",
-      "updated": "2026-11-15T17:08:00-06:00",
-      "summary": "Library delete UI"
-    },
-    {
-      "id": "lucy-answer-padding-6px",
-      "text": "6px padding on answers of 4 or more lines (Jungle polish)",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Lucy idea after the v2.2 sign-off. Needs Kai’s view, its own Preview, and a GO. Nothing to do now.",
-      "order": 22,
-      "created": "2026-11-14T21:30:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Answer padding"
-    },
-    {
-      "id": "relic-unlocked-stone-plate",
-      "text": "Relic Unlocked banner as a stone plate (Jungle polish)",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Lucy idea: give the green banner the same painted stone plate as the new miss/timeout banners. Needs Kai’s view, its own Preview, and a GO.",
-      "order": 23,
-      "created": "2026-11-14T21:30:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Relic banner"
-    },
-    {
-      "id": "footer-ecosystem-links",
-      "text": "Public footer: Escape Whiz + Class Mission Coming soon",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Jimmy recommends closing this as superseded by the Nov 12 footer; awaiting Will’s call. Revivable on request.",
-      "order": 24,
-      "created": "2026-11-05T07:41:50-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Footer links"
-    },
-    {
-      "id": "homepage-look-overhaul",
-      "text": "Public pages restyle leftovers + homepage major look overhaul",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Pieces shipped Nov 11–12. The larger overhaul is still open. Lucy and Remi also involved.",
-      "order": 25,
-      "created": "2026-11-05T07:41:50-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Homepage overhaul"
-    },
-    {
-      "id": "po-public-schools-redesign",
-      "text": "Public schools marketing redesign (remaining PO/schools work)",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "7-day zeros/chart and the in-app PO drawer shipped Nov 14. What’s left is the public schools marketing redesign. Lucy leading design. A safe test school is blocked on the school-list filter.",
-      "order": 26,
-      "created": "2026-11-05T07:41:50-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Schools marketing"
-    },
-    {
-      "id": "llc-branding",
-      "text": "LLC branding on footer, Terms, and Privacy",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Say LessonSaver LLC with the trademark mark. Parked until current dev work is done.",
-      "order": 27,
-      "created": "2026-11-13T22:49:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "LLC branding"
-    },
-    {
-      "id": "soc2-badge-roadmap",
-      "text": "SOC 2 badge roadmap with Casey — offered, no answer from Will",
-      "owner": "Casey",
-      "status": "open",
-      "note": "Offered; waiting on a word from Will",
-      "order": 28,
-      "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "SOC 2 roadmap"
-    },
-    {
-      "id": "onboarding-try-catch",
-      "text": "Onboarding try/catch error message (Preview-only follow-up)",
-      "owner": "Wayne",
-      "status": "open",
-      "note": "Follow-up after the Nov 14 Subject schema fix. Preview only until a GO.",
-      "order": 29,
-      "created": "2026-11-14T10:30:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Onboarding error"
-    },
-    {
-      "id": "prove-live-onboarding",
-      "text": "Prove live onboarding with a brand-new test teacher",
-      "owner": "Bug Hunter",
-      "status": "open",
-      "note": "Assigned to Bug Hunter’s next fresh account. No account details on this page.",
-      "order": 30,
-      "created": "2026-11-14T10:40:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
-      "summary": "Prove onboarding"
+      "updated": "2026-11-15T17:28:00-06:00",
+      "summary": "Library delete"
     },
     {
       "id": "po-7d-zeros",
@@ -269,9 +280,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Shipped in the Nov 14 12:47 PM CT publish (main-BKBVMMbr, md5 03ac2186) with the rest of that bundle.",
-      "order": 100,
+      "order": 103,
       "created": "2026-11-05T07:41:50-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "PO 7D zeros"
     },
     {
@@ -279,10 +290,10 @@
       "text": "Canvas template picker 429 fix CLOSED LIVE main-BKBVMMbr",
       "owner": "Wayne",
       "status": "done",
-      "note": "Moved from Active. Same Nov 14 12:47 PM CT publish, md5 03ac2186.",
-      "order": 101,
+      "note": "Same Nov 14 12:47 PM CT publish, md5 03ac2186.",
+      "order": 104,
       "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Canvas picker"
     },
     {
@@ -291,9 +302,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "main-BKBVMMbr, md5 03ac2186. Canvas picker shipped in the same publish (separate row).",
-      "order": 102,
+      "order": 105,
       "created": "2026-11-14T12:47:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Nov 14 12:47 bundle"
     },
     {
@@ -302,9 +313,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Published ~6:11 PM CT Nov 14, md5 b080f913. Verified by Jimmy. Lucy on the design.",
-      "order": 103,
+      "order": 106,
       "created": "2026-11-14T13:55:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "PO drawer v7"
     },
     {
@@ -313,9 +324,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Live Nov 13 12:23 PM CT. Stuck-minutes number is a separate delayed item.",
-      "order": 104,
+      "order": 107,
       "created": "2026-11-13T12:23:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Trek board"
     },
     {
@@ -323,10 +334,10 @@
       "text": "Auto-collect workflow fix + LC Draft pill CLOSED LIVE main-CI1f6PYD",
       "owner": "Wayne",
       "status": "done",
-      "note": "Live Nov 13 11:38 AM CT",
-      "order": 105,
+      "note": "Live Nov 13 11:38 AM CT.",
+      "order": 108,
       "created": "2026-11-13T11:38:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Auto-collect + Draft"
     },
     {
@@ -334,10 +345,10 @@
       "text": "Subject dropdown fix + LC icon B3 CLOSED LIVE main-CIi16s79",
       "owner": "Wayne",
       "status": "done",
-      "note": "Live Nov 13 1:38 PM CT, md5 ca3d8a87",
-      "order": 106,
+      "note": "Live Nov 13 1:38 PM CT, md5 ca3d8a87.",
+      "order": 109,
       "created": "2026-11-13T13:38:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Subject + icon B3"
     },
     {
@@ -345,10 +356,10 @@
       "text": "Game question count fix CLOSED LIVE main-i8ZV68hU",
       "owner": "Wayne",
       "status": "done",
-      "note": "Live Nov 13 3:48 PM CT, md5 6e33ae03",
-      "order": 107,
+      "note": "Live Nov 13 3:48 PM CT, md5 6e33ae03.",
+      "order": 110,
       "created": "2026-11-13T15:48:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Game question count"
     },
     {
@@ -357,9 +368,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Not a product bug. Will said the old plan’s request limits caused it; the upgrade resolved it.",
-      "order": 108,
+      "order": 111,
       "created": "2026-11-13T16:00:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Account Blocked"
     },
     {
@@ -368,9 +379,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Live Nov 8. Moved to Done in the Nov 14 parked audit (Jimmy OK).",
-      "order": 109,
+      "order": 112,
       "created": "2026-11-08T20:42:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "GT Create/Edit"
     },
     {
@@ -379,9 +390,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Live Nov 8. Moved to Done in the Nov 14 parked audit (Jimmy OK).",
-      "order": 110,
+      "order": 113,
       "created": "2026-11-08T22:36:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Lesson saved modal"
     },
     {
@@ -390,9 +401,9 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Live Nov 9. Moved to Done in the Nov 14 parked audit (Jimmy OK).",
-      "order": 111,
+      "order": 114,
       "created": "2026-11-09T00:45:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Quiz multi-image"
     },
     {
@@ -401,21 +412,10 @@
       "owner": "Wayne",
       "status": "done",
       "note": "Live Nov 9. Moved to Done in the Nov 14 parked audit (Jimmy OK).",
-      "order": 112,
+      "order": 115,
       "created": "2026-11-09T08:45:00-06:00",
-      "updated": "2026-11-15T09:28:00-06:00",
+      "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Unit cascade"
-    },
-    {
-      "id": "lc-end-of-circle-report-v2",
-      "summary": "Circle report v2",
-      "text": "LC end-of-circle report v2 — Will GO to publish if it meets the spec",
-      "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Preview, then Bug Hunter test, then Publish. Jimmy verifies.",
-      "order": 0,
-      "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-15T17:13:00-06:00"
     }
   ]
 }
