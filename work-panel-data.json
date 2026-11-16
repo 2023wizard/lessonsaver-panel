@@ -1,7 +1,7 @@
 {
-  "version": 11,
-  "updated": "2026-11-16T08:00:00-06:00",
-  "headline": "Nov 16 8:00 AM · Quiz frame live, waiting on Will to test · Grade-push finding: first 50 assignments; waiting on Will to OK the fix",
+  "version": 12,
+  "updated": "2026-11-16T08:15:00-06:00",
+  "headline": "Nov 16 8:15 AM · Grade-push fix building on Preview · Quiz frame live, waiting on Will to test",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -490,12 +490,12 @@
     {
       "id": "canvas-grade-push-common-assessment",
       "text": "Canvas grade push hides assignments moved to the Common Assessment group.",
-      "owner": "Brian",
-      "status": "delayed",
-      "note": "Found it: grade push only reads the first 50 assignments. Waiting on Will to OK the fix.",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Fix in progress on Preview: reads all assignments now. Brian tests in a sandbox. Publish needs Will.",
       "order": 4,
       "created": "2026-11-16T07:56:00-06:00",
-      "updated": "2026-11-16T08:00:00-06:00",
+      "updated": "2026-11-16T08:15:00-06:00",
       "summary": "Canvas grade push groups"
     }
   ]
