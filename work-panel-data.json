@@ -1,7 +1,7 @@
 {
-  "version": 19,
-  "updated": "2026-11-16T12:35:00-06:00",
-  "headline": "Nov 16 12:35 PM · LC Report PDF is live — waiting on Will to test it",
+  "version": 20,
+  "updated": "2026-11-16T17:41:00-06:00",
+  "headline": "Nov 16 5:41 PM · Image cap fix is Active — admin exemption deploying; monthly cap on Preview",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -11,12 +11,23 @@
   ],
   "items": [
     {
+      "id": "image-cap-fix",
+      "text": "Image cap fix (Guided Tutorial 100-image limit)",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Admin exemption deploying now. Monthly cap for everyone else is on Preview; going live needs Will’s GO.",
+      "order": 0,
+      "created": "2026-11-16T17:41:00-06:00",
+      "updated": "2026-11-16T17:41:00-06:00",
+      "summary": "Image cap fix"
+    },
+    {
       "id": "lc-report-pdf",
       "text": "LC Report PDF: full report matching the panel",
       "owner": "Wayne",
       "status": "delayed",
       "note": "Live now. Waiting on Will to test it.",
-      "order": 0,
+      "order": 1,
       "created": "2026-11-16T12:15:00-06:00",
       "updated": "2026-11-16T12:35:00-06:00",
       "summary": "LC Report PDF"
