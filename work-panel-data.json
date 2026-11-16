@@ -1,7 +1,7 @@
 {
-  "version": 14,
-  "updated": "2026-11-16T10:28:00-06:00",
-  "headline": "Nov 16 10:28 AM · Grade-push: Will gave the GO; Wayne publishing now; Will tests it live after",
+  "version": 15,
+  "updated": "2026-11-16T10:58:00-06:00",
+  "headline": "Nov 16 10:58 AM · Grade-push and LC report v2 are live · Waiting on Will to test",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -47,13 +47,13 @@
     },
     {
       "id": "lc-end-of-circle-report-v2",
-      "text": "LC end-of-circle report v2 — on Preview behind its kill switch",
+      "text": "LC end-of-circle report v2",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "On Preview behind its kill switch.",
+      "status": "delayed",
+      "note": "Live now. Shipped in the same publish. Waiting on Will to test it.",
       "order": 2,
       "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-15T20:42:00-06:00",
+      "updated": "2026-11-16T10:58:00-06:00",
       "summary": "Circle report v2",
       "lane": "branch"
     },
@@ -491,11 +491,11 @@
       "id": "canvas-grade-push-common-assessment",
       "text": "Canvas grade push hides assignments moved to the Common Assessment group.",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will gave the GO. Wayne is publishing now. Will tests it live after.",
+      "status": "delayed",
+      "note": "Live now. Waiting on Will to test it.",
       "order": 4,
       "created": "2026-11-16T07:56:00-06:00",
-      "updated": "2026-11-16T10:28:00-06:00",
+      "updated": "2026-11-16T10:58:00-06:00",
       "summary": "Canvas grade push groups"
     }
   ]
