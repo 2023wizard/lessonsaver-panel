@@ -111,7 +111,8 @@ html.dark .summ .tip,body.dark .summ .tip{border:1px solid var(--control-border)
 .s-open{color:var(--violet)}.s-in-flight{color:var(--accent)}.s-bumped{color:var(--orange)}.s-delayed{color:var(--amber)}.s-parked{color:var(--muted)}.s-shelved{color:var(--shelved)}.s-done{color:var(--green)}
 .who{display:inline-flex;align-items:center;gap:6px;font-size:13px;white-space:nowrap}
 .av{width:20px;height:20px;border-radius:4px;color:#fff;font-size:10px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex:none}
-.o-Wayne{background:#1d4ed8}.o-BugHunter{background:#b91c1c}.o-Casey{background:#7e22ce}.o-Jimmy{background:#0f766e}.o-Will{background:#a16207}
+.o-Wayne{background:#1d4ed8}.o-BugHunter{background:#b91c1c}.o-Casey{background:#7e22ce}.o-Jimmy{background:#0f766e}.o-Will{background:#a16207}.o-Quinn{background:#be185d}
+.lane{font-size:10px;font-weight:700;padding:1px 6px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}.lane-branch{color:#1d4ed8}.lane-quickfix{color:#be185d}
 .when{font-size:12px;color:var(--muted);white-space:nowrap}
 .pri{font-size:11px;font-weight:700;white-space:nowrap}
 .p-high{color:var(--red)}.p-normal{color:var(--text)}.p-low{color:var(--muted)}.p-none{color:var(--auto);font-weight:400}
@@ -595,7 +596,7 @@ footer{padding:14px 18px;color:var(--muted);font-size:12px;border-top:1px solid 
 <script>
 (function(){
 "use strict";
-var OWNERS=["Wayne","Bug Hunter","Casey","Jimmy","Will"];
+var OWNERS=["Wayne","Bug Hunter","Casey","Jimmy","Will","Quinn"];
 var STATUSES=["open","in-flight","bumped","delayed","parked","shelved","done"];
 var PRIS=["high","normal","low"];
 var CACHE_KEY="ls-work-panel-cache-v1";
@@ -660,6 +661,7 @@ function normItem(it,i){
   if(PRIS.indexOf(it.priority)>=0)o.priority=it.priority;
   if(it.note)o.note=String(it.note);
   if(it.prevStatus)o.prevStatus=it.prevStatus;
+  if(it.lane==="branch"||it.lane==="quickfix")o.lane=it.lane;
   return o;
 }
 
@@ -803,7 +805,7 @@ function render(){
         '<div class="summ" role="button" tabindex="0" aria-expanded="'+(state.open[it.id]?"true":"false")+'" data-act="toggle"><span class="handle" title="Drag to reorder">⋮⋮</span>'+esc(sum)+
           '<span class="tip" role="tooltip">'+esc(blurbOf(it))+'<small>'+esc(it.owner)+' · '+esc(it.status)+(al?' · ⚠ '+esc(al.level):"")+' · click for full details</small></span></div>'+
         '<span class="pill s-'+it.status+'">'+it.status+'</span>'+
-        '<span class="who"><span class="av o-'+ok+'">'+initials(it.owner)+'</span>'+esc(it.owner)+'</span>'+
+        '<span class="who"><span class="av o-'+ok+'">'+initials(it.owner)+'</span>'+esc(it.owner)+(it.lane==="branch"||it.lane==="quickfix"?' <span class="lane lane-'+it.lane+'">'+(it.lane==="branch"?"Branch":"Quick fix")+'</span>':'')+'</span>'+
         '<span class="when" title="updated '+esc(it.updated||it.created)+' · opened '+esc(it.created)+'">'+esc(fmt(it.updated||it.created))+'</span>'+
         '<span class="pri p-'+(pr||"none")+'">'+(pr||"—")+(it.priority?"":(pr?' <span style="font-weight:400;color:var(--auto)" title="derived">·auto</span>':""))+'</span>'+
       '</div>'+
@@ -947,7 +949,7 @@ function exportObj(){
     items:state.data.items.slice().sort(function(x,y){return x.order-y.order;}).map(function(it,i){
       var o={id:it.id};if(it.summary)o.summary=it.summary;if(it.blurb)o.blurb=it.blurb;
       o.text=it.text;o.owner=it.owner;o.status=it.status;if(it.priority)o.priority=it.priority;o.created=it.created;o.updated=it.updated;
-      if(it.note)o.note=it.note;if(it.prevStatus&&it.status==="done")o.prevStatus=it.prevStatus;o.order=i;return o;})};
+      if(it.note)o.note=it.note;if(it.lane)o.lane=it.lane;if(it.prevStatus&&it.status==="done")o.prevStatus=it.prevStatus;o.order=i;return o;})};
 }
 $("exportBtn").addEventListener("click",function(){
   var blob=new Blob([JSON.stringify(exportObj(),null,2)+"\n"],{type:"application/json"});
