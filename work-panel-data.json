@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-15T17:35:00-06:00",
-  "headline": "Nov 15 5:35 PM · Will closed footer links, remaining bot logins, SOC 2 roadmap, and the base44 plan",
+  "updated": "2026-11-15T17:58:00-06:00",
+  "headline": "Nov 15 5:58 PM · Report v2 on Preview (testing, then Publish) · Blank-panel snapshot with Will · new parked View-report list button",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -12,24 +12,24 @@
   "items": [
     {
       "id": "lc-end-of-circle-report-v2",
-      "text": "LC end-of-circle report v2 — Will GO to publish if it meets the spec",
+      "text": "LC end-of-circle report v2 — on Preview, not live",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Preview, then Bug Hunter test, then Publish. Jimmy verifies.",
+      "note": "On Preview; testing, then Publish. Next is Bug Hunter + Lucy PASS, then Publish. Will added a persistence requirement: past circles reopen their report. Wayne confirms the report is computed live from stored rows and that this build covers that.",
       "order": 0,
       "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-15T17:28:00-06:00",
+      "updated": "2026-11-15T17:58:00-06:00",
       "summary": "Circle report v2"
     },
     {
       "id": "blank-panel-inventory",
       "text": "Blank-panel inventory + snapshot PDF (Home and /Features What’s Inside cards)",
       "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "Lucy leads. She is screenshotting every blank or missing panel for Will’s approval. Next: Will’s review. Not a new row — merged into this item.",
-      "order": 1,
+      "status": "delayed",
+      "note": "Waiting on Will’s approval. Snapshot PDF went to Will at 5:51 PM CT. It shows 11 blanks, the same as Nov 13. Lucy leads.",
+      "order": 10,
       "created": "2026-11-15T09:28:00-06:00",
-      "updated": "2026-11-15T17:28:00-06:00",
+      "updated": "2026-11-15T17:58:00-06:00",
       "summary": "Blank panels"
     },
     {
@@ -38,7 +38,7 @@
       "owner": "Jimmy",
       "status": "delayed",
       "note": "After the bank account is open, configure Stripe and site payments so it’s ready when Will wants to charge.",
-      "order": 10,
+      "order": 11,
       "created": "2026-11-13T22:49:00-06:00",
       "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Stripe + payments"
@@ -49,7 +49,7 @@
       "owner": "Will",
       "status": "delayed",
       "note": "Show groups / stuck flags already shipped in the Nov 14 12:47 PM CT publish; only the number is still open.",
-      "order": 11,
+      "order": 12,
       "created": "2026-11-13T16:00:00-06:00",
       "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Stuck-minutes"
@@ -60,7 +60,7 @@
       "owner": "Jimmy",
       "status": "delayed",
       "note": "No detailed pack found; details sit with Jimmy.",
-      "order": 12,
+      "order": 13,
       "created": "2026-11-13T16:00:00-06:00",
       "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Free-tier picks"
@@ -416,6 +416,17 @@
       "created": "2026-11-09T08:45:00-06:00",
       "updated": "2026-11-15T17:28:00-06:00",
       "summary": "Unit cascade"
+    },
+    {
+      "id": "lc-list-view-report-button",
+      "text": "LC list “View report” button on finished circles",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Lucy idea. Deferred; not needed now. Lucy on the design, Wayne to build later. Depends on report v2.",
+      "order": 19,
+      "created": "2026-11-15T17:58:00-06:00",
+      "updated": "2026-11-15T17:58:00-06:00",
+      "summary": "View-report button"
     }
   ]
 }
