@@ -1,7 +1,7 @@
 {
-  "version": 8,
-  "updated": "2026-11-16T00:05:00-06:00",
-  "headline": "Nov 16 12:05 AM · Quiz frame taller in flight · Parked research: estimate moving image links to our own domain",
+  "version": 9,
+  "updated": "2026-11-16T07:43:00-06:00",
+  "headline": "Nov 16 7:43 AM · Quiz frame taller: Will OK'd Publish; publishing now, Jimmy verifying",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -16,10 +16,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "quickfix",
-      "note": "Make the quiz frame taller, keep the picture full size. Preview first; Publish needs Will. Wayne for now, Quinn once set up.",
+      "note": "Will OK'd Publish Nov 16, 7:43 AM. Publishing now; Jimmy verifying.",
       "order": 0,
       "created": "2026-11-16T00:01:00-06:00",
-      "updated": "2026-11-16T00:01:00-06:00",
+      "updated": "2026-11-16T07:43:00-06:00",
       "summary": "Taller quiz frame"
     },
     {
