@@ -1,7 +1,7 @@
 {
-  "version": 20,
-  "updated": "2026-11-16T17:41:00-06:00",
-  "headline": "Nov 16 5:41 PM · Image cap fix is Active — admin exemption deploying; monthly cap on Preview",
+  "version": 21,
+  "updated": "2026-11-16T17:49:00-06:00",
+  "headline": "Nov 16 5:49 PM · Homepage hub is publishing — Will gave the GO",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -11,12 +11,23 @@
   ],
   "items": [
     {
+      "id": "homepage-hub-update",
+      "text": "Homepage hub update (Lucy design)",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Will gave the GO. Wayne is publishing it now.",
+      "order": 0,
+      "created": "2026-11-16T17:49:00-06:00",
+      "updated": "2026-11-16T17:49:00-06:00",
+      "summary": "Homepage hub"
+    },
+    {
       "id": "image-cap-fix",
       "text": "Image cap fix (Guided Tutorial 100-image limit)",
       "owner": "Wayne",
       "status": "in-flight",
       "note": "Admin exemption deploying now. Monthly cap for everyone else is on Preview; going live needs Will’s GO.",
-      "order": 0,
+      "order": 1,
       "created": "2026-11-16T17:41:00-06:00",
       "updated": "2026-11-16T17:41:00-06:00",
       "summary": "Image cap fix"
