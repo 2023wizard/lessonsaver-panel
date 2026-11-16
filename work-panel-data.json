@@ -1,7 +1,7 @@
 {
-  "version": 15,
-  "updated": "2026-11-16T10:58:00-06:00",
-  "headline": "Nov 16 10:58 AM · Grade-push and LC report v2 are live · Waiting on Will to test",
+  "version": 16,
+  "updated": "2026-11-16T12:03:00-06:00",
+  "headline": "Nov 16 12:03 PM · Canvas grade push is Done — Will tested it live and said it worked perfect",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -491,11 +491,11 @@
       "id": "canvas-grade-push-common-assessment",
       "text": "Canvas grade push hides assignments moved to the Common Assessment group.",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live now. Waiting on Will to test it.",
+      "status": "done",
+      "note": "Live and tested by Will. Works great.",
       "order": 4,
       "created": "2026-11-16T07:56:00-06:00",
-      "updated": "2026-11-16T10:58:00-06:00",
+      "updated": "2026-11-16T12:03:00-06:00",
       "summary": "Canvas grade push groups"
     }
   ]
