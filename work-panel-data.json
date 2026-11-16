@@ -1,7 +1,7 @@
 {
-  "version": 18,
-  "updated": "2026-11-16T12:21:00-06:00",
-  "headline": "Nov 16 12:21 PM · LC report v2 is Done — Will tested it live and said the reports look fantastic",
+  "version": 19,
+  "updated": "2026-11-16T12:35:00-06:00",
+  "headline": "Nov 16 12:35 PM · LC Report PDF is live — waiting on Will to test it",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -12,14 +12,14 @@
   "items": [
     {
       "id": "lc-report-pdf",
-      "text": "LC Report PDF: Download class recap (no names)",
+      "text": "LC Report PDF: full report matching the panel",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will gave the GO. Wayne is building and publishing it. Will tests it live after.",
+      "status": "delayed",
+      "note": "Live now. Waiting on Will to test it.",
       "order": 0,
       "created": "2026-11-16T12:15:00-06:00",
-      "updated": "2026-11-16T12:15:00-06:00",
-      "summary": "Class recap PDF"
+      "updated": "2026-11-16T12:35:00-06:00",
+      "summary": "LC Report PDF"
     },
     {
       "id": "quiz-image-frame-taller",
