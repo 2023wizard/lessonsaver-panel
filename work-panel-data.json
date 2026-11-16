@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "updated": "2026-11-15T17:58:00-06:00",
-  "headline": "Nov 15 5:58 PM · Report v2 on Preview (testing, then Publish) · Blank-panel snapshot with Will · new parked View-report list button",
+  "version": 2,
+  "updated": "2026-11-15T19:54:00-06:00",
+  "headline": "Nov 15 7:54 PM · AI Media Prompts refresh button in flight (Will OK’d Publish; he’ll test once live)",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -11,12 +11,23 @@
   ],
   "items": [
     {
+      "id": "ai-media-prompts-refresh-button",
+      "text": "AI Media Prompts: Refresh from lesson button",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Building now. Will OK’d Publish and will test once live.",
+      "order": 0,
+      "created": "2026-11-15T19:54:00-06:00",
+      "updated": "2026-11-15T19:54:00-06:00",
+      "summary": "Refresh prompts"
+    },
+    {
       "id": "lc-end-of-circle-report-v2",
       "text": "LC end-of-circle report v2 — on Preview, not live",
       "owner": "Wayne",
       "status": "in-flight",
       "note": "On Preview; testing, then Publish. Next is Bug Hunter + Lucy PASS, then Publish. Will added a persistence requirement: past circles reopen their report. Wayne confirms the report is computed live from stored rows and that this build covers that.",
-      "order": 0,
+      "order": 1,
       "created": "2026-11-15T17:13:00-06:00",
       "updated": "2026-11-15T17:58:00-06:00",
       "summary": "Circle report v2"
