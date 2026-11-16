@@ -805,7 +805,7 @@ function render(){
         '<div class="summ" role="button" tabindex="0" aria-expanded="'+(state.open[it.id]?"true":"false")+'" data-act="toggle"><span class="handle" title="Drag to reorder">⋮⋮</span>'+esc(sum)+
           '<span class="tip" role="tooltip">'+esc(blurbOf(it))+'<small>'+esc(it.owner)+' · '+esc(it.status)+(al?' · ⚠ '+esc(al.level):"")+' · click for full details</small></span></div>'+
         '<span class="pill s-'+it.status+'">'+it.status+'</span>'+
-        '<span class="who"><span class="av o-'+ok+'">'+initials(it.owner)+'</span>'+esc(it.owner)+(it.lane==="branch"||it.lane==="quickfix"?' <span class="lane lane-'+it.lane+'">'+(it.lane==="branch"?"Branch":"Quick fix")+'</span>':'')+'</span>'+
+        '<span class="who"><span class="av o-'+ok+'">'+initials(it.owner)+'</span>'+esc(it.owner)+(it.lane==="branch"||it.lane==="quickfix"?' <span class="lane lane-'+it.lane+'">'+(it.lane==="branch"?"Big project":"Quick fix")+'</span>':'')+'</span>'+
         '<span class="when" title="updated '+esc(it.updated||it.created)+' · opened '+esc(it.created)+'">'+esc(fmt(it.updated||it.created))+'</span>'+
         '<span class="pri p-'+(pr||"none")+'">'+(pr||"—")+(it.priority?"":(pr?' <span style="font-weight:400;color:var(--auto)" title="derived">·auto</span>':""))+'</span>'+
       '</div>'+

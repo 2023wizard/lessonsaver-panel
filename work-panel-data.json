@@ -1,7 +1,7 @@
 {
-  "version": 4,
-  "updated": "2026-11-15T20:36:00-06:00",
-  "headline": "Nov 15 8:36 PM · AI Media Prompts refresh button live, waiting on Will to test · Report v2 off Preview, on branch lc-report-v2",
+  "version": 5,
+  "updated": "2026-11-15T20:42:00-06:00",
+  "headline": "Nov 15 8:42 PM · Report v2 on Preview behind its kill switch · AI Media Prompts live, waiting on Will · branch plan dropped",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -15,10 +15,10 @@
       "text": "Quinn setup: bot account + onboarding",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Wayne and Jimmy. Big projects get their own branch, starting with LC Report v2. Quinn takes quick fixes.",
+      "note": "Wayne and Jimmy. Wayne takes big projects, Quinn takes quick fixes. Publishes go through Jimmy.",
       "order": 0,
       "created": "2026-11-15T20:07:00-06:00",
-      "updated": "2026-11-15T20:07:00-06:00",
+      "updated": "2026-11-15T20:42:00-06:00",
       "summary": "Quinn setup"
     },
     {
@@ -26,22 +26,22 @@
       "text": "AI Media Prompts: Refresh from lesson button",
       "owner": "Wayne",
       "status": "delayed",
-      "note": "Live Nov 15, 8:35 PM. Waiting on Will to test.",
+      "note": "Live Nov 15, 8:35 PM, published from main. Waiting on Will to test.",
       "order": 10,
       "created": "2026-11-15T19:54:00-06:00",
-      "updated": "2026-11-15T20:36:00-06:00",
+      "updated": "2026-11-15T20:42:00-06:00",
       "summary": "Refresh prompts",
       "lane": "branch"
     },
     {
       "id": "lc-end-of-circle-report-v2",
-      "text": "LC end-of-circle report v2 — continues on branch lc-report-v2",
+      "text": "LC end-of-circle report v2 — on Preview behind its kill switch",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Rolled back off Preview before the 8:35 PM publish (per Wayne). Continues on its own branch, lc-report-v2.",
+      "note": "On Preview behind its kill switch.",
       "order": 1,
       "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-15T20:36:00-06:00",
+      "updated": "2026-11-15T20:42:00-06:00",
       "summary": "Circle report v2",
       "lane": "branch"
     },
