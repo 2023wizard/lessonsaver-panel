@@ -1,7 +1,7 @@
 {
-  "version": 6,
-  "updated": "2026-11-15T21:26:00-06:00",
-  "headline": "Nov 15 9:26 PM · AI Media Prompts Done (Will: perfect) · Wayne admin + Pro plan Done · Quinn setup blocked on a verification email",
+  "version": 8,
+  "updated": "2026-11-16T00:05:00-06:00",
+  "headline": "Nov 16 12:05 AM · Quiz frame taller in flight · Parked research: estimate moving image links to our own domain",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -11,12 +11,24 @@
   ],
   "items": [
     {
+      "id": "quiz-image-frame-taller",
+      "text": "Quiz image questions: make the quiz frame taller so answers show without scrolling.",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "quickfix",
+      "note": "Make the quiz frame taller, keep the picture full size. Preview first; Publish needs Will. Wayne for now, Quinn once set up.",
+      "order": 0,
+      "created": "2026-11-16T00:01:00-06:00",
+      "updated": "2026-11-16T00:01:00-06:00",
+      "summary": "Taller quiz frame"
+    },
+    {
       "id": "quinn-setup-bot-onboarding",
       "text": "Quinn setup: bot account + onboarding",
       "owner": "Wayne",
       "status": "in-flight",
       "note": "Wayne and Jimmy. Blocked: waiting on a base44 verification email; Wayne retrying.",
-      "order": 0,
+      "order": 1,
       "created": "2026-11-15T20:07:00-06:00",
       "updated": "2026-11-15T21:26:00-06:00",
       "summary": "Quinn setup"
@@ -39,7 +51,7 @@
       "owner": "Wayne",
       "status": "in-flight",
       "note": "On Preview behind its kill switch.",
-      "order": 1,
+      "order": 2,
       "created": "2026-11-15T17:13:00-06:00",
       "updated": "2026-11-15T20:42:00-06:00",
       "summary": "Circle report v2",
@@ -462,6 +474,18 @@
       "created": "2026-11-15T21:26:00-06:00",
       "updated": "2026-11-15T21:26:00-06:00",
       "summary": "Wayne admin + Pro"
+    },
+    {
+      "id": "serve-uploaded-images-own-domain",
+      "text": "Serve uploaded images from a lessonsaver.ai URL instead of media.base44.com",
+      "owner": "Wayne",
+      "status": "parked",
+      "lane": "branch",
+      "note": "Research only: estimate moving image links to our own domain.",
+      "order": 53,
+      "created": "2026-11-16T00:05:00-06:00",
+      "updated": "2026-11-16T00:05:00-06:00",
+      "summary": "Image hosting estimate"
     }
   ]
 }
