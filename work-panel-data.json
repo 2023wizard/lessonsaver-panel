@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "updated": "2026-11-15T20:07:00-06:00",
-  "headline": "Nov 15 8:07 PM · Quinn setup in flight · Report v2 moving to branch lc-report-v2",
+  "version": 4,
+  "updated": "2026-11-15T20:36:00-06:00",
+  "headline": "Nov 15 8:36 PM · AI Media Prompts refresh button live, waiting on Will to test · Report v2 off Preview, on branch lc-report-v2",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -25,22 +25,23 @@
       "id": "ai-media-prompts-refresh-button",
       "text": "AI Media Prompts: Refresh from lesson button",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Building now. Will OK’d Publish and will test once live.",
-      "order": 2,
+      "status": "delayed",
+      "note": "Live Nov 15, 8:35 PM. Waiting on Will to test.",
+      "order": 10,
       "created": "2026-11-15T19:54:00-06:00",
-      "updated": "2026-11-15T19:54:00-06:00",
-      "summary": "Refresh prompts"
+      "updated": "2026-11-15T20:36:00-06:00",
+      "summary": "Refresh prompts",
+      "lane": "branch"
     },
     {
       "id": "lc-end-of-circle-report-v2",
-      "text": "LC end-of-circle report v2 — on Preview, not live",
+      "text": "LC end-of-circle report v2 — continues on branch lc-report-v2",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "On Preview; testing, then Publish. Next is Bug Hunter + Lucy PASS, then Publish. Will added a persistence requirement: past circles reopen their report. Wayne confirms the report is computed live from stored rows and that this build covers that. Moving to its own branch, lc-report-v2 — first project on the new branch workflow.",
+      "note": "Rolled back off Preview before the 8:35 PM publish (per Wayne). Continues on its own branch, lc-report-v2.",
       "order": 1,
       "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-15T20:07:00-06:00",
+      "updated": "2026-11-15T20:36:00-06:00",
       "summary": "Circle report v2",
       "lane": "branch"
     },
