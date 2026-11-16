@@ -1,7 +1,7 @@
 {
-  "version": 10,
-  "updated": "2026-11-16T07:56:00-06:00",
-  "headline": "Nov 16 7:56 AM · New: Canvas grade-push research (Brian) · Quiz frame still publishing, Jimmy verifying",
+  "version": 11,
+  "updated": "2026-11-16T08:00:00-06:00",
+  "headline": "Nov 16 8:00 AM · Quiz frame live, waiting on Will to test · Grade-push finding: first 50 assignments; waiting on Will to OK the fix",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -14,12 +14,12 @@
       "id": "quiz-image-frame-taller",
       "text": "Quiz image questions: make the quiz frame taller so answers show without scrolling.",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "delayed",
       "lane": "quickfix",
-      "note": "Will OK'd Publish Nov 16, 7:43 AM. Publishing now; Jimmy verifying.",
+      "note": "Live Nov 16, 8 AM. Waiting on Will to test.",
       "order": 0,
       "created": "2026-11-16T00:01:00-06:00",
-      "updated": "2026-11-16T07:43:00-06:00",
+      "updated": "2026-11-16T08:00:00-06:00",
       "summary": "Taller quiz frame"
     },
     {
@@ -491,11 +491,11 @@
       "id": "canvas-grade-push-common-assessment",
       "text": "Canvas grade push hides assignments moved to the Common Assessment group.",
       "owner": "Brian",
-      "status": "in-flight",
-      "note": "Research first. Goal: grades push no matter which Canvas group the assignment is in. Fix needs Will.",
+      "status": "delayed",
+      "note": "Found it: grade push only reads the first 50 assignments. Waiting on Will to OK the fix.",
       "order": 4,
       "created": "2026-11-16T07:56:00-06:00",
-      "updated": "2026-11-16T07:56:00-06:00",
+      "updated": "2026-11-16T08:00:00-06:00",
       "summary": "Canvas grade push groups"
     }
   ]
