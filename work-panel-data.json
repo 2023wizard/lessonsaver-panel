@@ -1,7 +1,7 @@
 {
-  "version": 5,
-  "updated": "2026-11-15T20:42:00-06:00",
-  "headline": "Nov 15 8:42 PM · Report v2 on Preview behind its kill switch · AI Media Prompts live, waiting on Will · branch plan dropped",
+  "version": 6,
+  "updated": "2026-11-15T21:26:00-06:00",
+  "headline": "Nov 15 9:26 PM · AI Media Prompts Done (Will: perfect) · Wayne admin + Pro plan Done · Quinn setup blocked on a verification email",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -15,21 +15,21 @@
       "text": "Quinn setup: bot account + onboarding",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Wayne and Jimmy. Wayne takes big projects, Quinn takes quick fixes. Publishes go through Jimmy.",
+      "note": "Wayne and Jimmy. Blocked: waiting on a base44 verification email; Wayne retrying.",
       "order": 0,
       "created": "2026-11-15T20:07:00-06:00",
-      "updated": "2026-11-15T20:42:00-06:00",
+      "updated": "2026-11-15T21:26:00-06:00",
       "summary": "Quinn setup"
     },
     {
       "id": "ai-media-prompts-refresh-button",
-      "text": "AI Media Prompts: Refresh from lesson button",
+      "text": "AI Media Prompts: Refresh from lesson button — CLOSED LIVE",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live Nov 15, 8:35 PM, published from main. Waiting on Will to test.",
-      "order": 10,
+      "status": "done",
+      "note": "Live Nov 15. Will tested: perfect.",
+      "order": 90,
       "created": "2026-11-15T19:54:00-06:00",
-      "updated": "2026-11-15T20:42:00-06:00",
+      "updated": "2026-11-15T21:26:00-06:00",
       "summary": "Refresh prompts",
       "lane": "branch"
     },
@@ -451,6 +451,17 @@
       "created": "2026-11-15T17:58:00-06:00",
       "updated": "2026-11-15T17:58:00-06:00",
       "summary": "View-report button"
+    },
+    {
+      "id": "wayne-admin-pro-plan",
+      "text": "Wayne admin + Pro plan — Done",
+      "owner": "Wayne",
+      "status": "done",
+      "note": "Wayne is a full admin on the Pro plan, per Will’s 8:17 PM rule. A separate Free account is only for testing gates.",
+      "order": 91,
+      "created": "2026-11-15T21:26:00-06:00",
+      "updated": "2026-11-15T21:26:00-06:00",
+      "summary": "Wayne admin + Pro"
     }
   ]
 }
