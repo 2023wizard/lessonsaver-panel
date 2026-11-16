@@ -1,7 +1,7 @@
 {
-  "version": 16,
-  "updated": "2026-11-16T12:03:00-06:00",
-  "headline": "Nov 16 12:03 PM · Canvas grade push is Done — Will tested it live and said it worked perfect",
+  "version": 18,
+  "updated": "2026-11-16T12:21:00-06:00",
+  "headline": "Nov 16 12:21 PM · LC report v2 is Done — Will tested it live and said the reports look fantastic",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -11,13 +11,24 @@
   ],
   "items": [
     {
+      "id": "lc-report-pdf",
+      "text": "LC Report PDF: Download class recap (no names)",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Will gave the GO. Wayne is building and publishing it. Will tests it live after.",
+      "order": 0,
+      "created": "2026-11-16T12:15:00-06:00",
+      "updated": "2026-11-16T12:15:00-06:00",
+      "summary": "Class recap PDF"
+    },
+    {
       "id": "quiz-image-frame-taller",
       "text": "Quiz image questions: make the quiz frame taller so answers show without scrolling.",
       "owner": "Wayne",
       "status": "delayed",
       "lane": "quickfix",
       "note": "Live Nov 16, 8 AM. Waiting on Will to test.",
-      "order": 0,
+      "order": 3,
       "created": "2026-11-16T00:01:00-06:00",
       "updated": "2026-11-16T08:00:00-06:00",
       "summary": "Taller quiz frame"
@@ -49,11 +60,11 @@
       "id": "lc-end-of-circle-report-v2",
       "text": "LC end-of-circle report v2",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live now. Shipped in the same publish. Waiting on Will to test it.",
+      "status": "done",
+      "note": "Live. Will tested it and loves it. PDF follow-up is its own item.",
       "order": 2,
       "created": "2026-11-15T17:13:00-06:00",
-      "updated": "2026-11-16T10:58:00-06:00",
+      "updated": "2026-11-16T12:21:00-06:00",
       "summary": "Circle report v2",
       "lane": "branch"
     },
