@@ -1,7 +1,7 @@
 {
-  "version": 9,
-  "updated": "2026-11-16T07:43:00-06:00",
-  "headline": "Nov 16 7:43 AM · Quiz frame taller: Will OK'd Publish; publishing now, Jimmy verifying",
+  "version": 10,
+  "updated": "2026-11-16T07:56:00-06:00",
+  "headline": "Nov 16 7:56 AM · New: Canvas grade-push research (Brian) · Quiz frame still publishing, Jimmy verifying",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -486,6 +486,17 @@
       "created": "2026-11-16T00:05:00-06:00",
       "updated": "2026-11-16T00:05:00-06:00",
       "summary": "Image hosting estimate"
+    },
+    {
+      "id": "canvas-grade-push-common-assessment",
+      "text": "Canvas grade push hides assignments moved to the Common Assessment group.",
+      "owner": "Brian",
+      "status": "in-flight",
+      "note": "Research first. Goal: grades push no matter which Canvas group the assignment is in. Fix needs Will.",
+      "order": 4,
+      "created": "2026-11-16T07:56:00-06:00",
+      "updated": "2026-11-16T07:56:00-06:00",
+      "summary": "Canvas grade push groups"
     }
   ]
 }
