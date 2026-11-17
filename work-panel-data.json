@@ -1,7 +1,7 @@
 {
-  "version": 27,
-  "updated": "2026-11-17T07:18:00-06:00",
-  "headline": "Nov 17 7:18 AM · Insights unit growth is Active — Wayne checking feasibility; Lucy making a mock",
+  "version": 28,
+  "updated": "2026-11-17T07:24:00-06:00",
+  "headline": "Nov 17 7:24 AM · Access check almost done; two parked data-exposure looks waiting on Will",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -27,11 +27,33 @@
       "text": "LC Report access check",
       "owner": "Bug Hunter",
       "status": "open",
-      "note": "Check that the report and the PDF are blocked for other teachers and signed-out users.",
+      "note": "Data check passed. Last step: re-check the signed-out view.",
       "order": 0,
       "created": "2026-11-17T07:09:00-06:00",
-      "updated": "2026-11-17T07:09:00-06:00",
+      "updated": "2026-11-17T07:24:00-06:00",
       "summary": "Report access check"
+    },
+    {
+      "id": "signed-out-lesson-list-exposure",
+      "text": "Signed-out lesson list exposure",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Signed-out visitors can see the lesson list. Wayne to look; no change until Will reviews.",
+      "order": 16,
+      "created": "2026-11-17T07:24:00-06:00",
+      "updated": "2026-11-17T07:24:00-06:00",
+      "summary": "Signed-out lesson list"
+    },
+    {
+      "id": "live-game-roster-visibility",
+      "text": "Live game roster visibility",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Game roster (first name, last initial, scores) is visible with the room code, by design. Low priority; Will to review.",
+      "order": 17,
+      "created": "2026-11-17T07:24:00-06:00",
+      "updated": "2026-11-17T07:24:00-06:00",
+      "summary": "Live game roster"
     },
     {
       "id": "homepage-hub-update",
