@@ -1,7 +1,7 @@
 {
-  "version": 28,
-  "updated": "2026-11-17T07:24:00-06:00",
-  "headline": "Nov 17 7:24 AM · Access check almost done; two parked data-exposure looks waiting on Will",
+  "version": 29,
+  "updated": "2026-11-17T07:34:00-06:00",
+  "headline": "Nov 17 7:34 AM · Access check passed; Wayne is building Growth Across Units on Preview",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -12,25 +12,25 @@
   "items": [
     {
       "id": "insights-unit-to-unit-standard-growth",
-      "text": "Insights unit-to-unit standard growth",
+      "text": "Insights: Growth Across Units",
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Wayne checking if it can be done; Lucy making a mock. No build until Will approves the mock.",
+      "note": "Will said build it. Wayne building on Preview. Publish needs Will's go.",
       "order": 0,
       "created": "2026-11-17T07:18:00-06:00",
-      "updated": "2026-11-17T07:18:00-06:00",
-      "summary": "Insights unit growth"
+      "updated": "2026-11-17T07:34:00-06:00",
+      "summary": "Growth Across Units"
     },
     {
       "id": "lc-report-access-check",
       "text": "LC Report access check",
       "owner": "Bug Hunter",
-      "status": "open",
-      "note": "Data check passed. Last step: re-check the signed-out view.",
+      "status": "done",
+      "note": "Passed. Signed-out visitors are sent to login.",
       "order": 0,
       "created": "2026-11-17T07:09:00-06:00",
-      "updated": "2026-11-17T07:24:00-06:00",
+      "updated": "2026-11-17T07:30:00-06:00",
       "summary": "Report access check"
     },
     {
