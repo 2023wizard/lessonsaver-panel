@@ -1,7 +1,7 @@
 {
-  "version": 21,
-  "updated": "2026-11-16T17:49:00-06:00",
-  "headline": "Nov 16 5:49 PM · Homepage hub is publishing — Will gave the GO",
+  "version": 22,
+  "updated": "2026-11-16T18:06:00-06:00",
+  "headline": "Nov 16 6:06 PM · Homepage hub is live; image-cap exemption is live — waiting on Will",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -14,22 +14,33 @@
       "id": "homepage-hub-update",
       "text": "Homepage hub update (Lucy design)",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will gave the GO. Wayne is publishing it now.",
+      "status": "done",
+      "note": "Live now. Will may review it.",
       "order": 0,
       "created": "2026-11-16T17:49:00-06:00",
-      "updated": "2026-11-16T17:49:00-06:00",
+      "updated": "2026-11-16T18:06:00-06:00",
       "summary": "Homepage hub"
+    },
+    {
+      "id": "library-delete-fix",
+      "text": "Library Delete fix (Smart Graphics image library)",
+      "owner": "Wayne",
+      "status": "delayed",
+      "note": "Fix is built and held. Needs Will’s GO to publish.",
+      "order": 2,
+      "created": "2026-11-16T18:04:00-06:00",
+      "updated": "2026-11-16T18:06:00-06:00",
+      "summary": "Library Delete fix"
     },
     {
       "id": "image-cap-fix",
       "text": "Image cap fix (Guided Tutorial 100-image limit)",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Admin exemption deploying now. Monthly cap for everyone else is on Preview; going live needs Will’s GO.",
+      "status": "delayed",
+      "note": "Admin exemption is live; Will to test. Will to pick the monthly cap numbers (suggested 50 a month, 20 a day).",
       "order": 1,
       "created": "2026-11-16T17:41:00-06:00",
-      "updated": "2026-11-16T17:41:00-06:00",
+      "updated": "2026-11-16T18:06:00-06:00",
       "summary": "Image cap fix"
     },
     {
