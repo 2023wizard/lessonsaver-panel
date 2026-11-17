@@ -1,7 +1,7 @@
 {
-  "version": 30,
-  "updated": "2026-11-17T08:25:00-06:00",
-  "headline": "Nov 17 8:25 AM · Growth Across Units is live; Will said WOW",
+  "version": 31,
+  "updated": "2026-11-17T08:42:00-06:00",
+  "headline": "Nov 17 8:42 AM · Growth QA passed; Will to decide on the test data; LC Tour parked",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -26,12 +26,45 @@
       "id": "growth-across-units-regression-qa",
       "text": "Growth Across Units regression QA",
       "owner": "Bug Hunter",
-      "status": "open",
-      "note": "Follow-up check with test data. Not blocking.",
+      "status": "done",
+      "note": "Passed all checks.",
       "order": 0,
       "created": "2026-11-17T08:25:00-06:00",
-      "updated": "2026-11-17T08:25:00-06:00",
+      "updated": "2026-11-17T08:42:00-06:00",
       "summary": "Growth QA follow-up"
+    },
+    {
+      "id": "keep-or-delete-test-data",
+      "text": "Keep or delete the test data from the Insights check",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Will to decide whether to keep or delete the test data.",
+      "order": 2,
+      "created": "2026-11-17T08:42:00-06:00",
+      "updated": "2026-11-17T08:42:00-06:00",
+      "summary": "Test data keep or delete"
+    },
+    {
+      "id": "learning-circle-tour",
+      "text": "Learning Circle Tour",
+      "owner": "Will",
+      "status": "parked",
+      "note": "Short looping video that walks through a Learning Circle. Lucy to storyboard, Scout on video. Starts when Will says go.",
+      "order": 17,
+      "created": "2026-11-17T08:42:00-06:00",
+      "updated": "2026-11-17T08:42:00-06:00",
+      "summary": "Learning Circle Tour"
+    },
+    {
+      "id": "standards-mastery-tiles-overlap",
+      "text": "Standards Mastery tiles overlap on phones",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Small overlap on phone screens. Was there before. Low priority.",
+      "order": 18,
+      "created": "2026-11-17T08:42:00-06:00",
+      "updated": "2026-11-17T08:42:00-06:00",
+      "summary": "Phone tile overlap"
     },
     {
       "id": "lc-report-access-check",
