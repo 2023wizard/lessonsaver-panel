@@ -1,7 +1,7 @@
 {
-  "version": 26,
-  "updated": "2026-11-17T07:09:00-06:00",
-  "headline": "Nov 17 7:09 AM · LC Report PDF is Done — Will said it looks great; image cap waiting on Will’s GT test",
+  "version": 27,
+  "updated": "2026-11-17T07:18:00-06:00",
+  "headline": "Nov 17 7:18 AM · Insights unit growth is Active — Wayne checking feasibility; Lucy making a mock",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -10,6 +10,18 @@
     }
   ],
   "items": [
+    {
+      "id": "insights-unit-to-unit-standard-growth",
+      "text": "Insights unit-to-unit standard growth",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Wayne checking if it can be done; Lucy making a mock. No build until Will approves the mock.",
+      "order": 0,
+      "created": "2026-11-17T07:18:00-06:00",
+      "updated": "2026-11-17T07:18:00-06:00",
+      "summary": "Insights unit growth"
+    },
     {
       "id": "lc-report-access-check",
       "text": "LC Report access check",
