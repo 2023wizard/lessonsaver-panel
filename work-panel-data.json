@@ -1,7 +1,7 @@
 {
-  "version": 31,
-  "updated": "2026-11-17T08:42:00-06:00",
-  "headline": "Nov 17 8:42 AM · Growth QA passed; Will to decide on the test data; LC Tour parked",
+  "version": 32,
+  "updated": "2026-11-17T08:57:00-06:00",
+  "headline": "Nov 17 8:57 AM · Wayne deleting the Insights test data; Remi on a CCMS competitor report",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -35,14 +35,25 @@
     },
     {
       "id": "keep-or-delete-test-data",
-      "text": "Keep or delete the test data from the Insights check",
-      "owner": "Will",
-      "status": "delayed",
-      "note": "Will to decide whether to keep or delete the test data.",
+      "text": "Delete the test data from the Insights check",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Will said delete. Wayne removing it now.",
       "order": 2,
       "created": "2026-11-17T08:42:00-06:00",
-      "updated": "2026-11-17T08:42:00-06:00",
-      "summary": "Test data keep or delete"
+      "updated": "2026-11-17T08:51:00-06:00",
+      "summary": "Delete Insights test data"
+    },
+    {
+      "id": "ccms-competitive-recon",
+      "text": "CCMS competitor report",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "Remi researching similar platforms. Jimmy checks facts, then Will gets a PDF.",
+      "order": 1,
+      "created": "2026-11-17T08:57:00-06:00",
+      "updated": "2026-11-17T08:57:00-06:00",
+      "summary": "CCMS competitor report"
     },
     {
       "id": "learning-circle-tour",
