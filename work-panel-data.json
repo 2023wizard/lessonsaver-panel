@@ -1,7 +1,7 @@
 {
-  "version": 25,
-  "updated": "2026-11-17T06:46:00-06:00",
-  "headline": "Nov 17 6:46 AM · Image cap is Active — Will gave the GO; Wayne is turning it on",
+  "version": 26,
+  "updated": "2026-11-17T07:09:00-06:00",
+  "headline": "Nov 17 7:09 AM · LC Report PDF is Done — Will said it looks great; image cap waiting on Will’s GT test",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -10,6 +10,17 @@
     }
   ],
   "items": [
+    {
+      "id": "lc-report-access-check",
+      "text": "LC Report access check",
+      "owner": "Bug Hunter",
+      "status": "open",
+      "note": "Check that the report and the PDF are blocked for other teachers and signed-out users.",
+      "order": 0,
+      "created": "2026-11-17T07:09:00-06:00",
+      "updated": "2026-11-17T07:09:00-06:00",
+      "summary": "Report access check"
+    },
     {
       "id": "homepage-hub-update",
       "text": "Homepage hub update (Lucy design)",
@@ -35,23 +46,23 @@
     {
       "id": "image-cap-fix",
       "text": "Image cap fix (Guided Tutorial 100-image limit)",
-      "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will gave the GO. Wayne is turning on the cap now (100 a month, 20 a day). Admins skip it.",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Live and tested. Will to try one Guided Tutorial image.",
       "order": 1,
       "created": "2026-11-16T17:41:00-06:00",
-      "updated": "2026-11-17T06:46:00-06:00",
+      "updated": "2026-11-17T07:09:00-06:00",
       "summary": "Image cap fix"
     },
     {
       "id": "lc-report-pdf",
       "text": "LC Report PDF: full report matching the panel",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Live now. Waiting on Will to test it.",
+      "status": "done",
+      "note": "Live. Will tested it and said it looks great.",
       "order": 1,
       "created": "2026-11-16T12:15:00-06:00",
-      "updated": "2026-11-16T12:35:00-06:00",
+      "updated": "2026-11-17T07:09:00-06:00",
       "summary": "LC Report PDF"
     },
     {
