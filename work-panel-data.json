@@ -1,7 +1,7 @@
 {
-  "version": 29,
-  "updated": "2026-11-17T07:34:00-06:00",
-  "headline": "Nov 17 7:34 AM · Access check passed; Wayne is building Growth Across Units on Preview",
+  "version": 30,
+  "updated": "2026-11-17T08:25:00-06:00",
+  "headline": "Nov 17 8:25 AM · Growth Across Units is live; Will said WOW",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -14,13 +14,24 @@
       "id": "insights-unit-to-unit-standard-growth",
       "text": "Insights: Growth Across Units",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "done",
       "lane": "branch",
-      "note": "Will said build it. Wayne building on Preview. Publish needs Will's go.",
+      "note": "Live. Will tested it and said WOW.",
       "order": 0,
       "created": "2026-11-17T07:18:00-06:00",
-      "updated": "2026-11-17T07:34:00-06:00",
+      "updated": "2026-11-17T08:25:00-06:00",
       "summary": "Growth Across Units"
+    },
+    {
+      "id": "growth-across-units-regression-qa",
+      "text": "Growth Across Units regression QA",
+      "owner": "Bug Hunter",
+      "status": "open",
+      "note": "Follow-up check with test data. Not blocking.",
+      "order": 0,
+      "created": "2026-11-17T08:25:00-06:00",
+      "updated": "2026-11-17T08:25:00-06:00",
+      "summary": "Growth QA follow-up"
     },
     {
       "id": "lc-report-access-check",
