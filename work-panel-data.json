@@ -1,7 +1,7 @@
 {
-  "version": 33,
-  "updated": "2026-11-17T09:00:00-06:00",
-  "headline": "Nov 17 9:00 AM · CCMS competitor report is vital — Atlas and Remi researching",
+  "version": 34,
+  "updated": "2026-11-17T10:53:00-06:00",
+  "headline": "Nov 17 10:53 AM · Seed data and CCMS reports Done; PO homepage section in Preview; publish freeze until Will GOs the bundle",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -37,23 +37,68 @@
       "id": "keep-or-delete-test-data",
       "text": "Delete the test data from the Insights check",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will said delete. Wayne removing it now.",
+      "status": "done",
+      "note": "Wayne deleted the test data (restorable). Counts are back to baseline.",
       "order": 2,
       "created": "2026-11-17T08:42:00-06:00",
-      "updated": "2026-11-17T08:51:00-06:00",
+      "updated": "2026-11-17T09:05:00-06:00",
       "summary": "Delete Insights test data"
     },
     {
       "id": "ccms-competitive-recon",
       "text": "CCMS competitor report",
       "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "Atlas and Remi researching similar platforms. Jimmy checks facts, then Will gets a PDF. Will calls it vital.",
+      "status": "done",
+      "note": "Reports delivered to Will.",
       "order": 1,
       "created": "2026-11-17T08:57:00-06:00",
-      "updated": "2026-11-17T09:00:00-06:00",
+      "updated": "2026-11-17T10:52:00-06:00",
       "summary": "CCMS competitor report"
+    },
+    {
+      "id": "homepage-po-section",
+      "text": "Homepage Principal's Office section",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Will said go on a Preview build. Lucy is updating the mock, then Wayne builds it. Replaces the live pulse section.",
+      "order": 1,
+      "created": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T10:53:00-06:00",
+      "summary": "Homepage PO section"
+    },
+    {
+      "id": "sweep-live-realtime-wording",
+      "text": "Sweep 'live' and 'real time' wording on Schools, Welcome, and Live Data Feed demo pages",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Lucy and Wayne. Preview only.",
+      "order": 2,
+      "created": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T10:53:00-06:00",
+      "summary": "Live/real time wording sweep"
+    },
+    {
+      "id": "bundled-publish",
+      "text": "Bundled Publish",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "Holds the homepage Growth section, demo trivia, intro-image fix, and the Principal's Office section. Nothing publishes until Will says go.",
+      "order": 3,
+      "created": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T10:53:00-06:00",
+      "summary": "Bundled Publish"
+    },
+    {
+      "id": "casey-review-homepage-claims",
+      "text": "Casey review of homepage claims",
+      "owner": "Casey",
+      "status": "parked",
+      "note": "Remi flagged FERPA & COPPA Compliant, Standards Certified, and no Hallucinations for Casey to review and soften. Waiting on Will.",
+      "order": 20,
+      "created": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T10:53:00-06:00",
+      "summary": "Homepage claims review"
     },
     {
       "id": "learning-circle-tour",
