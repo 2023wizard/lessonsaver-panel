@@ -1,7 +1,7 @@
 {
-  "version": 32,
-  "updated": "2026-11-17T08:57:00-06:00",
-  "headline": "Nov 17 8:57 AM · Wayne deleting the Insights test data; Remi on a CCMS competitor report",
+  "version": 33,
+  "updated": "2026-11-17T09:00:00-06:00",
+  "headline": "Nov 17 9:00 AM · CCMS competitor report is vital — Atlas and Remi researching",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -49,10 +49,10 @@
       "text": "CCMS competitor report",
       "owner": "Jimmy",
       "status": "in-flight",
-      "note": "Remi researching similar platforms. Jimmy checks facts, then Will gets a PDF.",
+      "note": "Atlas and Remi researching similar platforms. Jimmy checks facts, then Will gets a PDF. Will calls it vital.",
       "order": 1,
       "created": "2026-11-17T08:57:00-06:00",
-      "updated": "2026-11-17T08:57:00-06:00",
+      "updated": "2026-11-17T09:00:00-06:00",
       "summary": "CCMS competitor report"
     },
     {
