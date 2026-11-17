@@ -1,7 +1,7 @@
 {
-  "version": 35,
-  "updated": "2026-11-17T12:31:00-06:00",
-  "headline": "Nov 17 12:31 PM · Bundle is live; PO section still on Preview, waiting on Will's GO",
+  "version": 36,
+  "updated": "2026-11-17T17:22:00-06:00",
+  "headline": "Nov 17 5:22 PM · PO section and wording sweep are live; Lucy's held follow-ups wait on Will",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -59,34 +59,45 @@
       "id": "district-test-standards-tracking",
       "text": "Track an outside district test's results in standards tracking",
       "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "Will asked for it. Jimmy is checking whether an import path already exists. Nothing is built yet.",
+      "status": "delayed",
+      "note": "Will to choose: plan a CSV import, do a one-time admin load, use the Canvas importer, or park it.",
       "order": 1,
       "created": "2026-11-17T12:31:00-06:00",
-      "updated": "2026-11-17T12:31:00-06:00",
+      "updated": "2026-11-17T17:20:00-06:00",
       "summary": "District test in standards tracking"
     },
     {
       "id": "homepage-po-section",
       "text": "Homepage Principal's Office section",
       "owner": "Wayne",
-      "status": "delayed",
+      "status": "done",
       "lane": "branch",
-      "note": "On Preview. Lucy signed off on the design. Two small touch-ups in progress. Waiting on Will's go to publish.",
+      "note": "Live as of 5:21 PM. Will gave the GO at 5:20. Jimmy checked both sites.",
       "order": 1,
       "created": "2026-11-17T10:53:00-06:00",
-      "updated": "2026-11-17T12:31:00-06:00",
+      "updated": "2026-11-17T17:21:00-06:00",
       "summary": "Homepage PO section"
+    },
+    {
+      "id": "lucy-held-follow-ups-po-section",
+      "text": "Lucy's held follow-ups after the PO section publish",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Four held follow-ups: mastery claims, teacher-side Live lines, the Live Data Feed demo page redirect, and a Help article. Lucy leads. Waiting on Will.",
+      "order": 2,
+      "created": "2026-11-17T17:21:00-06:00",
+      "updated": "2026-11-17T17:22:00-06:00",
+      "summary": "Lucy held follow-ups"
     },
     {
       "id": "sweep-live-realtime-wording",
       "text": "Sweep 'live' and 'real time' wording on Schools, Welcome, and Live Data Feed demo pages",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "On Preview. Lucy signed off on the design. Two small touch-ups in progress. Waiting on Will's go to publish.",
+      "status": "done",
+      "note": "Live as of 5:21 PM, in the same publish as the Principal's Office section. Jimmy checked both sites.",
       "order": 2,
       "created": "2026-11-17T10:53:00-06:00",
-      "updated": "2026-11-17T12:31:00-06:00",
+      "updated": "2026-11-17T17:21:00-06:00",
       "summary": "Live/real time wording sweep"
     },
     {
