@@ -1,7 +1,7 @@
 {
-  "version": 34,
-  "updated": "2026-11-17T10:53:00-06:00",
-  "headline": "Nov 17 10:53 AM · Seed data and CCMS reports Done; PO homepage section in Preview; publish freeze until Will GOs the bundle",
+  "version": 35,
+  "updated": "2026-11-17T12:31:00-06:00",
+  "headline": "Nov 17 12:31 PM · Bundle is live; PO section still on Preview, waiting on Will's GO",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -56,37 +56,48 @@
       "summary": "CCMS competitor report"
     },
     {
+      "id": "district-test-standards-tracking",
+      "text": "Track an outside district test's results in standards tracking",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "Will asked for it. Jimmy is checking whether an import path already exists. Nothing is built yet.",
+      "order": 1,
+      "created": "2026-11-17T12:31:00-06:00",
+      "updated": "2026-11-17T12:31:00-06:00",
+      "summary": "District test in standards tracking"
+    },
+    {
       "id": "homepage-po-section",
       "text": "Homepage Principal's Office section",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "delayed",
       "lane": "branch",
-      "note": "Will said go on a Preview build. Lucy is updating the mock, then Wayne builds it. Replaces the live pulse section.",
+      "note": "On Preview. Lucy signed off on the design. Two small touch-ups in progress. Waiting on Will's go to publish.",
       "order": 1,
       "created": "2026-11-17T10:53:00-06:00",
-      "updated": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T12:31:00-06:00",
       "summary": "Homepage PO section"
     },
     {
       "id": "sweep-live-realtime-wording",
       "text": "Sweep 'live' and 'real time' wording on Schools, Welcome, and Live Data Feed demo pages",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Lucy and Wayne. Preview only.",
+      "status": "delayed",
+      "note": "On Preview. Lucy signed off on the design. Two small touch-ups in progress. Waiting on Will's go to publish.",
       "order": 2,
       "created": "2026-11-17T10:53:00-06:00",
-      "updated": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T12:31:00-06:00",
       "summary": "Live/real time wording sweep"
     },
     {
       "id": "bundled-publish",
       "text": "Bundled Publish",
       "owner": "Jimmy",
-      "status": "delayed",
-      "note": "Holds the homepage Growth section, demo trivia, intro-image fix, and the Principal's Office section. Nothing publishes until Will says go.",
+      "status": "done",
+      "note": "Live at 11:10 AM. Growth section, demo trivia, and the intro-image fix shipped. The Principal's Office section was not in this publish and stays on Preview. The publish freeze is over.",
       "order": 3,
       "created": "2026-11-17T10:53:00-06:00",
-      "updated": "2026-11-17T10:53:00-06:00",
+      "updated": "2026-11-17T12:31:00-06:00",
       "summary": "Bundled Publish"
     },
     {
@@ -686,6 +697,17 @@
       "created": "2026-11-16T07:56:00-06:00",
       "updated": "2026-11-16T12:03:00-06:00",
       "summary": "Canvas grade push groups"
+    },
+    {
+      "id": "expander-start-open-fix",
+      "text": "Expander start-open fix: panels that should start open now do. Live, waiting on Will to test.",
+      "owner": "Wayne",
+      "status": "delayed",
+      "note": "Will said at 11:41 AM: Push it live and I will test it. Went live at 11:46 AM. Jimmy checked both sites.",
+      "order": 116,
+      "created": "2026-11-17T11:46:00-06:00",
+      "updated": "2026-11-17T12:31:00-06:00",
+      "summary": "Expander start-open test"
     }
   ]
 }
