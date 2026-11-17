@@ -1,7 +1,7 @@
 {
-  "version": 24,
-  "updated": "2026-11-16T18:50:00-06:00",
-  "headline": "Nov 16 6:50 PM · Library Delete is live; image cap is built and held — needs Will’s GO",
+  "version": 25,
+  "updated": "2026-11-17T06:46:00-06:00",
+  "headline": "Nov 17 6:46 AM · Image cap is Active — Will gave the GO; Wayne is turning it on",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -36,11 +36,11 @@
       "id": "image-cap-fix",
       "text": "Image cap fix (Guided Tutorial 100-image limit)",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Admin exemption is live; Will to test. Cap (100 a month, 20 a day) is built and held. Needs Will’s GO to turn on.",
+      "status": "in-flight",
+      "note": "Will gave the GO. Wayne is turning on the cap now (100 a month, 20 a day). Admins skip it.",
       "order": 1,
       "created": "2026-11-16T17:41:00-06:00",
-      "updated": "2026-11-16T18:50:00-06:00",
+      "updated": "2026-11-17T06:46:00-06:00",
       "summary": "Image cap fix"
     },
     {
