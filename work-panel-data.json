@@ -1,7 +1,7 @@
 {
-  "version": 36,
-  "updated": "2026-11-17T17:22:00-06:00",
-  "headline": "Nov 17 5:22 PM · PO section and wording sweep are live; Lucy's held follow-ups wait on Will",
+  "version": 37,
+  "updated": "2026-11-17T17:36:00-06:00",
+  "headline": "Nov 17 5:36 PM · Lucy's held follow-ups were split: Preview work is in flight; two items Will skipped are parked",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -82,11 +82,11 @@
       "id": "lucy-held-follow-ups-po-section",
       "text": "Lucy's held follow-ups after the PO section publish",
       "owner": "Will",
-      "status": "delayed",
-      "note": "Four held follow-ups: mastery claims, teacher-side Live lines, the Live Data Feed demo page redirect, and a Help article. Lucy leads. Waiting on Will.",
+      "status": "shelved",
+      "note": "Superseded. Split into a Preview follow-up (in progress) and a parked row for the two items Will skipped.",
       "order": 2,
       "created": "2026-11-17T17:21:00-06:00",
-      "updated": "2026-11-17T17:22:00-06:00",
+      "updated": "2026-11-17T17:36:00-06:00",
       "summary": "Lucy held follow-ups"
     },
     {
@@ -719,6 +719,29 @@
       "created": "2026-11-17T11:46:00-06:00",
       "updated": "2026-11-17T12:31:00-06:00",
       "summary": "Expander start-open test"
+    },
+    {
+      "id": "po-followups-preview",
+      "text": "PO follow-ups on Preview: Features demo snapshot, claims reword, and Live Data Feed demo redirect",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Lucy goes first, then Wayne. Will gave the GO for the claims rewording and the redirect. Preview only.",
+      "order": 0,
+      "created": "2026-11-17T17:36:00-06:00",
+      "updated": "2026-11-17T17:36:00-06:00",
+      "summary": "PO follow-ups on Preview"
+    },
+    {
+      "id": "po-teacher-live-lines-help-article",
+      "text": "Teacher-side Live lines and a Help article for the Principal's Office section",
+      "owner": "Will",
+      "status": "parked",
+      "note": "Will skipped both. Lucy leads. Parked until this is picked up again.",
+      "order": 19,
+      "created": "2026-11-17T17:36:00-06:00",
+      "updated": "2026-11-17T17:36:00-06:00",
+      "summary": "PO Live lines and Help article"
     }
   ]
 }
