@@ -1,7 +1,7 @@
 {
-  "version": 50,
-  "updated": "2026-11-18T15:46:00-06:00",
-  "headline": "Nov 18 3:46 PM · Will GO'd the Get Started planner publish now (planner-only). Wayne is publishing; Jimmy will verify — not Done.",
+  "version": 51,
+  "updated": "2026-11-18T15:56:00-06:00",
+  "headline": "Nov 18 3:56 PM · Assignment builder/portfolio redesign is Active planning under Drew. Editor access and any build still wait on Will.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -849,13 +849,14 @@
     {
       "id": "assignment-builder-portfolio-redesign",
       "text": "Assignment builder/portfolio redesign",
-      "owner": "Jimmy",
-      "status": "delayed",
-      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Will skipped these widgets 3:41 PM; still waiting. Original findings still stand: AI Assignments has no Teacher Workroom tile (a Preview widget was waiting on Will); graded assignments have no rubric (points are saved, grading notes aren't saved, and Canvas push defaults to 100 points with no rubric); lesson media never carries into assignments, and the Assignment Library is text-only; Google Classroom embed and link scope was in research. Scope grew 3:46 PM: a hosted HTML page with lesson media; a shareable link plus embed code; Push to Canvas (with rubric and media) and Push to Google Classroom buttons; and a Work Room assignments entry synced with the Library.",
+      "owner": "Drew",
+      "status": "in-flight",
+      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Owner was Jimmy from 2:30 to 3:53 PM; Will created Drew at 3:53 PM to build this on its own branch. Now Active planning under Drew (Assignments Developer). Drew started read-only planning at 3:55 PM; no builds. Editor access for Drew is pending Will, and any build waits on Will's GO via Jimmy. Phase order: 1) rubric, 2) hosted page plus share and embed, 3) Work Room and Library sync, 4) push buttons for Canvas and Google Classroom. The AI Assignments Workroom tile widget stays an open Will decision (Will skipped these widgets 3:41 PM; still waiting). Scope still includes a hosted HTML page with lesson media, a shareable link plus embed code, Push to Canvas (with rubric and media) and Push to Google Classroom buttons, and a Work Room assignments entry synced with the Library. Original findings still stand: graded assignments have no rubric (points are saved, grading notes aren't saved, Canvas push defaults to 100 points with no rubric); lesson media never carries into assignments, and the Assignment Library is text-only.",
       "order": 1,
       "created": "2026-11-18T14:30:00-06:00",
-      "updated": "2026-11-18T15:46:00-06:00",
-      "summary": "Assignment builder/portfolio redesign"
+      "updated": "2026-11-18T15:56:00-06:00",
+      "summary": "Assignment builder/portfolio redesign",
+      "lane": "branch"
     },
     {
       "id": "onboarding-audio-guides",
