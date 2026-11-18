@@ -1,7 +1,7 @@
 {
-  "version": 37,
-  "updated": "2026-11-17T17:36:00-06:00",
-  "headline": "Nov 17 5:36 PM · Lucy's held follow-ups were split: Preview work is in flight; two items Will skipped are parked",
+  "version": 38,
+  "updated": "2026-11-17T18:24:00-06:00",
+  "headline": "Nov 17 6:24 PM · New Guided Tutorial one-button build (Jimmy looking first). Wayne is building the Features demo on Preview.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -726,10 +726,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Lucy goes first, then Wayne. Will gave the GO for the claims rewording and the redirect. Preview only.",
+      "note": "Wayne building the Features demo on Preview; screenshots pending.",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T17:36:00-06:00",
+      "updated": "2026-11-17T18:24:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
@@ -742,6 +742,17 @@
       "created": "2026-11-17T17:36:00-06:00",
       "updated": "2026-11-17T17:36:00-06:00",
       "summary": "PO Live lines and Help article"
+    },
+    {
+      "id": "gt-one-button-build",
+      "text": "Guided Tutorial one-button build",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "Jimmy is doing a read-only look first. No build yet. Related to the image cap test, because this generates many images in one pass.",
+      "order": 0,
+      "created": "2026-11-17T18:24:00-06:00",
+      "updated": "2026-11-17T18:24:00-06:00",
+      "summary": "GT one-button build"
     }
   ]
 }
