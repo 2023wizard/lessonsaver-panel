@@ -1,7 +1,7 @@
 {
-  "version": 48,
-  "updated": "2026-11-18T14:32:00-06:00",
-  "headline": "Nov 18 2:32 PM · Assignment builder/portfolio redesign waits on Will. Do not put this ahead of Lucy's onboarding Toolkit work.",
+  "version": 49,
+  "updated": "2026-11-18T15:25:00-06:00",
+  "headline": "Nov 18 3:25 PM · Get Started planner flow is building on Preview only. Publish waits on Will's own-words GO and Lucy's PASS.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -817,11 +817,23 @@
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work.",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Related Get Started planner flow is a separate build on Preview only; this Toolkit item is unchanged.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T14:32:00-06:00",
+      "updated": "2026-11-18T15:25:00-06:00",
       "summary": "Onboarding Toolkit revamp"
+    },
+    {
+      "id": "get-started-planner-flow",
+      "text": "Get Started planner flow",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Wayne is building it on Preview only from Lucy's mocks (4 steps with mascot stickers). Lucy reports Will approved it on voice for live; that is Lucy's report, not yet Will's own-words GO. Publish waits on Will's own-words GO to Jimmy and on Lucy's 1440 and 390 Preview PASS (390 phone layouts are in progress). Open decision for Will: keep or drop the line \"You review everything the AI drafts before it reaches students\". Related to the Onboarding Toolkit revamp, not the same work. Lucy credited for design.",
+      "order": 0,
+      "created": "2026-11-18T15:25:00-06:00",
+      "updated": "2026-11-18T15:25:00-06:00",
+      "summary": "Get Started planner flow"
     },
     {
       "id": "assignment-builder-portfolio-redesign",
