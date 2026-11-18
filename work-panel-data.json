@@ -1,7 +1,7 @@
 {
-  "version": 44,
-  "updated": "2026-11-17T21:30:00-06:00",
-  "headline": "Nov 17 9:30 PM · The GT one-button build and Rapid Recall sounds are live. Will's real-phone sound check is next.",
+  "version": 46,
+  "updated": "2026-11-18T08:39:00-06:00",
+  "headline": "Nov 18 8:39 AM · The Onboarding Toolkit mock also includes the standards upload screen and an audio-guide script for that screen.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -811,6 +811,28 @@
       "created": "2026-11-17T21:30:00-06:00",
       "updated": "2026-11-17T21:30:00-06:00",
       "summary": "GT UX notes"
+    },
+    {
+      "id": "onboarding-toolkit-page-revamp",
+      "text": "Onboarding Toolkit page revamp (Get Started step 4)",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "Lucy is making a mock only. Nothing ships until Will reviews the mock. The mock also includes the standards upload screen (standards unlock mastery tracking in Insights) and an audio-guide script for that screen.",
+      "order": 0,
+      "created": "2026-11-18T08:36:00-06:00",
+      "updated": "2026-11-18T08:39:00-06:00",
+      "summary": "Onboarding Toolkit revamp"
+    },
+    {
+      "id": "onboarding-audio-guides",
+      "text": "Audio guides on each onboarding screen",
+      "owner": "Jimmy",
+      "status": "parked",
+      "note": "Lucy leads. Scoped only, no build. The Toolkit mock includes an audio-guide script for the standards upload screen.",
+      "order": 15,
+      "created": "2026-11-18T08:36:00-06:00",
+      "updated": "2026-11-18T08:39:00-06:00",
+      "summary": "Onboarding audio guides"
     }
   ]
 }
