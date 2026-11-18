@@ -1,7 +1,7 @@
 {
-  "version": 42,
-  "updated": "2026-11-17T19:05:00-06:00",
-  "headline": "Nov 17 7:05 PM · Will approved Casey's privacy-statement draft; Wayne is building it on Preview. New principal data security checks.",
+  "version": 43,
+  "updated": "2026-11-17T19:19:00-06:00",
+  "headline": "Nov 17 7:19 PM · Will GO'd a launch tonight for the GT one-button build and Rapid Recall SFX. PO follow-ups and the Casey privacy rewrite stay on Preview.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -726,10 +726,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Preview only. Still building. Will settled the Insights picture and the audience label. The privacy statements are a separate Casey item. School Lesson Saves wording is in this pass (Will kept the panel).",
+      "note": "Preview only. Stays out of tonight's Publish. Still building. Will settled the Insights picture and the audience label. The privacy statements are a separate Casey item.",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T18:57:00-06:00",
+      "updated": "2026-11-17T19:19:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
@@ -746,13 +746,14 @@
     {
       "id": "gt-one-button-build",
       "text": "Guided Tutorial one-button build",
-      "owner": "Jimmy",
-      "status": "delayed",
-      "note": "DIG is done. The plan went to Will. Waiting on his answers to 6 questions.",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Will gave the GO to launch tonight. Wayne is building the Build everything button. Bug Hunter will test it, then Jimmy verifies. The plan is Jimmy's.",
       "order": 0,
       "created": "2026-11-17T18:24:00-06:00",
-      "updated": "2026-11-17T18:36:00-06:00",
-      "summary": "GT one-button build"
+      "updated": "2026-11-17T19:19:00-06:00",
+      "summary": "GT one-button build",
+      "lane": "branch"
     },
     {
       "id": "rapid-recall-sfx-haptics-overhaul",
@@ -760,10 +761,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Wayne is building it on Preview. Kai will playtest, then it needs Will's GO to go live.",
+      "note": "Will gave the GO to launch tonight. Wayne is building the Rapid Recall sounds and the homepage demo sounds. Kai will test, then Jimmy verifies.",
       "order": 0,
       "created": "2026-11-17T18:56:00-06:00",
-      "updated": "2026-11-17T18:57:00-06:00",
+      "updated": "2026-11-17T19:19:00-06:00",
       "summary": "Rapid Recall SFX and haptics"
     },
     {
@@ -771,10 +772,10 @@
       "text": "Casey: rewrite the privacy statements that say mastery rolls up to principals",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Will approved Casey's draft at 7:05. Wayne is building it on Preview. The opt-out warning has been softened.",
+      "note": "Will approved Casey's draft at 7:05. Wayne is building it on Preview. The opt-out warning has been softened. Stays out of tonight's Publish; remains on Preview.",
       "order": 0,
       "created": "2026-11-17T18:57:00-06:00",
-      "updated": "2026-11-17T19:05:00-06:00",
+      "updated": "2026-11-17T19:19:00-06:00",
       "summary": "Privacy statements rewrite",
       "lane": "branch"
     },
