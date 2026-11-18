@@ -1,7 +1,7 @@
 {
-  "version": 51,
-  "updated": "2026-11-18T15:56:00-06:00",
-  "headline": "Nov 18 3:56 PM · Assignment builder/portfolio redesign is Active planning under Drew. Editor access and any build still wait on Will.",
+  "version": 52,
+  "updated": "2026-11-18T16:10:00-06:00",
+  "headline": "Nov 18 4:10 PM · Get Started planner is live. Will is testing; Lucy's post-live look is pending.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -827,23 +827,34 @@
       "id": "get-started-planner-flow",
       "text": "Get Started planner flow",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "done",
       "lane": "branch",
-      "note": "3:41 PM: Will gave his own-words GO to publish once Lucy passed Preview (1440/390). The line \"You review everything the AI drafts before it reaches students\" is cut (decision closed). 3:46 PM: Will gave his own-words GO to publish now and waived Lucy's PASS. Wayne is publishing planner-only (no Slides badge). Jimmy will verify on .ai and .com. Status is publishing, awaiting Jimmy's verify — not Done. The Slide Builder free badge was left out of this publish and waits on Will. Lucy credited for design.",
+      "note": "Live about 4:08 PM. Wayne published under Will's 3:41/3:46 own-words GO. Jimmy verified .ai and .com. Includes the short blurb, no locks; Slides badge off. Will is testing; Lucy's post-live look is pending. Lucy credited for design.",
       "order": 0,
       "created": "2026-11-18T15:25:00-06:00",
-      "updated": "2026-11-18T15:46:00-06:00",
+      "updated": "2026-11-18T16:10:00-06:00",
       "summary": "Get Started planner flow"
+    },
+    {
+      "id": "get-started-planner-wills-live-test",
+      "text": "Get Started planner: Will's live test",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Waiting on Will to test the live Get Started planner. Lucy's post-live look is also pending. The planner is live (short blurb, no locks; Slides badge off).",
+      "order": 0,
+      "created": "2026-11-18T16:10:00-06:00",
+      "updated": "2026-11-18T16:10:00-06:00",
+      "summary": "Get Started planner: Will's live test"
     },
     {
       "id": "slide-builder-free-badge",
       "text": "Slide Builder free badge",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "Left out of the planner-only Get Started planner publish. Waiting on Will whether the Slide Builder free badge should ship.",
+      "note": "Still off in the live Get Started planner publish. Waiting on Will whether the Slide Builder free badge should ship.",
       "order": 2,
       "created": "2026-11-18T15:46:00-06:00",
-      "updated": "2026-11-18T15:46:00-06:00",
+      "updated": "2026-11-18T16:10:00-06:00",
       "summary": "Slide Builder free badge"
     },
     {
@@ -851,10 +862,10 @@
       "text": "Assignment builder/portfolio redesign",
       "owner": "Drew",
       "status": "in-flight",
-      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Owner was Jimmy from 2:30 to 3:53 PM; Will created Drew at 3:53 PM to build this on its own branch. Now Active planning under Drew (Assignments Developer). Drew started read-only planning at 3:55 PM; no builds. Editor access for Drew is pending Will, and any build waits on Will's GO via Jimmy. Phase order: 1) rubric, 2) hosted page plus share and embed, 3) Work Room and Library sync, 4) push buttons for Canvas and Google Classroom. The AI Assignments Workroom tile widget stays an open Will decision (Will skipped these widgets 3:41 PM; still waiting). Scope still includes a hosted HTML page with lesson media, a shareable link plus embed code, Push to Canvas (with rubric and media) and Push to Google Classroom buttons, and a Work Room assignments entry synced with the Library. Original findings still stand: graded assignments have no rubric (points are saved, grading notes aren't saved, Canvas push defaults to 100 points with no rubric); lesson media never carries into assignments, and the Assignment Library is text-only.",
+      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Owner was Jimmy from 2:30 to 3:53 PM; Will created Drew at 3:53 PM to build this on its own branch. Planning is done; Drew sent the plan to Jimmy at 4:04 PM. Nothing is built. Status is planning done, blocked on Will for editor access and where the work will sit (branch decision). Phases and rough effort: 1) rubrics, 3-5 days; 2) hosted student page with share and embed, 2-4 days; 3) Work Room and Library sync, 2-4 days; 4) Canvas and Classroom push buttons, 1-2 weeks. The AI Assignments Workroom tile widget stays an open Will decision (Will skipped these widgets 3:41 PM; still waiting).",
       "order": 1,
       "created": "2026-11-18T14:30:00-06:00",
-      "updated": "2026-11-18T15:56:00-06:00",
+      "updated": "2026-11-18T16:10:00-06:00",
       "summary": "Assignment builder/portfolio redesign",
       "lane": "branch"
     },
