@@ -1,7 +1,7 @@
 {
-  "version": 43,
-  "updated": "2026-11-17T19:19:00-06:00",
-  "headline": "Nov 17 7:19 PM · Will GO'd a launch tonight for the GT one-button build and Rapid Recall SFX. PO follow-ups and the Casey privacy rewrite stay on Preview.",
+  "version": 44,
+  "updated": "2026-11-17T21:30:00-06:00",
+  "headline": "Nov 17 9:30 PM · The GT one-button build and Rapid Recall sounds are live. Will's real-phone sound check is next.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -726,10 +726,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Preview only. Stays out of tonight's Publish. Still building. Will settled the Insights picture and the audience label. The privacy statements are a separate Casey item.",
+      "note": "Preview only. Was not in tonight's live publish. Still building.",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T19:19:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
@@ -747,11 +747,11 @@
       "id": "gt-one-button-build",
       "text": "Guided Tutorial one-button build",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Will gave the GO to launch tonight. Wayne is building the Build everything button. Bug Hunter will test it, then Jimmy verifies. The plan is Jimmy's.",
+      "status": "done",
+      "note": "Live now. Jimmy checked both sites. Bug Hunter passed the tests.",
       "order": 0,
       "created": "2026-11-17T18:24:00-06:00",
-      "updated": "2026-11-17T19:19:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
       "summary": "GT one-button build",
       "lane": "branch"
     },
@@ -759,12 +759,12 @@
       "id": "rapid-recall-sfx-haptics-overhaul",
       "text": "Rapid Recall SFX and haptics overhaul, including the homepage Rapid Recall demos",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "done",
       "lane": "branch",
-      "note": "Will gave the GO to launch tonight. Wayne is building the Rapid Recall sounds and the homepage demo sounds. Kai will test, then Jimmy verifies.",
+      "note": "Live now. Jimmy checked both sites. Kai passed the tests.",
       "order": 0,
       "created": "2026-11-17T18:56:00-06:00",
-      "updated": "2026-11-17T19:19:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
       "summary": "Rapid Recall SFX and haptics"
     },
     {
@@ -772,10 +772,10 @@
       "text": "Casey: rewrite the privacy statements that say mastery rolls up to principals",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Will approved Casey's draft at 7:05. Wayne is building it on Preview. The opt-out warning has been softened. Stays out of tonight's Publish; remains on Preview.",
+      "note": "Will approved Casey's draft at 7:05. Wayne is building it on Preview. Was not in tonight's live publish.",
       "order": 0,
       "created": "2026-11-17T18:57:00-06:00",
-      "updated": "2026-11-17T19:19:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
       "summary": "Privacy statements rewrite",
       "lane": "branch"
     },
@@ -789,6 +789,28 @@
       "created": "2026-11-17T19:05:00-06:00",
       "updated": "2026-11-17T19:05:00-06:00",
       "summary": "Principal data security checks"
+    },
+    {
+      "id": "rr-real-phone-sound-check",
+      "text": "Will's real-phone check of the new Rapid Recall sounds and haptics",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Waiting on Will to try the new sounds and haptics on a real phone.",
+      "order": 0,
+      "created": "2026-11-17T21:30:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
+      "summary": "Real-phone sound check"
+    },
+    {
+      "id": "gt-low-priority-ux-notes",
+      "text": "Guided Tutorial low-priority UX notes",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Low priority. Regenerating narration on a stage needs a manual Save, and the builder reopens on stage 1.",
+      "order": 14,
+      "created": "2026-11-17T21:30:00-06:00",
+      "updated": "2026-11-17T21:30:00-06:00",
+      "summary": "GT UX notes"
     }
   ]
 }
