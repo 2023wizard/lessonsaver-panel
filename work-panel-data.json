@@ -1,7 +1,7 @@
 {
-  "version": 41,
-  "updated": "2026-11-17T18:57:00-06:00",
-  "headline": "Nov 17 6:57 PM · New Rapid Recall SFX and haptics overhaul. Will settled the Insights picture and audience label. Casey is rewriting the privacy statements.",
+  "version": 42,
+  "updated": "2026-11-17T19:05:00-06:00",
+  "headline": "Nov 17 7:05 PM · Will approved Casey's privacy-statement draft; Wayne is building it on Preview. New principal data security checks.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -769,13 +769,25 @@
     {
       "id": "casey-privacy-statements-mastery-rollup",
       "text": "Casey: rewrite the privacy statements that say mastery rolls up to principals",
-      "owner": "Casey",
+      "owner": "Wayne",
       "status": "in-flight",
-      "note": "Casey drafts, then Will approves. Covers standards help, Trust & Safety, and the opt-out dialog.",
+      "note": "Will approved Casey's draft at 7:05. Wayne is building it on Preview. The opt-out warning has been softened.",
       "order": 0,
       "created": "2026-11-17T18:57:00-06:00",
-      "updated": "2026-11-17T18:57:00-06:00",
-      "summary": "Privacy statements rewrite"
+      "updated": "2026-11-17T19:05:00-06:00",
+      "summary": "Privacy statements rewrite",
+      "lane": "branch"
+    },
+    {
+      "id": "principal-data-security-checks",
+      "text": "Principal data security checks",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Wayne is doing a read-only check. Any fixes need Will's GO. Covers school metrics access, mastery-data rules, the average-mastery field, and leftover Principal's Office screens.",
+      "order": 0,
+      "created": "2026-11-17T19:05:00-06:00",
+      "updated": "2026-11-17T19:05:00-06:00",
+      "summary": "Principal data security checks"
     }
   ]
 }
