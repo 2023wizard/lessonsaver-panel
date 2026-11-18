@@ -1,7 +1,7 @@
 {
-  "version": 46,
-  "updated": "2026-11-18T08:39:00-06:00",
-  "headline": "Nov 18 8:39 AM · The Onboarding Toolkit mock also includes the standards upload screen and an audio-guide script for that screen.",
+  "version": 47,
+  "updated": "2026-11-18T10:14:00-06:00",
+  "headline": "Nov 18 10:14 AM · Onboarding Toolkit v3 mocks are ready and waiting on Will. Still mock only.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -816,11 +816,11 @@
       "id": "onboarding-toolkit-page-revamp",
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "Lucy is making a mock only. Nothing ships until Will reviews the mock. The mock also includes the standards upload screen (standards unlock mastery tracking in Insights) and an audio-guide script for that screen.",
+      "status": "delayed",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T08:39:00-06:00",
+      "updated": "2026-11-18T10:14:00-06:00",
       "summary": "Onboarding Toolkit revamp"
     },
     {
