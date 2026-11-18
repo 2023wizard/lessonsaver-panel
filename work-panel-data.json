@@ -1,7 +1,7 @@
 {
-  "version": 39,
-  "updated": "2026-11-17T18:28:00-06:00",
-  "headline": "Nov 17 6:28 PM · PO follow-ups on Preview now also include the teacher-first copy, Welcome and Insights wording, and the Help article.",
+  "version": 40,
+  "updated": "2026-11-17T18:36:00-06:00",
+  "headline": "Nov 17 6:36 PM · Will GO'd more PO follow-ups on Preview. The GT one-button plan is with Will.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -726,10 +726,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Preview only. Covers the Features demo, the claims reword, the demo-page redirect, the teacher-first copy, the Welcome and Insights wording, and the Help article.",
+      "note": "Preview only. Will also GO'd help cleanup, removing the hidden Dept Head demo, and taking School Pulse out of the signed-in Principal's Office.",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T18:28:00-06:00",
+      "updated": "2026-11-17T18:36:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
@@ -747,11 +747,11 @@
       "id": "gt-one-button-build",
       "text": "Guided Tutorial one-button build",
       "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "Jimmy is doing a read-only look first. No build yet. Related to the image cap test, because this generates many images in one pass.",
+      "status": "delayed",
+      "note": "DIG is done. The plan went to Will. Waiting on his answers to 6 questions.",
       "order": 0,
       "created": "2026-11-17T18:24:00-06:00",
-      "updated": "2026-11-17T18:24:00-06:00",
+      "updated": "2026-11-17T18:36:00-06:00",
       "summary": "GT one-button build"
     }
   ]
