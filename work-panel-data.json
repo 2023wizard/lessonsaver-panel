@@ -1,7 +1,7 @@
 {
-  "version": 47,
-  "updated": "2026-11-18T10:14:00-06:00",
-  "headline": "Nov 18 10:14 AM · Onboarding Toolkit v3 mocks are ready and waiting on Will. Still mock only.",
+  "version": 48,
+  "updated": "2026-11-18T14:32:00-06:00",
+  "headline": "Nov 18 2:32 PM · Assignment builder/portfolio redesign waits on Will. Do not put this ahead of Lucy's onboarding Toolkit work.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -817,11 +817,22 @@
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads.",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T10:14:00-06:00",
+      "updated": "2026-11-18T14:32:00-06:00",
       "summary": "Onboarding Toolkit revamp"
+    },
+    {
+      "id": "assignment-builder-portfolio-redesign",
+      "text": "Assignment builder/portfolio redesign",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Read-only findings, nothing built. AI Assignments has no Teacher Workroom tile (a Preview widget is waiting on Will). Graded assignments have no rubric: points are saved, grading notes aren't saved, and Canvas push defaults to 100 points with no rubric. Lesson media never carries into assignments, and the Assignment Library is text-only. Google Classroom embed and link scope is in research now.",
+      "order": 1,
+      "created": "2026-11-18T14:30:00-06:00",
+      "updated": "2026-11-18T14:32:00-06:00",
+      "summary": "Assignment builder/portfolio redesign"
     },
     {
       "id": "onboarding-audio-guides",
