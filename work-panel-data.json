@@ -1,7 +1,7 @@
 {
-  "version": 38,
-  "updated": "2026-11-17T18:24:00-06:00",
-  "headline": "Nov 17 6:24 PM · New Guided Tutorial one-button build (Jimmy looking first). Wayne is building the Features demo on Preview.",
+  "version": 39,
+  "updated": "2026-11-17T18:28:00-06:00",
+  "headline": "Nov 17 6:28 PM · PO follow-ups on Preview now also include the teacher-first copy, Welcome and Insights wording, and the Help article.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -722,25 +722,25 @@
     },
     {
       "id": "po-followups-preview",
-      "text": "PO follow-ups on Preview: Features demo snapshot, claims reword, and Live Data Feed demo redirect",
+      "text": "PO follow-ups on Preview: Features demo, claims reword, demo-page redirect, teacher-first copy, Welcome and Insights wording, and Help article",
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Wayne building the Features demo on Preview; screenshots pending.",
+      "note": "Preview only. Covers the Features demo, the claims reword, the demo-page redirect, the teacher-first copy, the Welcome and Insights wording, and the Help article.",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T18:24:00-06:00",
+      "updated": "2026-11-17T18:28:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
       "id": "po-teacher-live-lines-help-article",
       "text": "Teacher-side Live lines and a Help article for the Principal's Office section",
       "owner": "Will",
-      "status": "parked",
-      "note": "Will skipped both. Lucy leads. Parked until this is picked up again.",
+      "status": "shelved",
+      "note": "Superseded. Folded into PO follow-ups after Will un-parked it and gave the GO.",
       "order": 19,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T17:36:00-06:00",
+      "updated": "2026-11-17T18:28:00-06:00",
       "summary": "PO Live lines and Help article"
     },
     {
