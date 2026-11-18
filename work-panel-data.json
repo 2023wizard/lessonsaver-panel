@@ -1,7 +1,7 @@
 {
-  "version": 49,
-  "updated": "2026-11-18T15:25:00-06:00",
-  "headline": "Nov 18 3:25 PM · Get Started planner flow is building on Preview only. Publish waits on Will's own-words GO and Lucy's PASS.",
+  "version": 50,
+  "updated": "2026-11-18T15:46:00-06:00",
+  "headline": "Nov 18 3:46 PM · Will GO'd the Get Started planner publish now (planner-only). Wayne is publishing; Jimmy will verify — not Done.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -817,10 +817,10 @@
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Related Get Started planner flow is a separate build on Preview only; this Toolkit item is unchanged.",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Related Get Started planner flow is a separate build on Preview only; this Toolkit item is unchanged. Will skipped these widgets 3:41 PM; still waiting.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T15:25:00-06:00",
+      "updated": "2026-11-18T15:46:00-06:00",
       "summary": "Onboarding Toolkit revamp"
     },
     {
@@ -829,21 +829,32 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Wayne is building it on Preview only from Lucy's mocks (4 steps with mascot stickers). Lucy reports Will approved it on voice for live; that is Lucy's report, not yet Will's own-words GO. Publish waits on Will's own-words GO to Jimmy and on Lucy's 1440 and 390 Preview PASS (390 phone layouts are in progress). Open decision for Will: keep or drop the line \"You review everything the AI drafts before it reaches students\". Related to the Onboarding Toolkit revamp, not the same work. Lucy credited for design.",
+      "note": "3:41 PM: Will gave his own-words GO to publish once Lucy passed Preview (1440/390). The line \"You review everything the AI drafts before it reaches students\" is cut (decision closed). 3:46 PM: Will gave his own-words GO to publish now and waived Lucy's PASS. Wayne is publishing planner-only (no Slides badge). Jimmy will verify on .ai and .com. Status is publishing, awaiting Jimmy's verify — not Done. The Slide Builder free badge was left out of this publish and waits on Will. Lucy credited for design.",
       "order": 0,
       "created": "2026-11-18T15:25:00-06:00",
-      "updated": "2026-11-18T15:25:00-06:00",
+      "updated": "2026-11-18T15:46:00-06:00",
       "summary": "Get Started planner flow"
+    },
+    {
+      "id": "slide-builder-free-badge",
+      "text": "Slide Builder free badge",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "Left out of the planner-only Get Started planner publish. Waiting on Will whether the Slide Builder free badge should ship.",
+      "order": 2,
+      "created": "2026-11-18T15:46:00-06:00",
+      "updated": "2026-11-18T15:46:00-06:00",
+      "summary": "Slide Builder free badge"
     },
     {
       "id": "assignment-builder-portfolio-redesign",
       "text": "Assignment builder/portfolio redesign",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Read-only findings, nothing built. AI Assignments has no Teacher Workroom tile (a Preview widget is waiting on Will). Graded assignments have no rubric: points are saved, grading notes aren't saved, and Canvas push defaults to 100 points with no rubric. Lesson media never carries into assignments, and the Assignment Library is text-only. Google Classroom embed and link scope is in research now.",
+      "note": "Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Will skipped these widgets 3:41 PM; still waiting. Original findings still stand: AI Assignments has no Teacher Workroom tile (a Preview widget was waiting on Will); graded assignments have no rubric (points are saved, grading notes aren't saved, and Canvas push defaults to 100 points with no rubric); lesson media never carries into assignments, and the Assignment Library is text-only; Google Classroom embed and link scope was in research. Scope grew 3:46 PM: a hosted HTML page with lesson media; a shareable link plus embed code; Push to Canvas (with rubric and media) and Push to Google Classroom buttons; and a Work Room assignments entry synced with the Library.",
       "order": 1,
       "created": "2026-11-18T14:30:00-06:00",
-      "updated": "2026-11-18T14:32:00-06:00",
+      "updated": "2026-11-18T15:46:00-06:00",
       "summary": "Assignment builder/portfolio redesign"
     },
     {
