@@ -1,7 +1,7 @@
 {
-  "version": 40,
-  "updated": "2026-11-17T18:36:00-06:00",
-  "headline": "Nov 17 6:36 PM · Will GO'd more PO follow-ups on Preview. The GT one-button plan is with Will.",
+  "version": 41,
+  "updated": "2026-11-17T18:57:00-06:00",
+  "headline": "Nov 17 6:57 PM · New Rapid Recall SFX and haptics overhaul. Will settled the Insights picture and audience label. Casey is rewriting the privacy statements.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -726,10 +726,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Preview only. Will also GO'd help cleanup, removing the hidden Dept Head demo, and taking School Pulse out of the signed-in Principal's Office.",
+      "note": "Preview only. Still building. Will settled the Insights picture and the audience label. The privacy statements are a separate Casey item. School Lesson Saves wording is in this pass (Will kept the panel).",
       "order": 0,
       "created": "2026-11-17T17:36:00-06:00",
-      "updated": "2026-11-17T18:36:00-06:00",
+      "updated": "2026-11-17T18:57:00-06:00",
       "summary": "PO follow-ups on Preview"
     },
     {
@@ -753,6 +753,29 @@
       "created": "2026-11-17T18:24:00-06:00",
       "updated": "2026-11-17T18:36:00-06:00",
       "summary": "GT one-button build"
+    },
+    {
+      "id": "rapid-recall-sfx-haptics-overhaul",
+      "text": "Rapid Recall SFX and haptics overhaul, including the homepage Rapid Recall demos",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Wayne is building it on Preview. Kai will playtest, then it needs Will's GO to go live.",
+      "order": 0,
+      "created": "2026-11-17T18:56:00-06:00",
+      "updated": "2026-11-17T18:57:00-06:00",
+      "summary": "Rapid Recall SFX and haptics"
+    },
+    {
+      "id": "casey-privacy-statements-mastery-rollup",
+      "text": "Casey: rewrite the privacy statements that say mastery rolls up to principals",
+      "owner": "Casey",
+      "status": "in-flight",
+      "note": "Casey drafts, then Will approves. Covers standards help, Trust & Safety, and the opt-out dialog.",
+      "order": 0,
+      "created": "2026-11-17T18:57:00-06:00",
+      "updated": "2026-11-17T18:57:00-06:00",
+      "summary": "Privacy statements rewrite"
     }
   ]
 }
