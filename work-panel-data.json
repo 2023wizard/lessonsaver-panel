@@ -1,7 +1,7 @@
 {
-  "version": 68,
-  "updated": "2026-11-19T12:50:00-06:00",
-  "headline": "Nov 19 12:50 PM · PDF quiz settings fix is approved to go live right after the Insights menu change; Jimmy checks it after.",
+  "version": 69,
+  "updated": "2026-11-19T12:55:00-06:00",
+  "headline": "Nov 19 12:55 PM · Insights menu is live (Unit Progress under Standards & Mastery). Two parked follow-ups: Unit Progress stuck loading on accounts with no units, and a Help article that still mentions Diagnostics. PDF quiz settings is next: Wayne pastes and publishes under the 12:46 go.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1022,13 +1022,13 @@
     {
       "id": "insights-menu-unit-progress-under-standards-mastery",
       "text": "Insights menu: Unit Progress under Standards & Mastery",
-      "owner": "Will",
-      "status": "delayed",
+      "owner": "Wayne",
+      "status": "done",
       "lane": "branch",
-      "note": "On Preview, waiting on Coach Will's go. Still in Wayne's test harness; it goes out as its own Publish. Add Unit Progress right after Standards Mastery; take Diagnostic Tests off the menu; Formative stays.",
+      "note": "Unit Progress is now in the Insights menu under Standards & Mastery.",
       "order": 0,
       "created": "2026-11-19T12:35:00-06:00",
-      "updated": "2026-11-19T12:40:00-06:00",
+      "updated": "2026-11-19T12:55:00-06:00",
       "summary": "Insights menu: Unit Progress under Standards & Mastery"
     },
     {
@@ -1037,10 +1037,10 @@
       "owner": "Quinn",
       "status": "in-flight",
       "lane": "quickfix",
-      "note": "Approved to go live right after the Insights menu change; Jimmy checks it after.",
+      "note": "Insights menu has shipped. Wayne pastes and publishes this next under the 12:46 go; Jimmy checks it after.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T12:50:00-06:00",
+      "updated": "2026-11-19T12:55:00-06:00",
       "summary": "PDF quiz settings fix"
     },
     {
@@ -1053,6 +1053,28 @@
       "created": "2026-11-19T12:45:00-06:00",
       "updated": "2026-11-19T12:45:00-06:00",
       "summary": "Account-level 13+ email rule overrides quiz email setting"
+    },
+    {
+      "id": "unit-progress-stuck-loading-on-accounts-with-zero-units",
+      "text": "Unit Progress stuck loading on accounts with zero units",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "On accounts with no units, Unit Progress stays on 'Loading this unit...' It is a one-line fix and needs Coach Will's go.",
+      "order": 0,
+      "created": "2026-11-19T12:55:00-06:00",
+      "updated": "2026-11-19T12:55:00-06:00",
+      "summary": "Unit Progress stuck loading on accounts with zero units"
+    },
+    {
+      "id": "help-article-still-mentions-diagnostics-in-the-menu",
+      "text": "Help article still mentions Diagnostics in the menu",
+      "owner": "Jimmy",
+      "status": "parked",
+      "note": "The help content still lists Diagnostics in the Insights menu.",
+      "order": 0,
+      "created": "2026-11-19T12:55:00-06:00",
+      "updated": "2026-11-19T12:55:00-06:00",
+      "summary": "Help article still mentions Diagnostics in the menu"
     }
   ]
 }
