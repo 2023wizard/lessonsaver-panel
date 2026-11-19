@@ -1,7 +1,7 @@
 {
-  "version": 72,
-  "updated": "2026-11-19T14:40:00-06:00",
-  "headline": "Nov 19 2:40 PM · Students only see the email field when the quiz asks for it. Coach Will's real-quiz check on the Bell Ringer join page is still pending.",
+  "version": 73,
+  "updated": "2026-11-19T15:15:00-06:00",
+  "headline": "Nov 19 3:15 PM · The Complete your onboarding dashboard link is being built on Preview. Finished teachers see a faded Add another subject link. Publish needs a separate go-ahead.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -942,12 +942,12 @@
     {
       "id": "complete-your-onboarding-link-on-dashboard",
       "text": "Complete your onboarding link on dashboard",
-      "owner": "Will",
-      "status": "delayed",
-      "note": "Waiting on Coach Will's go to build it on Preview.",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Building on Preview; finished teachers see a faded Add another subject link. Publish needs a separate go-ahead.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T10:30:00-06:00",
+      "updated": "2026-11-19T15:15:00-06:00",
       "summary": "Complete your onboarding link on dashboard"
     },
     {
