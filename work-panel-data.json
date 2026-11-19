@@ -1,7 +1,7 @@
 {
-  "version": 61,
-  "updated": "2026-11-19T10:15:00-06:00",
-  "headline": "Nov 19 10:15 AM · New step 3 audio tip is live. The steps 2-4 Listen-button check is still waiting on Coach Will.",
+  "version": 62,
+  "updated": "2026-11-19T10:30:00-06:00",
+  "headline": "Nov 19 10:30 AM · Unit progress details are decided; Lucy is updating the mock, no build yet. The onboarding dashboard link is waiting on Coach Will's go to build it on Preview.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -932,21 +932,21 @@
       "text": "Unit progress tracking",
       "owner": "Jimmy",
       "status": "in-flight",
-      "note": "Lucy is mocking up a unit progress view for teachers; no build yet.",
+      "note": "Details decided. Lucy is updating the mockup; no build yet.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:30:00-06:00",
       "summary": "Unit progress tracking"
     },
     {
       "id": "complete-your-onboarding-link-on-dashboard",
       "text": "Complete your onboarding link on dashboard",
-      "owner": "Jimmy",
-      "status": "in-flight",
-      "note": "A light-blue link under the teacher's name in the dashboard Welcome back area, shown only when onboarding is incomplete. Being scoped; no build yet.",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Waiting on Coach Will's go to build it on Preview.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:30:00-06:00",
       "summary": "Complete your onboarding link on dashboard"
     },
     {
