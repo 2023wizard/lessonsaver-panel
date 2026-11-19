@@ -1,7 +1,7 @@
 {
-  "version": 63,
-  "updated": "2026-11-19T11:15:00-06:00",
-  "headline": "Nov 19 11:15 AM · Coach Will gave the go to build unit progress tracking on Preview. Wayne is building the teacher view; the pre-lesson check comes later.",
+  "version": 64,
+  "updated": "2026-11-19T11:50:00-06:00",
+  "headline": "Nov 19 11:50 AM · Unit progress view is live in Teacher Insights. Waiting on Coach Will's real-data check; the pre-lesson check is parked (plan only).",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -931,11 +931,11 @@
       "id": "unit-progress-tracking",
       "text": "Unit progress tracking",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Wayne is building the teacher view on Preview; the pre-lesson check comes later.",
+      "status": "done",
+      "note": "Unit progress view is live in Teacher Insights; the pre-lesson check comes later.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T11:15:00-06:00",
+      "updated": "2026-11-19T11:50:00-06:00",
       "summary": "Unit progress tracking",
       "lane": "branch"
     },
@@ -960,6 +960,28 @@
       "created": "2026-11-19T10:10:00-06:00",
       "updated": "2026-11-19T10:15:00-06:00",
       "summary": "Audio tips: step 3 rewrite (Personalize your AI)"
+    },
+    {
+      "id": "unit-progress-coach-wills-real-data-check-in-insights",
+      "text": "Unit progress: Coach Will's real-data check in Insights",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Waiting on Coach Will to check the live Insights view with real class data (Standards, All Time, pick a unit). It has not been tested with real class data yet.",
+      "order": 0,
+      "created": "2026-11-19T11:50:00-06:00",
+      "updated": "2026-11-19T11:50:00-06:00",
+      "summary": "Unit progress: Coach Will's real-data check in Insights"
+    },
+    {
+      "id": "unit-progress-phase-2-pre-lesson-check",
+      "text": "Unit progress phase 2: pre-lesson check",
+      "owner": "Wayne",
+      "status": "parked",
+      "note": "Plan only, no go yet. The pre-lesson check comes after the live teacher view.",
+      "order": 0,
+      "created": "2026-11-19T11:50:00-06:00",
+      "updated": "2026-11-19T11:50:00-06:00",
+      "summary": "Unit progress phase 2: pre-lesson check"
     }
   ]
 }
