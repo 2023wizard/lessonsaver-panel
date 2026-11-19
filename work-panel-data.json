@@ -1,7 +1,7 @@
 {
-  "version": 73,
-  "updated": "2026-11-19T15:15:00-06:00",
-  "headline": "Nov 19 3:15 PM · The Complete your onboarding dashboard link is being built on Preview. Finished teachers see a faded Add another subject link. Publish needs a separate go-ahead.",
+  "version": 74,
+  "updated": "2026-11-19T15:25:00-06:00",
+  "headline": "Nov 19 3:25 PM · Free monthly limits go from 10 to 3, plus a Guided Tutorials tile on the usage card. Starts after the onboarding link; Preview only.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1075,6 +1075,17 @@
       "created": "2026-11-19T12:55:00-06:00",
       "updated": "2026-11-19T12:55:00-06:00",
       "summary": "Help article still mentions Diagnostics in the menu"
+    },
+    {
+      "id": "free-plan-3-for-free",
+      "text": "Free plan: 3 for Free",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Free monthly limits go from 10 to 3, plus a Guided Tutorials tile on the usage card. Starts after the onboarding link; Preview only.",
+      "order": 0,
+      "created": "2026-11-19T15:25:00-06:00",
+      "updated": "2026-11-19T15:25:00-06:00",
+      "summary": "Free plan: 3 for Free"
     }
   ]
 }
