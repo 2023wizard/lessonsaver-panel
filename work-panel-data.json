@@ -1,7 +1,7 @@
 {
-  "version": 54,
-  "updated": "2026-11-18T22:30:00-06:00",
-  "headline": "Nov 18 10:30 PM · Brand consistency sweep is live. Jimmy verified the brand color and coffee-ring markers.",
+  "version": 55,
+  "updated": "2026-11-19T06:45:00-06:00",
+  "headline": "Nov 19 6:45 AM · Will retired the journal/planner GetStarted look. New: GetStarted revert to white-card design. The $39 banner is decided.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -817,10 +817,10 @@
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. Waiting on Will for the earlier calls, the $39 vs $20 banner, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will, 2:32 PM: do not put this ahead of Lucy's onboarding Toolkit work. Related Get Started planner flow is a separate build on Preview only; this Toolkit item is unchanged. Will skipped these widgets 3:41 PM; still waiting.",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. The $39 vs $20 Pro banner is decided at $39 (Will's 6:39 AM GO approved Lucy's list with $39). Still waiting on Will for earlier calls, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will skipped these widgets 3:41 PM; still waiting. The GetStarted white-card revert now covers some of this work (the current 7 toolkit cards and the $39 banner in that ship).",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T15:46:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
       "summary": "Onboarding Toolkit revamp"
     },
     {
@@ -829,10 +829,10 @@
       "owner": "Wayne",
       "status": "done",
       "lane": "branch",
-      "note": "Live about 4:08 PM. Wayne published under Will's 3:41/3:46 own-words GO. Jimmy verified .ai and .com. Includes the short blurb, no locks; Slides badge off. Will is testing; Lucy's post-live look is pending. Lucy credited for design.",
+      "note": "Live about 4:08 PM. Wayne published under Will's 3:41/3:46 own-words GO. Jimmy verified .ai and .com. Includes the short blurb, no locks; Slides badge off. Will is testing; Lucy's post-live look is pending. Lucy credited for design. Retired Nov 19 6:29 AM; replaced by the white-card revert. This item stays done.",
       "order": 0,
       "created": "2026-11-18T15:25:00-06:00",
-      "updated": "2026-11-18T16:10:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
       "summary": "Get Started planner flow"
     },
     {
@@ -840,21 +840,21 @@
       "text": "GetStarted sticky-note + laptop-fit round",
       "owner": "Wayne",
       "status": "done",
-      "note": "Live 6:36 PM under Will's 6:31 GO. Jimmy verified .ai and .com. A GetStarted sticky-note and laptop-fit polish round. Slides badge still off.",
+      "note": "Live 6:36 PM under Will's 6:31 GO. Jimmy verified .ai and .com. A GetStarted sticky-note and laptop-fit polish round. Slides badge still off. Retired Nov 19 6:29 AM; replaced by the white-card revert. This item stays done.",
       "order": 0,
       "created": "2026-11-18T19:00:00-06:00",
-      "updated": "2026-11-18T19:00:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
       "summary": "GetStarted sticky-note + laptop-fit round"
     },
     {
       "id": "get-started-planner-wills-live-test",
       "text": "Get Started planner: Will's live test",
       "owner": "Will",
-      "status": "delayed",
-      "note": "Waiting on Will to test the live Get Started planner. Lucy's post-live look is also pending. The planner is live (short blurb, no locks; Slides badge off). A later GetStarted sticky-note and laptop-fit round went live at 6:36 PM; this live test is still waiting.",
+      "status": "shelved",
+      "note": "Waiting on Will to test the live Get Started planner. Lucy's post-live look is also pending. The planner is live (short blurb, no locks; Slides badge off). A later GetStarted sticky-note and laptop-fit round went live at 6:36 PM; this live test is still waiting. Superseded and cancelled: Will retired the journal/planner GetStarted look at 6:29 AM Nov 19, so this live test and Lucy's post-live look are moot. Replaced by the GetStarted white-card revert. History is kept.",
       "order": 0,
       "created": "2026-11-18T16:10:00-06:00",
-      "updated": "2026-11-18T19:00:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
       "summary": "Get Started planner: Will's live test"
     },
     {
@@ -862,10 +862,10 @@
       "text": "Slide Builder free badge",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "Still off in the live Get Started planner publish. Waiting on Will whether the Slide Builder free badge should ship.",
+      "note": "Still off in the live Get Started planner publish. Waiting on Will whether the Slide Builder free badge should ship. The GetStarted white-card revert keeps the badge off. This item stays waiting on Will.",
       "order": 2,
       "created": "2026-11-18T15:46:00-06:00",
-      "updated": "2026-11-18T16:10:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
       "summary": "Slide Builder free badge"
     },
     {
@@ -902,6 +902,18 @@
       "created": "2026-11-18T08:36:00-06:00",
       "updated": "2026-11-18T08:39:00-06:00",
       "summary": "Onboarding audio guides"
+    },
+    {
+      "id": "getstarted-revert-to-white-card-design",
+      "text": "GetStarted revert to white-card design",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Raised 6:29-6:39 AM. Revert to the pre-journal white-card design, keeping brand v2 and the bigger TM, the current 7 toolkit cards, $39 instead of $20, a 1280x680 fit, and the Slides badge off. Wayne builds on Preview, Lucy PASSes, then it publishes. Will's 6:39 AM GO covers the Publish (Jimmy's report). Lucy credited. Related to the Toolkit revamp, the retired planner and sticky-note ships, and the Slide Builder badge, which stays waiting on Will.",
+      "order": 0,
+      "created": "2026-11-19T06:45:00-06:00",
+      "updated": "2026-11-19T06:45:00-06:00",
+      "summary": "GetStarted revert to white-card design"
     }
   ]
 }
