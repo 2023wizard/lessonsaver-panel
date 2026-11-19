@@ -1,7 +1,7 @@
 {
-  "version": 53,
-  "updated": "2026-11-18T19:00:00-06:00",
-  "headline": "Nov 18 7:00 PM · GetStarted sticky-note + laptop-fit round is live. Brand consistency sweep is Active (Lucy mockups; Wayne on Preview).",
+  "version": 54,
+  "updated": "2026-11-18T22:30:00-06:00",
+  "headline": "Nov 18 10:30 PM · Brand consistency sweep is live. Jimmy verified the brand color and coffee-ring markers.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -884,12 +884,12 @@
       "id": "brand-consistency-sweep",
       "text": "Brand consistency sweep",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "done",
       "lane": "branch",
-      "note": "Raised by Will at 6:57 PM. Lucy does mockups and spec; Wayne builds on Preview; publish needs Will's GO. Orange plus light blue on the logo site-wide, including the dashboard; a bigger TM on every logo; remove the GetStarted coffee-ring outline. Lucy credited for design.",
+      "note": "Live 10:23 PM under Will's own-words GO at 10:21 PM, typed in Lucy's chat (Jimmy's report). Jimmy verified .ai and .com, including the brand color and coffee-ring markers. Lucy credited for design. This item was Active until that ship.",
       "order": 0,
       "created": "2026-11-18T18:57:00-06:00",
-      "updated": "2026-11-18T19:00:00-06:00",
+      "updated": "2026-11-18T22:30:00-06:00",
       "summary": "Brand consistency sweep"
     },
     {
