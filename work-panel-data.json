@@ -1,7 +1,7 @@
 {
-  "version": 52,
-  "updated": "2026-11-18T16:10:00-06:00",
-  "headline": "Nov 18 4:10 PM · Get Started planner is live. Will is testing; Lucy's post-live look is pending.",
+  "version": 53,
+  "updated": "2026-11-18T19:00:00-06:00",
+  "headline": "Nov 18 7:00 PM · GetStarted sticky-note + laptop-fit round is live. Brand consistency sweep is Active (Lucy mockups; Wayne on Preview).",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -836,14 +836,25 @@
       "summary": "Get Started planner flow"
     },
     {
+      "id": "getstarted-sticky-note-laptop-fit-round",
+      "text": "GetStarted sticky-note + laptop-fit round",
+      "owner": "Wayne",
+      "status": "done",
+      "note": "Live 6:36 PM under Will's 6:31 GO. Jimmy verified .ai and .com. A GetStarted sticky-note and laptop-fit polish round. Slides badge still off.",
+      "order": 0,
+      "created": "2026-11-18T19:00:00-06:00",
+      "updated": "2026-11-18T19:00:00-06:00",
+      "summary": "GetStarted sticky-note + laptop-fit round"
+    },
+    {
       "id": "get-started-planner-wills-live-test",
       "text": "Get Started planner: Will's live test",
       "owner": "Will",
       "status": "delayed",
-      "note": "Waiting on Will to test the live Get Started planner. Lucy's post-live look is also pending. The planner is live (short blurb, no locks; Slides badge off).",
+      "note": "Waiting on Will to test the live Get Started planner. Lucy's post-live look is also pending. The planner is live (short blurb, no locks; Slides badge off). A later GetStarted sticky-note and laptop-fit round went live at 6:36 PM; this live test is still waiting.",
       "order": 0,
       "created": "2026-11-18T16:10:00-06:00",
-      "updated": "2026-11-18T16:10:00-06:00",
+      "updated": "2026-11-18T19:00:00-06:00",
       "summary": "Get Started planner: Will's live test"
     },
     {
@@ -868,6 +879,18 @@
       "updated": "2026-11-18T16:10:00-06:00",
       "summary": "Assignment builder/portfolio redesign",
       "lane": "branch"
+    },
+    {
+      "id": "brand-consistency-sweep",
+      "text": "Brand consistency sweep",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "lane": "branch",
+      "note": "Raised by Will at 6:57 PM. Lucy does mockups and spec; Wayne builds on Preview; publish needs Will's GO. Orange plus light blue on the logo site-wide, including the dashboard; a bigger TM on every logo; remove the GetStarted coffee-ring outline. Lucy credited for design.",
+      "order": 0,
+      "created": "2026-11-18T18:57:00-06:00",
+      "updated": "2026-11-18T19:00:00-06:00",
+      "summary": "Brand consistency sweep"
     },
     {
       "id": "onboarding-audio-guides",
