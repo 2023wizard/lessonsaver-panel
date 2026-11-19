@@ -1,7 +1,7 @@
 {
-  "version": 64,
-  "updated": "2026-11-19T11:50:00-06:00",
-  "headline": "Nov 19 11:50 AM · Unit progress view is live in Teacher Insights. Waiting on Coach Will's real-data check; the pre-lesson check is parked (plan only).",
+  "version": 65,
+  "updated": "2026-11-19T12:35:00-06:00",
+  "headline": "Nov 19 12:35 PM · Unit Progress hardening and quiz-column fixes, plus Assign Lessons modal and sidebar fixes, are live. On Preview, waiting on Coach Will: quiz auto-title and the Insights menu change.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -966,10 +966,10 @@
       "text": "Unit progress: Coach Will's real-data check in Insights",
       "owner": "Will",
       "status": "delayed",
-      "note": "Waiting on Coach Will to check the live Insights view with real class data (Standards, All Time, pick a unit). It has not been tested with real class data yet.",
+      "note": "Waiting on Coach Will to check the live Insights view with real class data on unit 13 (Standards, All Time, pick unit 13).",
       "order": 0,
       "created": "2026-11-19T11:50:00-06:00",
-      "updated": "2026-11-19T11:50:00-06:00",
+      "updated": "2026-11-19T12:35:00-06:00",
       "summary": "Unit progress: Coach Will's real-data check in Insights"
     },
     {
@@ -982,6 +982,54 @@
       "created": "2026-11-19T11:50:00-06:00",
       "updated": "2026-11-19T11:50:00-06:00",
       "summary": "Unit progress phase 2: pre-lesson check"
+    },
+    {
+      "id": "unit-progress-fixes-hardening-quiz-columns",
+      "text": "Unit Progress fixes (hardening + quiz columns)",
+      "owner": "Wayne",
+      "status": "done",
+      "lane": "branch",
+      "note": "Live. The view now shows under empty standards states, the teacher gate is wider, and errors are visible. Lesson quizzes go in their lesson column, and only real tests count as the unit test.",
+      "order": 0,
+      "created": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:35:00-06:00",
+      "summary": "Unit Progress fixes (hardening + quiz columns)"
+    },
+    {
+      "id": "assign-lessons-modal-and-sidebar-fixes",
+      "text": "Assign Lessons modal and sidebar fixes",
+      "owner": "Wayne",
+      "status": "done",
+      "lane": "branch",
+      "note": "Live. Fixes to the Assign Lessons modal and sidebar.",
+      "order": 0,
+      "created": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:35:00-06:00",
+      "summary": "Assign Lessons modal and sidebar fixes"
+    },
+    {
+      "id": "quiz-from-lesson-auto-title",
+      "text": "Quiz-from-lesson auto-title",
+      "owner": "Will",
+      "status": "delayed",
+      "lane": "branch",
+      "note": "On Preview, waiting on Coach Will's go. The title is the lesson name plus Quiz.",
+      "order": 0,
+      "created": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:35:00-06:00",
+      "summary": "Quiz-from-lesson auto-title"
+    },
+    {
+      "id": "insights-menu-unit-progress-under-standards-mastery",
+      "text": "Insights menu: Unit Progress under Standards & Mastery",
+      "owner": "Will",
+      "status": "delayed",
+      "lane": "branch",
+      "note": "On Preview, waiting on Coach Will's go. Add Unit Progress right after Standards Mastery; take Diagnostic Tests off the menu; Formative stays.",
+      "order": 0,
+      "created": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:35:00-06:00",
+      "summary": "Insights menu: Unit Progress under Standards & Mastery"
     }
   ]
 }
