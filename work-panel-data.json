@@ -1,7 +1,7 @@
 {
-  "version": 66,
-  "updated": "2026-11-19T12:40:00-06:00",
-  "headline": "Nov 19 12:40 PM · Quizzes made from a lesson are now named after the lesson. The Insights menu change is still waiting and will go out as its own Publish.",
+  "version": 67,
+  "updated": "2026-11-19T12:45:00-06:00",
+  "headline": "Nov 19 12:45 PM · Quinn is fixing quiz email and bonus settings on Preview (goes live only on Coach Will's go). A separate account-level 13+ email rule change is parked.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1030,6 +1030,29 @@
       "created": "2026-11-19T12:35:00-06:00",
       "updated": "2026-11-19T12:40:00-06:00",
       "summary": "Insights menu: Unit Progress under Standards & Mastery"
+    },
+    {
+      "id": "pdf-quiz-settings-fix",
+      "text": "PDF quiz settings fix",
+      "owner": "Quinn",
+      "status": "in-flight",
+      "lane": "quickfix",
+      "note": "Quinn is fixing quiz email and bonus settings on Preview; goes live only on Coach Will's go.",
+      "order": 0,
+      "created": "2026-11-19T12:45:00-06:00",
+      "updated": "2026-11-19T12:45:00-06:00",
+      "summary": "PDF quiz settings fix"
+    },
+    {
+      "id": "account-level-13-plus-email-rule-overrides-quiz-email-setting",
+      "text": "Account-level 13+ email rule overrides quiz email setting",
+      "owner": "Jimmy",
+      "status": "parked",
+      "note": "Not started. Needs its own scope and go. A separate change from the Preview quiz-settings fix.",
+      "order": 0,
+      "created": "2026-11-19T12:45:00-06:00",
+      "updated": "2026-11-19T12:45:00-06:00",
+      "summary": "Account-level 13+ email rule overrides quiz email setting"
     }
   ]
 }
