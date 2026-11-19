@@ -1,7 +1,7 @@
 {
-  "version": 59,
-  "updated": "2026-11-19T09:50:00-06:00",
-  "headline": "Nov 19 9:50 AM · Spark audio tips are live on all 4 Get Started steps. Waiting on Coach Will to check the steps 2-4 Listen buttons.",
+  "version": 60,
+  "updated": "2026-11-19T10:10:00-06:00",
+  "headline": "Nov 19 10:10 AM · Unit progress tracking is Active (Lucy is mocking it up; no build yet). New: onboarding dashboard link (scoping) and audio tips step 3 rewrite waiting on Coach Will.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -926,6 +926,39 @@
       "created": "2026-11-19T09:50:00-06:00",
       "updated": "2026-11-19T09:50:00-06:00",
       "summary": "Audio tips: Coach Will's check of the steps 2-4 Listen buttons"
+    },
+    {
+      "id": "unit-progress-tracking",
+      "text": "Unit progress tracking",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "Lucy is mocking up a unit progress view for teachers; no build yet.",
+      "order": 0,
+      "created": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:10:00-06:00",
+      "summary": "Unit progress tracking"
+    },
+    {
+      "id": "complete-your-onboarding-link-on-dashboard",
+      "text": "Complete your onboarding link on dashboard",
+      "owner": "Jimmy",
+      "status": "in-flight",
+      "note": "A light-blue link under the teacher's name in the dashboard Welcome back area, shown only when onboarding is incomplete. Being scoped; no build yet.",
+      "order": 0,
+      "created": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:10:00-06:00",
+      "summary": "Complete your onboarding link on dashboard"
+    },
+    {
+      "id": "audio-tips-step-3-rewrite-personalize-your-ai",
+      "text": "Audio tips: step 3 rewrite (Personalize your AI)",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "On Preview, waiting on Coach Will's GO to publish.",
+      "order": 0,
+      "created": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:10:00-06:00",
+      "summary": "Audio tips: step 3 rewrite (Personalize your AI)"
     }
   ]
 }
