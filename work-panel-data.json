@@ -1,7 +1,7 @@
 {
-  "version": 57,
-  "updated": "2026-11-19T07:50:00-06:00",
-  "headline": "Nov 19 7:50 AM · GetStarted revert to white-card design is Done. Jimmy verified v6 on .ai and .com, with the step 4 pills off.",
+  "version": 58,
+  "updated": "2026-11-19T09:30:00-06:00",
+  "headline": "Nov 19 9:30 AM · Coach Will picked the Spark voice for GetStarted audio tips. Wayne is rendering the 4 clips on Preview.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -897,10 +897,10 @@
       "text": "GetStarted Lesson Saver audio tips",
       "owner": "Wayne",
       "status": "in-flight",
-      "note": "Un-parked Nov 19 7:42 AM from audio guides on each onboarding screen (same idea; history kept). Option B v2: a mascot tip bubble with a Listen button on all 4 steps. Will GO'd building it on Preview at 7:42 AM (Jimmy's report). Wayne builds it; Lucy designs and PASSes it (Lucy credited). Next: 3 voice samples for Will to pick from, then 4 Podcast Studio clips. Publish needs Will's GO.",
+      "note": "Voice picked (Spark). Wayne is making the 4 clips on Preview; then Lucy checks and Coach Will gives the go.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-19T07:45:00-06:00",
+      "updated": "2026-11-19T09:30:00-06:00",
       "summary": "GetStarted Lesson Saver audio tips",
       "lane": "branch"
     },
