@@ -1,7 +1,7 @@
 {
-  "version": 60,
-  "updated": "2026-11-19T10:10:00-06:00",
-  "headline": "Nov 19 10:10 AM · Unit progress tracking is Active (Lucy is mocking it up; no build yet). New: onboarding dashboard link (scoping) and audio tips step 3 rewrite waiting on Coach Will.",
+  "version": 61,
+  "updated": "2026-11-19T10:15:00-06:00",
+  "headline": "Nov 19 10:15 AM · New step 3 audio tip is live. The steps 2-4 Listen-button check is still waiting on Coach Will.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -953,11 +953,11 @@
       "id": "audio-tips-step-3-rewrite-personalize-your-ai",
       "text": "Audio tips: step 3 rewrite (Personalize your AI)",
       "owner": "Will",
-      "status": "delayed",
-      "note": "On Preview, waiting on Coach Will's GO to publish.",
+      "status": "done",
+      "note": "New step 3 audio tip is live.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T10:10:00-06:00",
+      "updated": "2026-11-19T10:15:00-06:00",
       "summary": "Audio tips: step 3 rewrite (Personalize your AI)"
     }
   ]
