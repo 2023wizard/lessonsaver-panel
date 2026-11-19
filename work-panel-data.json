@@ -1,7 +1,7 @@
 {
-  "version": 65,
-  "updated": "2026-11-19T12:35:00-06:00",
-  "headline": "Nov 19 12:35 PM · Unit Progress hardening and quiz-column fixes, plus Assign Lessons modal and sidebar fixes, are live. On Preview, waiting on Coach Will: quiz auto-title and the Insights menu change.",
+  "version": 66,
+  "updated": "2026-11-19T12:40:00-06:00",
+  "headline": "Nov 19 12:40 PM · Quizzes made from a lesson are now named after the lesson. The Insights menu change is still waiting and will go out as its own Publish.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1011,12 +1011,12 @@
       "id": "quiz-from-lesson-auto-title",
       "text": "Quiz-from-lesson auto-title",
       "owner": "Will",
-      "status": "delayed",
+      "status": "done",
       "lane": "branch",
-      "note": "On Preview, waiting on Coach Will's go. The title is the lesson name plus Quiz.",
+      "note": "Quizzes made from a lesson are now named after the lesson.",
       "order": 0,
       "created": "2026-11-19T12:35:00-06:00",
-      "updated": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:40:00-06:00",
       "summary": "Quiz-from-lesson auto-title"
     },
     {
@@ -1025,10 +1025,10 @@
       "owner": "Will",
       "status": "delayed",
       "lane": "branch",
-      "note": "On Preview, waiting on Coach Will's go. Add Unit Progress right after Standards Mastery; take Diagnostic Tests off the menu; Formative stays.",
+      "note": "On Preview, waiting on Coach Will's go. Still in Wayne's test harness; it goes out as its own Publish. Add Unit Progress right after Standards Mastery; take Diagnostic Tests off the menu; Formative stays.",
       "order": 0,
       "created": "2026-11-19T12:35:00-06:00",
-      "updated": "2026-11-19T12:35:00-06:00",
+      "updated": "2026-11-19T12:40:00-06:00",
       "summary": "Insights menu: Unit Progress under Standards & Mastery"
     }
   ]
