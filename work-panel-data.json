@@ -1,7 +1,7 @@
 {
-  "version": 55,
-  "updated": "2026-11-19T06:45:00-06:00",
-  "headline": "Nov 19 6:45 AM · Will retired the journal/planner GetStarted look. New: GetStarted revert to white-card design. The $39 banner is decided.",
+  "version": 56,
+  "updated": "2026-11-19T07:45:00-06:00",
+  "headline": "Nov 19 7:45 AM · GetStarted revert v5 is live; v6 reported live, being checked. Audio tips un-parked after Will's 7:42 AM Preview GO.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -817,10 +817,10 @@
       "text": "Onboarding Toolkit page revamp (Get Started step 4)",
       "owner": "Jimmy",
       "status": "delayed",
-      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. The $39 vs $20 Pro banner is decided at $39 (Will's 6:39 AM GO approved Lucy's list with $39). Still waiting on Will for earlier calls, a Preview build GO, and whether a one-line Free/Pro legend should come back. Lucy leads. Will skipped these widgets 3:41 PM; still waiting. The GetStarted white-card revert now covers some of this work (the current 7 toolkit cards and the $39 banner in that ship).",
+      "note": "v3 mocks are ready, trimmed per Will's 10:11 ask. Still mock only, nothing ships. The $39 vs $20 Pro banner is decided at $39. Per Jimmy, the GetStarted revert covers only the GetStarted onboarding cards. Both open calls (the Preview build GO and the Free/Pro legend) stay open. Lucy leads. Will skipped these widgets 3:41 PM; still waiting.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-19T06:45:00-06:00",
+      "updated": "2026-11-19T07:45:00-06:00",
       "summary": "Onboarding Toolkit revamp"
     },
     {
@@ -894,14 +894,15 @@
     },
     {
       "id": "onboarding-audio-guides",
-      "text": "Audio guides on each onboarding screen",
-      "owner": "Jimmy",
-      "status": "parked",
-      "note": "Lucy leads. Scoped only, no build. The Toolkit mock includes an audio-guide script for the standards upload screen.",
-      "order": 15,
+      "text": "GetStarted Lesson Saver audio tips",
+      "owner": "Wayne",
+      "status": "in-flight",
+      "note": "Un-parked Nov 19 7:42 AM from audio guides on each onboarding screen (same idea; history kept). Option B v2: a mascot tip bubble with a Listen button on all 4 steps. Will GO'd building it on Preview at 7:42 AM (Jimmy's report). Wayne builds it; Lucy designs and PASSes it (Lucy credited). Next: 3 voice samples for Will to pick from, then 4 Podcast Studio clips. Publish needs Will's GO.",
+      "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-18T08:39:00-06:00",
-      "summary": "Onboarding audio guides"
+      "updated": "2026-11-19T07:45:00-06:00",
+      "summary": "GetStarted Lesson Saver audio tips",
+      "lane": "branch"
     },
     {
       "id": "getstarted-revert-to-white-card-design",
@@ -909,10 +910,10 @@
       "owner": "Wayne",
       "status": "in-flight",
       "lane": "branch",
-      "note": "Raised 6:29-6:39 AM. Revert to the pre-journal white-card design, keeping brand v2 and the bigger TM, the current 7 toolkit cards, $39 instead of $20, a 1280x680 fit, and the Slides badge off. Wayne builds on Preview, Lucy PASSes, then it publishes. Will's 6:39 AM GO covers the Publish (Jimmy's report). Lucy credited. Related to the Toolkit revamp, the retired planner and sticky-note ships, and the Slide Builder badge, which stays waiting on Will.",
+      "note": "Simpler version live; final touch-up (removing the Pro pills) reported live, being checked.",
       "order": 0,
       "created": "2026-11-19T06:45:00-06:00",
-      "updated": "2026-11-19T06:45:00-06:00",
+      "updated": "2026-11-19T07:45:00-06:00",
       "summary": "GetStarted revert to white-card design"
     }
   ]
