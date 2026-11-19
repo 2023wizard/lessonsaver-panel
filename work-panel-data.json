@@ -1,7 +1,7 @@
 {
-  "version": 69,
-  "updated": "2026-11-19T12:55:00-06:00",
-  "headline": "Nov 19 12:55 PM · Insights menu is live (Unit Progress under Standards & Mastery). Two parked follow-ups: Unit Progress stuck loading on accounts with no units, and a Help article that still mentions Diagnostics. PDF quiz settings is next: Wayne pastes and publishes under the 12:46 go.",
+  "version": 70,
+  "updated": "2026-11-19T13:00:00-06:00",
+  "headline": "Nov 19 1:00 PM · Quiz email and bonus settings now carry through to Publish. The account-level 13+ email rule change stays parked, with no go.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1035,12 +1035,12 @@
       "id": "pdf-quiz-settings-fix",
       "text": "PDF quiz settings fix",
       "owner": "Quinn",
-      "status": "in-flight",
+      "status": "done",
       "lane": "quickfix",
-      "note": "Insights menu has shipped. Wayne pastes and publishes this next under the 12:46 go; Jimmy checks it after.",
+      "note": "Quiz email and bonus settings now carry through to Publish.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T12:55:00-06:00",
+      "updated": "2026-11-19T13:00:00-06:00",
       "summary": "PDF quiz settings fix"
     },
     {
@@ -1048,10 +1048,10 @@
       "text": "Account-level 13+ email rule overrides quiz email setting",
       "owner": "Jimmy",
       "status": "parked",
-      "note": "Not started. Needs its own scope and go. A separate change from the Preview quiz-settings fix.",
+      "note": "Still parked, no go. Separate from the live quiz email and bonus settings fix.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T12:45:00-06:00",
+      "updated": "2026-11-19T13:00:00-06:00",
       "summary": "Account-level 13+ email rule overrides quiz email setting"
     },
     {
