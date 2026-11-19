@@ -1,7 +1,7 @@
 {
-  "version": 70,
-  "updated": "2026-11-19T13:00:00-06:00",
-  "headline": "Nov 19 1:00 PM · Quiz email and bonus settings now carry through to Publish. The account-level 13+ email rule change stays parked, with no go.",
+  "version": 71,
+  "updated": "2026-11-19T14:30:00-06:00",
+  "headline": "Nov 19 2:30 PM · Quiz email setting controls the join form (fix C) is ready on Preview; waiting on Coach Will's go-ahead to publish.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1045,14 +1045,14 @@
     },
     {
       "id": "account-level-13-plus-email-rule-overrides-quiz-email-setting",
-      "text": "Account-level 13+ email rule overrides quiz email setting",
-      "owner": "Jimmy",
-      "status": "parked",
-      "note": "Still parked, no go. Separate from the live quiz email and bonus settings fix.",
+      "text": "Quiz email setting controls the join form (fix C)",
+      "owner": "Wayne",
+      "status": "delayed",
+      "note": "Ready on Preview; waiting on Coach Will's go-ahead to publish.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T13:00:00-06:00",
-      "summary": "Account-level 13+ email rule overrides quiz email setting"
+      "updated": "2026-11-19T14:30:00-06:00",
+      "summary": "Quiz email setting controls the join form (fix C)"
     },
     {
       "id": "unit-progress-stuck-loading-on-accounts-with-zero-units",
