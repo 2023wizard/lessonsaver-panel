@@ -1,7 +1,7 @@
 {
-  "version": 56,
-  "updated": "2026-11-19T07:45:00-06:00",
-  "headline": "Nov 19 7:45 AM · GetStarted revert v5 is live; v6 reported live, being checked. Audio tips un-parked after Will's 7:42 AM Preview GO.",
+  "version": 57,
+  "updated": "2026-11-19T07:50:00-06:00",
+  "headline": "Nov 19 7:50 AM · GetStarted revert to white-card design is Done. Jimmy verified v6 on .ai and .com, with the step 4 pills off.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -908,12 +908,12 @@
       "id": "getstarted-revert-to-white-card-design",
       "text": "GetStarted revert to white-card design",
       "owner": "Wayne",
-      "status": "in-flight",
+      "status": "done",
       "lane": "branch",
-      "note": "Simpler version live; final touch-up (removing the Pro pills) reported live, being checked.",
+      "note": "Clean white-card Get Started is live, with the Pro pills removed.",
       "order": 0,
       "created": "2026-11-19T06:45:00-06:00",
-      "updated": "2026-11-19T07:45:00-06:00",
+      "updated": "2026-11-19T07:50:00-06:00",
       "summary": "GetStarted revert to white-card design"
     }
   ]
