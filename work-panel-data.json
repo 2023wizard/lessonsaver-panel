@@ -1,7 +1,7 @@
 {
-  "version": 58,
-  "updated": "2026-11-19T09:30:00-06:00",
-  "headline": "Nov 19 9:30 AM · Coach Will picked the Spark voice for GetStarted audio tips. Wayne is rendering the 4 clips on Preview.",
+  "version": 59,
+  "updated": "2026-11-19T09:50:00-06:00",
+  "headline": "Nov 19 9:50 AM · Spark audio tips are live on all 4 Get Started steps. Waiting on Coach Will to check the steps 2-4 Listen buttons.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -896,11 +896,11 @@
       "id": "onboarding-audio-guides",
       "text": "GetStarted Lesson Saver audio tips",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Voice picked (Spark). Wayne is making the 4 clips on Preview; then Lucy checks and Coach Will gives the go.",
+      "status": "done",
+      "note": "Spark audio tips are live on all 4 Get Started steps.",
       "order": 0,
       "created": "2026-11-18T08:36:00-06:00",
-      "updated": "2026-11-19T09:30:00-06:00",
+      "updated": "2026-11-19T09:50:00-06:00",
       "summary": "GetStarted Lesson Saver audio tips",
       "lane": "branch"
     },
@@ -915,6 +915,17 @@
       "created": "2026-11-19T06:45:00-06:00",
       "updated": "2026-11-19T07:50:00-06:00",
       "summary": "GetStarted revert to white-card design"
+    },
+    {
+      "id": "audio-tips-coach-wills-check-of-the-steps-2-4-listen-buttons",
+      "text": "Audio tips: Coach Will's check of the steps 2-4 Listen buttons",
+      "owner": "Will",
+      "status": "delayed",
+      "note": "Waiting on Coach Will to check the Listen buttons on steps 2-4. The Spark audio tips are already live.",
+      "order": 0,
+      "created": "2026-11-19T09:50:00-06:00",
+      "updated": "2026-11-19T09:50:00-06:00",
+      "summary": "Audio tips: Coach Will's check of the steps 2-4 Listen buttons"
     }
   ]
 }
