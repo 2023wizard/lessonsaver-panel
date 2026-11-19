@@ -1,7 +1,7 @@
 {
-  "version": 71,
-  "updated": "2026-11-19T14:30:00-06:00",
-  "headline": "Nov 19 2:30 PM · Quiz email setting controls the join form (fix C) is ready on Preview; waiting on Coach Will's go-ahead to publish.",
+  "version": 72,
+  "updated": "2026-11-19T14:40:00-06:00",
+  "headline": "Nov 19 2:40 PM · Students only see the email field when the quiz asks for it. Coach Will's real-quiz check on the Bell Ringer join page is still pending.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1047,11 +1047,11 @@
       "id": "account-level-13-plus-email-rule-overrides-quiz-email-setting",
       "text": "Quiz email setting controls the join form (fix C)",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Ready on Preview; waiting on Coach Will's go-ahead to publish.",
+      "status": "done",
+      "note": "Students only see the email field when the quiz asks for it.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T14:30:00-06:00",
+      "updated": "2026-11-19T14:40:00-06:00",
       "summary": "Quiz email setting controls the join form (fix C)"
     },
     {
