@@ -1,7 +1,7 @@
 {
-  "version": 74,
-  "updated": "2026-11-19T15:25:00-06:00",
-  "headline": "Nov 19 3:25 PM · Free monthly limits go from 10 to 3, plus a Guided Tutorials tile on the usage card. Starts after the onboarding link; Preview only.",
+  "version": 76,
+  "updated": "2026-11-19T17:12:00-06:00",
+  "headline": "Nov 19 5:12 PM · The onboarding dashboard link is live. Free plan: 3 for Free is still waiting on Coach Will's answers; the onboarding link it was queued behind has shipped.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -943,11 +943,11 @@
       "id": "complete-your-onboarding-link-on-dashboard",
       "text": "Complete your onboarding link on dashboard",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Building on Preview; finished teachers see a faded Add another subject link. Publish needs a separate go-ahead.",
+      "status": "done",
+      "note": "Teachers who haven't finished onboarding see a link under their name; finished teachers see a faded Add another subject link.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T15:15:00-06:00",
+      "updated": "2026-11-19T17:12:00-06:00",
       "summary": "Complete your onboarding link on dashboard"
     },
     {
@@ -1080,11 +1080,11 @@
       "id": "free-plan-3-for-free",
       "text": "Free plan: 3 for Free",
       "owner": "Wayne",
-      "status": "in-flight",
-      "note": "Free monthly limits go from 10 to 3, plus a Guided Tutorials tile on the usage card. Starts after the onboarding link; Preview only.",
+      "status": "delayed",
+      "note": "Remake limit settled; waiting on Coach Will's answers before building. The onboarding link it was queued behind has shipped.",
       "order": 0,
       "created": "2026-11-19T15:25:00-06:00",
-      "updated": "2026-11-19T15:25:00-06:00",
+      "updated": "2026-11-19T17:12:00-06:00",
       "summary": "Free plan: 3 for Free"
     }
   ]
