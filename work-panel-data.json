@@ -1,7 +1,7 @@
 {
-  "version": 62,
-  "updated": "2026-11-19T10:30:00-06:00",
-  "headline": "Nov 19 10:30 AM · Unit progress details are decided; Lucy is updating the mock, no build yet. The onboarding dashboard link is waiting on Coach Will's go to build it on Preview.",
+  "version": 63,
+  "updated": "2026-11-19T11:15:00-06:00",
+  "headline": "Nov 19 11:15 AM · Coach Will gave the go to build unit progress tracking on Preview. Wayne is building the teacher view; the pre-lesson check comes later.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -930,13 +930,14 @@
     {
       "id": "unit-progress-tracking",
       "text": "Unit progress tracking",
-      "owner": "Jimmy",
+      "owner": "Wayne",
       "status": "in-flight",
-      "note": "Details decided. Lucy is updating the mockup; no build yet.",
+      "note": "Wayne is building the teacher view on Preview; the pre-lesson check comes later.",
       "order": 0,
       "created": "2026-11-19T10:10:00-06:00",
-      "updated": "2026-11-19T10:30:00-06:00",
-      "summary": "Unit progress tracking"
+      "updated": "2026-11-19T11:15:00-06:00",
+      "summary": "Unit progress tracking",
+      "lane": "branch"
     },
     {
       "id": "complete-your-onboarding-link-on-dashboard",
