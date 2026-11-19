@@ -1,7 +1,7 @@
 {
-  "version": 67,
-  "updated": "2026-11-19T12:45:00-06:00",
-  "headline": "Nov 19 12:45 PM · Quinn is fixing quiz email and bonus settings on Preview (goes live only on Coach Will's go). A separate account-level 13+ email rule change is parked.",
+  "version": 68,
+  "updated": "2026-11-19T12:50:00-06:00",
+  "headline": "Nov 19 12:50 PM · PDF quiz settings fix is approved to go live right after the Insights menu change; Jimmy checks it after.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1037,10 +1037,10 @@
       "owner": "Quinn",
       "status": "in-flight",
       "lane": "quickfix",
-      "note": "Quinn is fixing quiz email and bonus settings on Preview; goes live only on Coach Will's go.",
+      "note": "Approved to go live right after the Insights menu change; Jimmy checks it after.",
       "order": 0,
       "created": "2026-11-19T12:45:00-06:00",
-      "updated": "2026-11-19T12:45:00-06:00",
+      "updated": "2026-11-19T12:50:00-06:00",
       "summary": "PDF quiz settings fix"
     },
     {
