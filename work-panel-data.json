@@ -1,7 +1,7 @@
 {
-  "version": 76,
-  "updated": "2026-11-19T17:12:00-06:00",
-  "headline": "Nov 19 5:12 PM · The onboarding dashboard link is live. Free plan: 3 for Free is still waiting on Coach Will's answers; the onboarding link it was queued behind has shipped.",
+  "version": 77,
+  "updated": "2026-11-19T18:50:00-06:00",
+  "headline": "Nov 19 6:50 PM · Free plan: 3 for Free is being built on Preview (no go-live yet). Copy audit decisions are waiting on Coach Will's calls on pricing, offer dates and a few wording fixes.",
   "alerts": [
     {
       "id": "will-go-standing",
@@ -1080,12 +1080,23 @@
       "id": "free-plan-3-for-free",
       "text": "Free plan: 3 for Free",
       "owner": "Wayne",
-      "status": "delayed",
-      "note": "Remake limit settled; waiting on Coach Will's answers before building. The onboarding link it was queued behind has shipped.",
+      "status": "in-flight",
+      "note": "Building on Preview: Free limits go to 3, only standalone images count toward the image limit, and remakes are capped. No go-live yet.",
       "order": 0,
       "created": "2026-11-19T15:25:00-06:00",
-      "updated": "2026-11-19T17:12:00-06:00",
+      "updated": "2026-11-19T18:50:00-06:00",
       "summary": "Free plan: 3 for Free"
+    },
+    {
+      "id": "copy-audit-decisions",
+      "text": "Copy audit decisions",
+      "owner": "Jimmy",
+      "status": "delayed",
+      "note": "Site copy review ready; waiting on Coach Will's calls on pricing, offer dates and a few wording fixes.",
+      "order": 0,
+      "created": "2026-11-19T18:50:00-06:00",
+      "updated": "2026-11-19T18:50:00-06:00",
+      "summary": "Copy audit decisions"
     }
   ]
 }
